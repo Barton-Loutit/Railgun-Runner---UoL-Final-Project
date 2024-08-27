@@ -155,6 +155,38 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6181016201969945531}
     m_Modifications:
+    - target: {fileID: 308142649012080563, guid: ce697265b4ba19040a32e25ca2eeea6b, type: 3}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 308142649012080563, guid: ce697265b4ba19040a32e25ca2eeea6b, type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3938370739422823786, guid: ce697265b4ba19040a32e25ca2eeea6b, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3938370739422823786, guid: ce697265b4ba19040a32e25ca2eeea6b, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3938370739422823786, guid: ce697265b4ba19040a32e25ca2eeea6b, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5334369771321141714, guid: ce697265b4ba19040a32e25ca2eeea6b, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5334369771321141714, guid: ce697265b4ba19040a32e25ca2eeea6b, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5334369771321141714, guid: ce697265b4ba19040a32e25ca2eeea6b, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5599393297318672741, guid: ce697265b4ba19040a32e25ca2eeea6b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -199,131 +231,63 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerShip
       objectReference: {fileID: 0}
+    - target: {fileID: 8137845920917315746, guid: ce697265b4ba19040a32e25ca2eeea6b, type: 3}
+      propertyPath: lasers.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8137845920917315746, guid: ce697265b4ba19040a32e25ca2eeea6b, type: 3}
+      propertyPath: lasers.Array.data[0]
+      value: 
+      objectReference: {fileID: 6657490331840808377}
+    - target: {fileID: 8137845920917315746, guid: ce697265b4ba19040a32e25ca2eeea6b, type: 3}
+      propertyPath: lasers.Array.data[1]
+      value: 
+      objectReference: {fileID: 2361208326567667969}
+    - target: {fileID: 8137845920917315746, guid: ce697265b4ba19040a32e25ca2eeea6b, type: 3}
+      propertyPath: firingAction.m_SingletonActionBindings.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8137845920917315746, guid: ce697265b4ba19040a32e25ca2eeea6b, type: 3}
+      propertyPath: firingAction.m_SingletonActionBindings.Array.data[0].m_Id
+      value: 6cd82f8b-a87d-438f-bd2c-9f316990bb11
+      objectReference: {fileID: 0}
+    - target: {fileID: 8137845920917315746, guid: ce697265b4ba19040a32e25ca2eeea6b, type: 3}
+      propertyPath: firingAction.m_SingletonActionBindings.Array.data[1].m_Id
+      value: 34d4326a-a626-4bb3-b043-41e90b8c325e
+      objectReference: {fileID: 0}
+    - target: {fileID: 8137845920917315746, guid: ce697265b4ba19040a32e25ca2eeea6b, type: 3}
+      propertyPath: firingAction.m_SingletonActionBindings.Array.data[0].m_Path
+      value: <Mouse>/leftButton
+      objectReference: {fileID: 0}
+    - target: {fileID: 8137845920917315746, guid: ce697265b4ba19040a32e25ca2eeea6b, type: 3}
+      propertyPath: firingAction.m_SingletonActionBindings.Array.data[1].m_Path
+      value: <Keyboard>/z
+      objectReference: {fileID: 0}
+    - target: {fileID: 8137845920917315746, guid: ce697265b4ba19040a32e25ca2eeea6b, type: 3}
+      propertyPath: firingAction.m_SingletonActionBindings.Array.data[0].m_Action
+      value: Firing
+      objectReference: {fileID: 0}
+    - target: {fileID: 8137845920917315746, guid: ce697265b4ba19040a32e25ca2eeea6b, type: 3}
+      propertyPath: firingAction.m_SingletonActionBindings.Array.data[1].m_Action
+      value: Firing
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 6253557743914055330, guid: ce697265b4ba19040a32e25ca2eeea6b, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 9180752617514087323}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce697265b4ba19040a32e25ca2eeea6b, type: 3}
+--- !u!1 &2361208326567667969 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 804837627516458589, guid: ce697265b4ba19040a32e25ca2eeea6b, type: 3}
+  m_PrefabInstance: {fileID: 3166006317114343260}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &6657490331840808377 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8614191844471225061, guid: ce697265b4ba19040a32e25ca2eeea6b, type: 3}
+  m_PrefabInstance: {fileID: 3166006317114343260}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7375457417940682297 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5599393297318672741, guid: ce697265b4ba19040a32e25ca2eeea6b, type: 3}
   m_PrefabInstance: {fileID: 3166006317114343260}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &9018159573266975230 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6253557743914055330, guid: ce697265b4ba19040a32e25ca2eeea6b, type: 3}
-  m_PrefabInstance: {fileID: 3166006317114343260}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &9180752617514087323
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9018159573266975230}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f33d01433af00df4ca5cafb93007f243, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  movementAction:
-    m_Name: Movement
-    m_Type: 0
-    m_ExpectedControlType: 
-    m_Id: 0b5758ee-2a64-4125-8d9e-d46026e5983b
-    m_Processors: 
-    m_Interactions: 
-    m_SingletonActionBindings:
-    - m_Name: WASD Keys
-      m_Id: 65812f28-2844-48da-a94a-c20a3821b667
-      m_Path: 2DVector
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Movement
-      m_Flags: 4
-    - m_Name: up
-      m_Id: 6f19d103-9623-455a-abb4-dcd350e62627
-      m_Path: <Keyboard>/w
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Movement
-      m_Flags: 8
-    - m_Name: down
-      m_Id: 94a7790a-7fd8-4399-a0d4-5161a5ae44c4
-      m_Path: <Keyboard>/s
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Movement
-      m_Flags: 8
-    - m_Name: left
-      m_Id: c26b8431-fdd2-41ee-b62b-db4cd0cd5ef5
-      m_Path: <Keyboard>/a
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Movement
-      m_Flags: 8
-    - m_Name: right
-      m_Id: 490e2d3c-e9f0-49b7-9ff1-ecc287460402
-      m_Path: <Keyboard>/d
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Movement
-      m_Flags: 8
-    - m_Name: Arrow Keys
-      m_Id: c0231296-a968-4c55-b273-b445261a1b29
-      m_Path: 2DVector
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Movement
-      m_Flags: 4
-    - m_Name: up
-      m_Id: b9fe6ece-a4cf-454b-a45f-07f295bc49c1
-      m_Path: <Keyboard>/upArrow
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Movement
-      m_Flags: 8
-    - m_Name: down
-      m_Id: 9afabb76-1195-4858-9412-ea5769dee198
-      m_Path: <Keyboard>/downArrow
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Movement
-      m_Flags: 8
-    - m_Name: left
-      m_Id: a64e56c6-eeb4-46e0-a300-72e166c6da28
-      m_Path: <Keyboard>/leftArrow
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Movement
-      m_Flags: 8
-    - m_Name: right
-      m_Id: 5810cdcb-2f35-4cf6-8cbb-56a34b3f0258
-      m_Path: <Keyboard>/rightArrow
-      m_Interactions: 
-      m_Processors: 
-      m_Groups: 
-      m_Action: Movement
-      m_Flags: 8
-    m_Flags: 0
-  playerSpeed: 20
-  minRelativeXPosition: -11
-  maxRelativeXPosition: 11
-  minRelativeYPosition: -5
-  maxRelativeYPosition: 10
-  positionPitchScalar: -2
-  positionYawScalar: 2
-  inputPitchScalar: -15
-  inputRollScalar: -20
