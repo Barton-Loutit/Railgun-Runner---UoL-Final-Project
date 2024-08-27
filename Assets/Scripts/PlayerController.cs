@@ -7,9 +7,9 @@ using UnityEngine.InputSystem;
 public class PlayerController : MonoBehaviour
 {
     [SerializeField] InputAction movementAction;
+    [SerializeField] InputAction firingAction;
+    [SerializeField] GameObject[] lasers;
 
-    //To-Do: Implement firing
-    //[SerializeField] InputAction fireAction;
     //To-Do: Implement bombing
     //[SerializeField] InputAction bombAction;
 
@@ -35,30 +35,66 @@ public class PlayerController : MonoBehaviour
     void OnEnable()
     {
         movementAction.Enable();
+        firingAction.Enable();
         // Other inputactions to be enabled once mapped
-        // firingAction.Enable();
+
         // bombAction.Enable();
     }
 
     void OnDisable()
     {
         movementAction.Disable();
-        // firingAction.Disable();
+        firingAction.Disable();
         // bombAction.Disable();
     }
 
     void Update()
     {
-        ProcessUserInput();
-        ProcessTranslation();
-        ProcessRotation();
+        //Handle player input controlling position and rotation of space ship
+        ProcessMovementInput();
+        
+        //Handle player input firing basic weapons
+        ProcessFiringInput();
+    }
+
+    void ProcessFiringInput()
+    {
+        //Since firingAction is set up as a value, a button press returns float of 1.0
+        if(firingAction.ReadValue<float>() == 1.0)
+        {
+            SetLaserFiringState(true);
+        } 
+        else
+        {
+            SetLaserFiringState(false);
+        }
+        
+        
+    }
+
+    void SetLaserFiringState(bool laserFiringState)
+    {
+        //My initial approach was to set lasers[i].enabled = laserFiringState, but
+        //this resulted in an interaction where the in-flight particles were also
+        //removed from the world when no longer firing.
+        
+        //Disabling the emission module disabled additional particles from firing, while
+        // maintaining in-flight particles.
+        for (int i = 0; i < lasers.Length; i++)
+        {
+            ParticleSystem.EmissionModule laserEmitter = lasers[i].GetComponent<ParticleSystem>().emission;
+            laserEmitter.enabled = laserFiringState;
+        }
     }
 
     //Stores user input values into variables used to affect ship position and rotation
-    void ProcessUserInput()
+    void ProcessMovementInput()
     {
         xInputValue = movementAction.ReadValue<Vector2>().x;
         yInputValue = movementAction.ReadValue<Vector2>().y;
+
+        ProcessTranslation();
+        ProcessRotation();
     }
 
     //Moves the ship across the screen according to the input provided by the user

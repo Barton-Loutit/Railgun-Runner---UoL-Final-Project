@@ -818,6 +818,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlayerRig
       objectReference: {fileID: 0}
+    - target: {fileID: 5983539780892744791, guid: 1ad9eff704963994cb3cd080cd84dd8f, type: 3}
+      propertyPath: InitialModule.startSpeed.scalar
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5983539780892744791, guid: 1ad9eff704963994cb3cd080cd84dd8f, type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 6181016201969945531, guid: 1ad9eff704963994cb3cd080cd84dd8f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 14.94
@@ -857,6 +865,14 @@ PrefabInstance:
     - target: {fileID: 6181016201969945531, guid: 1ad9eff704963994cb3cd080cd84dd8f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.001
+      objectReference: {fileID: 0}
+    - target: {fileID: 6557388697373597694, guid: 1ad9eff704963994cb3cd080cd84dd8f, type: 3}
+      propertyPath: firingAction.m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6557388697373597694, guid: 1ad9eff704963994cb3cd080cd84dd8f, type: 3}
+      propertyPath: firingAction.m_ExpectedControlType
+      value: Button
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
