@@ -465,6 +465,9 @@ GameObject:
   m_Component:
   - component: {fileID: 5599393297318672741}
   - component: {fileID: 8137845920917315746}
+  - component: {fileID: 5800947647103601822}
+  - component: {fileID: 6468662996993097927}
+  - component: {fileID: 465276412243230781}
   m_Layer: 0
   m_Name: PlayerShip
   m_TagString: Untagged
@@ -610,6 +613,68 @@ MonoBehaviour:
   positionYawScalar: 2
   inputPitchScalar: -15
   inputRollScalar: -20
+--- !u!54 &5800947647103601822
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6253557743914055330}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &6468662996993097927
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6253557743914055330}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 8.8164835, y: 1, z: 7.143692}
+  m_Center: {x: 0.03608518, y: -0.0000030553538, z: -0.7933496}
+--- !u!114 &465276412243230781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6253557743914055330}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b10bee62fa4e9345a59b1a5e8ffbc3f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  continueTimer: 2
+  playerDeathVFX: {fileID: 266569496853042889, guid: 840b625c6d87c46409c76cb9ee8e18b7, type: 3}
 --- !u!1 &7132570697260783449
 GameObject:
   m_ObjectHideFlags: 0
