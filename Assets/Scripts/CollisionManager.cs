@@ -9,14 +9,15 @@ using UnityEngine.SceneManagement;
 public class CollisionManager : MonoBehaviour
 {
     //This will be the duration of the continue/insert token timer
-    [SerializeField] float continueTimer = 2f;
+    //[SerializeField] float continueTimer = 2f;
     //This handles player explosion VFX
     [SerializeField] GameObject playerDeathVFX;
+    Timer countdownTimer;
     
     // Start is called before the first frame update
     void Start()
     {
-        
+        countdownTimer = FindObjectOfType<Timer>();
     }
 
     // Update is called once per frame
@@ -39,9 +40,10 @@ public class CollisionManager : MonoBehaviour
         DisablePlayerControls();
         PlayPlayerDeathVFX(playerDeathVFX);
         DisablePlayerMesh();
-        //This will reload the level for the player right now, but does not 
-        //manage the case where a player is out of tokens.
-        Invoke("ReloadLevel", continueTimer);
+
+
+        TempSceneManagement();
+        
     }
 
     private void DisablePlayerMesh()
@@ -73,5 +75,20 @@ public class CollisionManager : MonoBehaviour
     void ReloadLevel()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    void TempSceneManagement()
+    {
+        
+        countdownTimer.BeginCountdown();
+        //Current implementation doesn't perform this function
+        //Keeping this code to build in functionality to reload level when a button is pressed,
+        //and to check for tokens when reloading. This should be decentralized to a scene manager.
+        if (countdownTimer.isTimerLapsed())
+        {
+            Invoke("ReloadLevel", 1f);
+        }
+        //This will reload the level for the player right now, but does not 
+        //manage the case where a player is out of tokens.
     }
 }
