@@ -8,10 +8,9 @@ public class PlayerController : MonoBehaviour
 {
     [SerializeField] InputAction movementAction;
     [SerializeField] InputAction firingAction;
+    [SerializeField] InputAction bombingAction;
     [SerializeField] GameObject[] lasers;
-
-    //To-Do: Implement bombing
-    //[SerializeField] InputAction bombAction;
+    [SerializeField] GameObject bomb;
 
     [SerializeField] float playerSpeed = 20f;
     [SerializeField] float minRelativeXPosition = -11f;
@@ -32,20 +31,25 @@ public class PlayerController : MonoBehaviour
     float xInputValue;
     float yInputValue;
 
+    PlayerStatManager playerStatManager;
+    void Start()
+    {
+        playerStatManager = FindObjectOfType<PlayerStatManager>();
+    }
+
     void OnEnable()
     {
         movementAction.Enable();
         firingAction.Enable();
-        // Other inputactions to be enabled once mapped
+        bombingAction.Enable();
 
-        // bombAction.Enable();
     }
 
     void OnDisable()
     {
         movementAction.Disable();
         firingAction.Disable();
-        // bombAction.Disable();
+        bombingAction.Disable();
     }
 
     void Update()
@@ -55,6 +59,15 @@ public class PlayerController : MonoBehaviour
         
         //Handle player input firing basic weapons
         ProcessFiringInput();
+        ProcessBombingInput();
+    }
+
+    void ProcessBombingInput()
+    {
+        if (bombingAction.ReadValue<float>() == 1.0 && playerStatManager.getBombCount() > 1)
+        {
+            triggerPlayerBomb();
+        }
     }
 
     void ProcessFiringInput()
@@ -62,14 +75,19 @@ public class PlayerController : MonoBehaviour
         //Since firingAction is set up as a value, a button press returns float of 1.0
         if(firingAction.ReadValue<float>() == 1.0)
         {
+
             SetLaserFiringState(true);
         } 
         else
         {
             SetLaserFiringState(false);
         }
-        
-        
+    }
+
+    void triggerPlayerBomb()
+    {
+        playerStatManager.updateBombs(playerStatManager.getBombCount()-1);
+        bomb.SetActive(true);
     }
 
     void SetLaserFiringState(bool laserFiringState)
@@ -84,6 +102,16 @@ public class PlayerController : MonoBehaviour
         {
             ParticleSystem.EmissionModule laserEmitter = lasers[i].GetComponent<ParticleSystem>().emission;
             laserEmitter.enabled = laserFiringState;
+        }
+    }
+
+    void SetBombFiringState(bool bombFiringState)
+    {
+        //Since firingAction is set up as a value, a button press returns float of 1.0
+        if (bombingAction.ReadValue<float>() == 1.0 && playerStatManager.getBombCount() > 1)
+        {
+            triggerPlayerBomb();
+            bomb.SetActive(true);
         }
     }
 
@@ -126,5 +154,9 @@ public class PlayerController : MonoBehaviour
         transform.localRotation = Quaternion.Euler(pitch, yaw, roll);
     }
 
+    public Vector3 GetPlayerShipPosition()
+    {
+        return this.gameObject.transform.parent.position;
+    }
     
 }

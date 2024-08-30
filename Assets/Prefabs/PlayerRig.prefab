@@ -155,38 +155,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 6181016201969945531}
     m_Modifications:
-    - target: {fileID: 308142649012080563, guid: ce697265b4ba19040a32e25ca2eeea6b, type: 3}
-      propertyPath: InitialModule.startSpeed.scalar
-      value: 200
-      objectReference: {fileID: 0}
-    - target: {fileID: 308142649012080563, guid: ce697265b4ba19040a32e25ca2eeea6b, type: 3}
-      propertyPath: EmissionModule.rateOverTime.scalar
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3938370739422823786, guid: ce697265b4ba19040a32e25ca2eeea6b, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3938370739422823786, guid: ce697265b4ba19040a32e25ca2eeea6b, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3938370739422823786, guid: ce697265b4ba19040a32e25ca2eeea6b, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5334369771321141714, guid: ce697265b4ba19040a32e25ca2eeea6b, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5334369771321141714, guid: ce697265b4ba19040a32e25ca2eeea6b, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 5334369771321141714, guid: ce697265b4ba19040a32e25ca2eeea6b, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5599393297318672741, guid: ce697265b4ba19040a32e25ca2eeea6b, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -232,69 +200,31 @@ PrefabInstance:
       value: PlayerShip
       objectReference: {fileID: 0}
     - target: {fileID: 8137845920917315746, guid: ce697265b4ba19040a32e25ca2eeea6b, type: 3}
-      propertyPath: lasers.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 8137845920917315746, guid: ce697265b4ba19040a32e25ca2eeea6b, type: 3}
-      propertyPath: lasers.Array.data[0]
+      propertyPath: bomb
       value: 
-      objectReference: {fileID: 6657490331840808377}
-    - target: {fileID: 8137845920917315746, guid: ce697265b4ba19040a32e25ca2eeea6b, type: 3}
-      propertyPath: lasers.Array.data[1]
-      value: 
-      objectReference: {fileID: 2361208326567667969}
-    - target: {fileID: 8137845920917315746, guid: ce697265b4ba19040a32e25ca2eeea6b, type: 3}
-      propertyPath: firingAction.m_ExpectedControlType
-      value: Button
       objectReference: {fileID: 0}
     - target: {fileID: 8137845920917315746, guid: ce697265b4ba19040a32e25ca2eeea6b, type: 3}
-      propertyPath: firingAction.m_SingletonActionBindings.Array.size
-      value: 2
+      propertyPath: bombingAction.m_SingletonActionBindings.Array.size
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8137845920917315746, guid: ce697265b4ba19040a32e25ca2eeea6b, type: 3}
-      propertyPath: firingAction.m_SingletonActionBindings.Array.data[0].m_Id
-      value: 6cd82f8b-a87d-438f-bd2c-9f316990bb11
+      propertyPath: bombingAction.m_SingletonActionBindings.Array.data[0].m_Id
+      value: a7fb8d94-48b4-4a3c-9436-e78cb6244589
       objectReference: {fileID: 0}
     - target: {fileID: 8137845920917315746, guid: ce697265b4ba19040a32e25ca2eeea6b, type: 3}
-      propertyPath: firingAction.m_SingletonActionBindings.Array.data[1].m_Id
-      value: 34d4326a-a626-4bb3-b043-41e90b8c325e
+      propertyPath: bombingAction.m_SingletonActionBindings.Array.data[0].m_Path
+      value: <Keyboard>/b
       objectReference: {fileID: 0}
     - target: {fileID: 8137845920917315746, guid: ce697265b4ba19040a32e25ca2eeea6b, type: 3}
-      propertyPath: firingAction.m_SingletonActionBindings.Array.data[0].m_Path
-      value: <Mouse>/leftButton
+      propertyPath: bombingAction.m_SingletonActionBindings.Array.data[0].m_Action
+      value: Bombing
       objectReference: {fileID: 0}
-    - target: {fileID: 8137845920917315746, guid: ce697265b4ba19040a32e25ca2eeea6b, type: 3}
-      propertyPath: firingAction.m_SingletonActionBindings.Array.data[1].m_Path
-      value: <Keyboard>/z
-      objectReference: {fileID: 0}
-    - target: {fileID: 8137845920917315746, guid: ce697265b4ba19040a32e25ca2eeea6b, type: 3}
-      propertyPath: firingAction.m_SingletonActionBindings.Array.data[0].m_Action
-      value: Firing
-      objectReference: {fileID: 0}
-    - target: {fileID: 8137845920917315746, guid: ce697265b4ba19040a32e25ca2eeea6b, type: 3}
-      propertyPath: firingAction.m_SingletonActionBindings.Array.data[1].m_Action
-      value: Firing
-      objectReference: {fileID: 0}
-    - target: {fileID: 8711690395680629515, guid: ce697265b4ba19040a32e25ca2eeea6b, type: 3}
-      propertyPath: EmissionModule.rateOverTime.scalar
-      value: 5
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 3994140859589581517, guid: ce697265b4ba19040a32e25ca2eeea6b, type: 3}
-    m_RemovedGameObjects: []
+    m_RemovedComponents: []
+    m_RemovedGameObjects:
+    - {fileID: 8109371584777880175, guid: ce697265b4ba19040a32e25ca2eeea6b, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ce697265b4ba19040a32e25ca2eeea6b, type: 3}
---- !u!1 &2361208326567667969 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 804837627516458589, guid: ce697265b4ba19040a32e25ca2eeea6b, type: 3}
-  m_PrefabInstance: {fileID: 3166006317114343260}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &6657490331840808377 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8614191844471225061, guid: ce697265b4ba19040a32e25ca2eeea6b, type: 3}
-  m_PrefabInstance: {fileID: 3166006317114343260}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &7375457417940682297 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5599393297318672741, guid: ce697265b4ba19040a32e25ca2eeea6b, type: 3}

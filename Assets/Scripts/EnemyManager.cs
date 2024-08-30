@@ -39,6 +39,19 @@ public class EnemyManager : MonoBehaviour
         
     }
 
+    void OnCollisionEnter(Collision collision)
+    {
+        Debug.Log("Collided with" + collision.gameObject.name);
+        if (collision.gameObject.tag == "PlayerWeapon")
+        {
+            HandleEnemyHit();
+        }
+        if(collision.collider.gameObject.tag == "PlayerWeapon")
+        {
+            HandleEnemyHit();
+        }
+    }
+
     void HandleEnemyHit()
     {
         enemyHitPoints--;
