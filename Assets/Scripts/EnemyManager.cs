@@ -12,12 +12,13 @@ public class EnemyManager : MonoBehaviour
     [SerializeField] int enemyHitScoreValue = 0;
     [SerializeField] int enemyDeathScoreValue = 0;
     [SerializeField] int enemyHitPoints = 3;
+    ScoreManager scoreManager;
 
-    int tempScoreTracker = 0;
     // Start is called before the first frame update
     void Start()
     {
-        
+        //Store the score manager singleton
+        scoreManager = FindObjectOfType<ScoreManager>();
     }
 
     // Update is called once per frame
@@ -44,6 +45,7 @@ public class EnemyManager : MonoBehaviour
         if(enemyHitPoints <= 0)
         {
             HandleEnemyDeath();
+            
             Debug.Log("Enemy neutralized");
         }
         else
@@ -59,7 +61,7 @@ public class EnemyManager : MonoBehaviour
              *      First To-Do:: Handle score as part of a scoreManager
              *      Second To-Do: 
             */
-            TempIncreaseScore(enemyHitScoreValue);
+            scoreManager.UpdateScore(enemyHitScoreValue);
             PlayEnemyVFX(enemyHitVFX);
 
             //To-Do: Add SFX for enemy hit (Note-to-self: use serialized field & setup an audio manager singleton)
@@ -68,7 +70,7 @@ public class EnemyManager : MonoBehaviour
     void HandleEnemyDeath()
     {
         PlayEnemyVFX(enemyDeathVFX);
-        TempIncreaseScore(enemyDeathScoreValue);
+        scoreManager.UpdateScore(enemyDeathScoreValue);
         DestroyEnemyObject();
     }
 
@@ -92,12 +94,5 @@ public class EnemyManager : MonoBehaviour
     {
         //GameObject vfx = Instantiate(enemyVFXToPlay, transform.position, Quaternion.identity);
         //This will probably need to be done differently
-    }
-
-    void TempIncreaseScore(int scoreToAdd)
-    {
-        tempScoreTracker += scoreToAdd;
-    }
-
-    
+    }   
 }

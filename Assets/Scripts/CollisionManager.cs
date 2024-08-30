@@ -12,6 +12,7 @@ public class CollisionManager : MonoBehaviour
     [SerializeField] float continueTimer = 2f;
     //This handles player explosion VFX
     [SerializeField] GameObject playerDeathVFX;
+    
     // Start is called before the first frame update
     void Start()
     {
