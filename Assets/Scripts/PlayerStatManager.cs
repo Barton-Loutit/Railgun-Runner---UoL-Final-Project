@@ -5,24 +5,49 @@ using TMPro;
 
 public class PlayerStatManager : MonoBehaviour
 {
-    TMP_Text bombsText;
-
+    public static PlayerStatManager playerStatManagerinstance { get; private set; }
     //[SerializeField] int health;
     int bombCount = 0;
+    int score = 0;
+
+    void Awake()
+    {
+        if(playerStatManagerinstance == null)
+        {
+            playerStatManagerinstance = this;
+            DontDestroyOnLoad(this.gameObject);
+        } 
+        else
+        {
+            Destroy(this.gameObject); 
+        }
+    }
 
     void Start()
     {
-        bombsText = GetComponent<TMP_Text>();
-        bombsText.text = "Bombs: " + getBombCount().ToString();
+        GameSessionManager.gameSessionManagerInstance.SetBombsText("Bombs: " + getBombCount().ToString());
+        GameSessionManager.gameSessionManagerInstance.SetScoreText("Score: " + getBombCount().ToString());
     }
     public void updateBombs(int numBombsToPickup)
     {
         bombCount += numBombsToPickup;
-        bombsText.text = "Bombs: " + getBombCount().ToString();
+        GameSessionManager.gameSessionManagerInstance.SetBombsText("Bombs: " + bombCount.ToString());
     }
 
     public int getBombCount()
     {
         return bombCount; 
+    }
+
+
+    public void updateScore(int scoreValue)
+    {
+        score += scoreValue;
+        GameSessionManager.gameSessionManagerInstance.SetScoreText("Score: " + score.ToString());
+    }
+
+    public int getScore()
+    {
+        return score;
     }
 }

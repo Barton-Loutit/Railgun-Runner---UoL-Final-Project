@@ -46,7 +46,7 @@ public class CollisionManager : MonoBehaviour
         
     }
 
-    private void DisablePlayerMesh()
+    void DisablePlayerMesh()
     {
         //GetComponent<MeshRenderer>().enabled = false;
         
@@ -79,15 +79,16 @@ public class CollisionManager : MonoBehaviour
 
     void TempSceneManagement()
     {
-        
-        countdownTimer.BeginCountdown();
+        //Countdown responsibilities moved to GameSessionManager
+
+        GameSessionManager.gameSessionManagerInstance.StartCountdownTimer();
         //Current implementation doesn't perform this function
         //Keeping this code to build in functionality to reload level when a button is pressed,
         //and to check for tokens when reloading. This should be decentralized to a scene manager.
-        if (countdownTimer.isTimerLapsed())
+/*        if (countdownTimer.isTimerLapsed())
         {
             Invoke("ReloadLevel", 1f);
-        }
+        }*/
         //This will reload the level for the player right now, but does not 
         //manage the case where a player is out of tokens.
     }
