@@ -72,4 +72,12 @@ public class GameSessionManager : MonoBehaviour
         //ToggleCountdownDisplayActive(false);
     }
 
+    public void initializeNewSession()
+    {
+        //Go back to main menu
+        //Set score to zero
+        //Set bomb count to zero
+        //Teardown PlayerStatManager
+    }
+
 }

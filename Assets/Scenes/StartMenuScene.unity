@@ -885,6 +885,84 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 830.403, y: 789.825}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &274711429
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 274711430}
+  - component: {fileID: 274711431}
+  m_Layer: 0
+  m_Name: SceneHandler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &274711430
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 274711429}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 576.4269, y: 371.13788, z: -0.98139447}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &274711431
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 274711429}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ceae7e1c07be3c48a9be49eb5cfddf3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  reloadLevelAction:
+    m_Name: Reload Level
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 7b82dd5c-610f-41ee-a83e-39422407f41e
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: 571e3290-a7c8-4f5b-8c91-8d42f69bb29d
+      m_Path: <Keyboard>/r
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Reload Level
+      m_Flags: 0
+    m_Flags: 0
+  loadNextLevelAction:
+    m_Name: Load Next Level
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 1b0e7405-f34a-499f-bc65-c51dbb4f7926
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings:
+    - m_Name: 
+      m_Id: e38df298-d91b-49f0-af12-ecc47cdffc97
+      m_Path: <Keyboard>/k
+      m_Interactions: 
+      m_Processors: 
+      m_Groups: 
+      m_Action: Load Next Level
+      m_Flags: 0
+    m_Flags: 0
 --- !u!1 &493777971
 GameObject:
   m_ObjectHideFlags: 0
@@ -2660,3 +2738,4 @@ SceneRoots:
   - {fileID: 995598875}
   - {fileID: 1274700389}
   - {fileID: 197563526}
+  - {fileID: 274711430}
