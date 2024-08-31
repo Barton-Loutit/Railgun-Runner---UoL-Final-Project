@@ -939,7 +939,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 5634154373739942390, guid: fc8c43022adfefe4a86ad0cbf9e9eede, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5876831218581999154, guid: fc8c43022adfefe4a86ad0cbf9e9eede, type: 3}
       propertyPath: m_Pivot.x
@@ -1023,7 +1023,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6165294680566584318, guid: fc8c43022adfefe4a86ad0cbf9e9eede, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8279193594510228327, guid: fc8c43022adfefe4a86ad0cbf9e9eede, type: 3}
       propertyPath: m_Name
