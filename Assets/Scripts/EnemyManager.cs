@@ -12,20 +12,6 @@ public class EnemyManager : MonoBehaviour
     [SerializeField] int enemyHitScoreValue = 0;
     [SerializeField] int enemyDeathScoreValue = 0;
     [SerializeField] int enemyHitPoints = 3;
-    ScoreManager scoreManager;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-        //Store the score manager singleton
-        scoreManager = FindObjectOfType<ScoreManager>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     //Process enemy hit on particle collision iff collision source is a "Weapon"
     //Other particles, such as other enemy missiles, may trigger this if not
@@ -58,23 +44,12 @@ public class EnemyManager : MonoBehaviour
         if(enemyHitPoints <= 0)
         {
             HandleEnemyDeath();
-            
             Debug.Log("Enemy neutralized");
         }
         else
         {
             Debug.Log("Enemy hit");
-            /* Adding this comment block to keep track of a design decision
-             * To-Do: Add score on hit to player stats script/score manager or something
-             * Note-to-self: (a GameSessionManager could implement some functinoality related to score, bombs, tokens, continue state, etc.)(?)
-             * PlayerManager: Bombs, Health, 
-             * ScoreManager: Score, Score retention
-             * Game Session Manager: tokens, scene management, continue state
-             * Canvas/UI Manager: to display data from ScoreManager, GameSessionManager, PlayerManager
-             *      First To-Do:: Handle score as part of a scoreManager
-             *      Second To-Do: 
-            */
-            scoreManager.UpdateScore(enemyHitScoreValue);
+            PlayerStatManager.playerStatManagerinstance.updateScore(enemyHitScoreValue);
             PlayEnemyVFX(enemyHitVFX);
 
             //To-Do: Add SFX for enemy hit (Note-to-self: use serialized field & setup an audio manager singleton)
@@ -83,7 +58,8 @@ public class EnemyManager : MonoBehaviour
     void HandleEnemyDeath()
     {
         PlayEnemyVFX(enemyDeathVFX);
-        scoreManager.UpdateScore(enemyDeathScoreValue);
+        PlayerStatManager.playerStatManagerinstance.updateScore(enemyDeathScoreValue);
+        //scoreManager.UpdateScore(enemyDeathScoreValue);
         DestroyEnemyObject();
     }
 

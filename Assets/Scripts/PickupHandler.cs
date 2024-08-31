@@ -9,8 +9,6 @@ public class PickupHandler : MonoBehaviour
     PlayerStatManager playerStatManager;
     [SerializeField] int numPickupsToAdd = 1;
 
-    
-
     // Start is called before the first frame update
     void Start()
     {

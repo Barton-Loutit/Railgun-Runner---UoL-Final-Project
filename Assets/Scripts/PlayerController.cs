@@ -56,7 +56,7 @@ public class PlayerController : MonoBehaviour
     {
         //Handle player input controlling position and rotation of space ship
         ProcessMovementInput();
-        
+
         //Handle player input firing basic weapons
         ProcessFiringInput();
         ProcessBombingInput();
