@@ -122,50 +122,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &325071524
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 325071526}
-  - component: {fileID: 325071525}
-  m_Layer: 0
-  m_Name: PlayerStatManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &325071525
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 325071524}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: db26fd18caaf04342b29a5db9866f614, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!4 &325071526
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 325071524}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 6, z: -115.80075}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &385642500
 GameObject:
   m_ObjectHideFlags: 0
@@ -686,6 +642,7 @@ MonoBehaviour:
   continueText: {fileID: 2796608269131029607}
   timerText: {fileID: 2796608269131029606}
   timer: {fileID: 774498465}
+  playerController: {fileID: 0}
 --- !u!1001 &1251552657
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -743,6 +700,50 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 21913769c19d7ef48bd8c31d2eebeedb, type: 3}
+--- !u!1 &1569132264
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1569132266}
+  - component: {fileID: 1569132265}
+  m_Layer: 0
+  m_Name: PlayerStatManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1569132265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569132264}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: db26fd18caaf04342b29a5db9866f614, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &1569132266
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1569132264}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 10.17285, y: 40.335762, z: 108.074394}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1617360559
 GameObject:
   m_ObjectHideFlags: 0
@@ -1372,6 +1373,34 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 940062001}
     m_Modifications:
+    - target: {fileID: 5064477182960500035, guid: 49f1bcd932f5534408d51256a1ff6048, type: 3}
+      propertyPath: timerIsLapsed.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5064477182960500035, guid: 49f1bcd932f5534408d51256a1ff6048, type: 3}
+      propertyPath: timerIsLapsed.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5064477182960500035, guid: 49f1bcd932f5534408d51256a1ff6048, type: 3}
+      propertyPath: timerIsLapsed.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 774498465}
+    - target: {fileID: 5064477182960500035, guid: 49f1bcd932f5534408d51256a1ff6048, type: 3}
+      propertyPath: timerIsLapsed.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5064477182960500035, guid: 49f1bcd932f5534408d51256a1ff6048, type: 3}
+      propertyPath: timerIsLapsed.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: ReturnToMenu
+      objectReference: {fileID: 0}
+    - target: {fileID: 5064477182960500035, guid: 49f1bcd932f5534408d51256a1ff6048, type: 3}
+      propertyPath: timerIsLapsed.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: Timer, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 5064477182960500035, guid: 49f1bcd932f5534408d51256a1ff6048, type: 3}
+      propertyPath: timerIsLapsed.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 7295547058414254417, guid: 49f1bcd932f5534408d51256a1ff6048, type: 3}
       propertyPath: m_Name
       value: CountdownTimer
@@ -1435,4 +1464,4 @@ SceneRoots:
   - {fileID: 441693022}
   - {fileID: 940062001}
   - {fileID: 442033617}
-  - {fileID: 325071526}
+  - {fileID: 1569132266}
