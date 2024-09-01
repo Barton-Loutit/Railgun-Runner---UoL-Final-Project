@@ -3,12 +3,18 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField] InputAction movementAction;
-    [SerializeField] InputAction firingAction;
-    [SerializeField] InputAction bombingAction;
+    public InputActionReference movementAction;
+    public InputActionReference firingAction;
+    public InputActionReference bombingAction;
+    public InputActionReference reloadLevel;
+    public InputActionReference loadNextLevel;
+    //[SerializeField] InputAction movementAction;
+    //[SerializeField] InputAction firingAction;
+    //[SerializeField] InputAction bombingAction;
     [SerializeField] GameObject[] lasers;
     [SerializeField] GameObject bomb;
 
@@ -31,25 +37,40 @@ public class PlayerController : MonoBehaviour
     float xInputValue;
     float yInputValue;
 
-    PlayerStatManager playerStatManager;
-    void Start()
+    private void Start()
     {
-        playerStatManager = FindObjectOfType<PlayerStatManager>();
+        SetLaserFiringState(false);
     }
-
     void OnEnable()
     {
-        movementAction.Enable();
-        firingAction.Enable();
-        bombingAction.Enable();
+        bombingAction.action.performed += ProcessBombingInput;
+        //movementAction.action.started += ProcessMovementInput;
+        //firingAction.action.performed += ProcessFiringInput;
+        firingAction.action.performed += Fire;
+        firingAction.action.canceled += Fire;
+        reloadLevel.action.performed += ReloadLevel;
+        loadNextLevel.action.performed += LoadNextLevel;
+
+        //movementAction.Enable();
+        //firingAction.Enable();
+        //bombingAction.Enable();
+
 
     }
 
     void OnDisable()
     {
-        movementAction.Disable();
-        firingAction.Disable();
-        bombingAction.Disable();
+        bombingAction.action.performed -= ProcessBombingInput;
+        //movementAction.action.started -= ProcessMovementInput;
+        //firingAction.action.performed += ProcessFiringInput;
+        firingAction.action.performed -= Fire;
+        firingAction.action.canceled -= Fire;
+        reloadLevel.action.performed -= ReloadLevel;
+        loadNextLevel.action.performed -= LoadNextLevel;
+
+        //movementAction.Disable();
+        //firingAction.Disable();
+        //bombingAction.Disable();
     }
 
     void Update()
@@ -58,35 +79,43 @@ public class PlayerController : MonoBehaviour
         ProcessMovementInput();
 
         //Handle player input firing basic weapons
-        ProcessFiringInput();
-        ProcessBombingInput();
+        //ProcessFiringInput();
+        //ProcessBombingInput();
     }
 
-    void ProcessBombingInput()
+    void ProcessBombingInput(InputAction.CallbackContext obj)
     {
-        if (bombingAction.ReadValue<float>() == 1.0 && playerStatManager.getBombCount() > 1)
+        if(PlayerStatManager.playerStatManagerinstance.getBombCount() > 0)
         {
             triggerPlayerBomb();
         }
+        /*if (bombingAction.action.ReadValue<float>() == 1.0 && playerStatManager.getBombCount() > 1)
+        {
+            triggerPlayerBomb();
+        }*/
     }
 
-    void ProcessFiringInput()
+    void ProcessFiringInput(bool desiredFiringState)
     {
+        /*SetLaserFiringState(true);
+        *//*SetLaserFiringState(false*//*);*/
         //Since firingAction is set up as a value, a button press returns float of 1.0
-        if(firingAction.ReadValue<float>() == 1.0)
+        SetLaserFiringState(desiredFiringState);
+        
+/*        if(firingAction.action.ReadValue<float>() == 1.0)
         {
 
-            SetLaserFiringState(true);
+            
         } 
         else
         {
             SetLaserFiringState(false);
-        }
+        }*/
     }
 
     void triggerPlayerBomb()
     {
-        playerStatManager.updateBombs(playerStatManager.getBombCount()-1);
+        PlayerStatManager.playerStatManagerinstance.updateBombs(-1);
         bomb.SetActive(true);
     }
 
@@ -108,7 +137,7 @@ public class PlayerController : MonoBehaviour
     void SetBombFiringState(bool bombFiringState)
     {
         //Since firingAction is set up as a value, a button press returns float of 1.0
-        if (bombingAction.ReadValue<float>() == 1.0 && playerStatManager.getBombCount() > 1)
+        if (bombingAction.action.ReadValue<float>() == 1.0 && PlayerStatManager.playerStatManagerinstance.getBombCount() > 1)
         {
             triggerPlayerBomb();
             bomb.SetActive(true);
@@ -118,8 +147,8 @@ public class PlayerController : MonoBehaviour
     //Stores user input values into variables used to affect ship position and rotation
     void ProcessMovementInput()
     {
-        xInputValue = movementAction.ReadValue<Vector2>().x;
-        yInputValue = movementAction.ReadValue<Vector2>().y;
+        xInputValue = movementAction.action.ReadValue<Vector2>().x;
+        yInputValue = movementAction.action.ReadValue<Vector2>().y;
 
         ProcessTranslation();
         ProcessRotation();
@@ -158,5 +187,25 @@ public class PlayerController : MonoBehaviour
     {
         return this.gameObject.transform.parent.position;
     }
-    
+    private void ReloadLevel(InputAction.CallbackContext obj)
+    {
+        SceneHandler.sceneHandlerInstance.RestartLevel();
+    }
+
+    private void LoadNextLevel(InputAction.CallbackContext obj)
+    {
+        SceneHandler.sceneHandlerInstance.LoadLevel(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    private void Fire(InputAction.CallbackContext obj)
+    {
+        if (obj.performed)
+        {
+            ProcessFiringInput(true);
+        } 
+        else if (obj.canceled)
+        {
+            ProcessFiringInput(false);
+        }
+    }
 }

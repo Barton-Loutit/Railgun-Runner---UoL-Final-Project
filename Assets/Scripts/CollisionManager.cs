@@ -72,11 +72,6 @@ public class CollisionManager : MonoBehaviour
         
     }
 
-    void ReloadLevel()
-    {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-    }
-
     void TempSceneManagement()
     {
         //Countdown responsibilities moved to GameSessionManager

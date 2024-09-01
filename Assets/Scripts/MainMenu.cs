@@ -1,7 +1,12 @@
+/*
+ * Brackeys has a youtube video on Unity's canvas and menu functionalities which
+ * was a helpful guide in developing the Main Menu 
+ * https://www.youtube.com/watch?v=zc8ac_qUXQY
+ */
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
@@ -9,7 +14,6 @@ public class MainMenu : MonoBehaviour
     {
         SceneHandler.sceneHandlerInstance.LoadLevel(1);
     }
-
     public void QuitGame()
     {
         //Functionality works for standalone .exe build

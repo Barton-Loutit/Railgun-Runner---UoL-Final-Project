@@ -7,8 +7,6 @@ using UnityEngine.SceneManagement;
 public class SceneHandler : MonoBehaviour
 {
     public static SceneHandler sceneHandlerInstance { get; private set; }
-    [SerializeField] InputAction reloadLevelAction;
-    [SerializeField] InputAction loadNextLevelAction;
 
     void Awake()
     {
@@ -24,24 +22,27 @@ public class SceneHandler : MonoBehaviour
 
     void OnEnable()
     {
-        reloadLevelAction.Enable();
-        loadNextLevelAction.Enable();
+
+        //reloadLevel.Enable();
+        //loadNextLevel.Enable();
     }
 
     void OnDisable()
     {
-        reloadLevelAction.Disable();
-        loadNextLevelAction.Disable();
+
+        //reloadLevel.Disable();
+        //loadNextLevel.Disable();
     }
 
     void Update()
     {
-        if(reloadLevelAction.ReadValue<float>() == 1)
+        //if(reloadLevel.action.ReadValue<float>() == 1)
+/*        if (reloadLevel.action.ReadValue<float>() == 1)
         {
             this.RestartLevel();
-        }
+        }*/
         //Disabling until I fix inputAction mapping
-/*        else if(loadNextLevelAction.ReadValue<float>() == 1)
+        /*else if(loadNextLevel.action.ReadValue<float>() == 1)
         {
             this.LoadLevel(SceneManager.GetActiveScene().buildIndex + 1);
         }*/
@@ -63,4 +64,6 @@ public class SceneHandler : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
+
+
 }
