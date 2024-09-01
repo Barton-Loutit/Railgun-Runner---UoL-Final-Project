@@ -7,14 +7,17 @@ using UnityEngine.SceneManagement;
 public class SceneHandler : MonoBehaviour
 {
     public static SceneHandler sceneHandlerInstance { get; private set; }
+    [SerializeField] InputAction reloadLevelAction;
+    [SerializeField] InputAction loadNextLevelAction;
 
     void Awake()
     {
-        if(sceneHandlerInstance == null)
+        if (sceneHandlerInstance == null)
         {
             sceneHandlerInstance = this;
             DontDestroyOnLoad(sceneHandlerInstance);
-        } else
+        }
+        else
         {
             Destroy(this.gameObject);
         }
@@ -22,41 +25,27 @@ public class SceneHandler : MonoBehaviour
 
     void OnEnable()
     {
-
-        //reloadLevel.Enable();
-        //loadNextLevel.Enable();
+        reloadLevelAction.Enable();
+        loadNextLevelAction.Enable();
     }
 
     void OnDisable()
     {
-
-        //reloadLevel.Disable();
-        //loadNextLevel.Disable();
-    }
-
-    void Update()
-    {
-        //if(reloadLevel.action.ReadValue<float>() == 1)
-/*        if (reloadLevel.action.ReadValue<float>() == 1)
-        {
-            this.RestartLevel();
-        }*/
-        //Disabling until I fix inputAction mapping
-        /*else if(loadNextLevel.action.ReadValue<float>() == 1)
-        {
-            this.LoadLevel(SceneManager.GetActiveScene().buildIndex + 1);
-        }*/
+        reloadLevelAction.Disable();
+        loadNextLevelAction.Disable();
     }
 
     //levelToLoad correlates with build index;
     public void LoadLevel(int levelToLoad)
     {
+        /*GameSessionManager.gameSessionManagerInstance.initializeNewRound();*/
         SceneManager.LoadScene(levelToLoad);
     }
 
     //Scene 0 is the start menu
     public void RestartGame()
     {
+        /*GameSessionManager.gameSessionManagerInstance.initializeNewSession();*/
         SceneManager.LoadScene(0);
     }
 
@@ -64,6 +53,4 @@ public class SceneHandler : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
-
-
 }

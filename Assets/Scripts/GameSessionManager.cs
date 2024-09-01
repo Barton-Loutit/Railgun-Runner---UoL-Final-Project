@@ -14,16 +14,15 @@ public class GameSessionManager : MonoBehaviour
 
     public static GameSessionManager gameSessionManagerInstance;
     public Timer timer;
-
+    public PlayerController playerController;
     //Instantiating as singleton
     void Awake()
     {
-        if(gameSessionManagerInstance == null)
+        if (gameSessionManagerInstance == null)
         {
             gameSessionManagerInstance = this;
             DontDestroyOnLoad(this.gameObject);
-            gameSession = this;
-        } 
+        }
         else
         {
             Destroy(this.gameObject);
@@ -35,6 +34,7 @@ public class GameSessionManager : MonoBehaviour
     {
         continueText.enabled = false;
         timerText.enabled = false;
+        playerController=FindObjectOfType<PlayerController>();
     }
 
 
@@ -65,20 +65,40 @@ public class GameSessionManager : MonoBehaviour
     }
 
     //To-Do
-    public void initializeNewRound()
+    public void InitializeNewRound()
     {
-        //timer.ResetCountdownTimer();
-        //timer.SetTimerCountdownState();
-        //ToggleCountdownDisplayActive(false);
-
+        timer.ResetCountdownTimer();
+        this.ToggleCountdownDisplayActive(false);
+        PlayerStatManager.playerStatManagerInstance.ResetPlayerStatManagerValues();
+        PlayerStatManager.playerStatManagerInstance.ResetPlayerStatManagerText();
+        //playerController.EnableHandlingControls();
     }
 
     public void initializeNewSession()
     {
+        this.ToggleCountdownDisplayActive(false);
+        if (PlayerStatManager.playerStatManagerInstance != null)
+        {
+            PlayerStatManager.playerStatManagerInstance.ResetPlayerStatManagerValues();
+            PlayerStatManager.playerStatManagerInstance.ResetPlayerStatManagerText();
+            Destroy(PlayerStatManager.playerStatManagerInstance.gameObject);
+        }
+        
+        
+        //Destroy(AudioManager.audioManagerInstance.gameObject);
+        Destroy(gameSessionManagerInstance.gameObject);
+        SceneHandler.sceneHandlerInstance.RestartGame();
+
+
         //Go back to main menu
         //Set score to zero
         //Set bomb count to zero
         //Teardown PlayerStatManager
+    }
+
+    public bool isTimerCountingDown()
+    {
+        return timer.isTimerCountingDown();
     }
 
 }

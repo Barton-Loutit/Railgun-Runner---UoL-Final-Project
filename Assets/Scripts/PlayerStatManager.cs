@@ -5,21 +5,21 @@ using TMPro;
 
 public class PlayerStatManager : MonoBehaviour
 {
-    public static PlayerStatManager playerStatManagerinstance { get; private set; }
+    public static PlayerStatManager playerStatManagerInstance { get; private set; }
     //[SerializeField] int health;
     int bombCount = 0;
     int score = 0;
 
     void Awake()
     {
-        if(playerStatManagerinstance == null)
+        if(playerStatManagerInstance == null)
         {
-            playerStatManagerinstance = this;
+            playerStatManagerInstance = this;
             DontDestroyOnLoad(this.gameObject);
         } 
         else
         {
-            Destroy(this.gameObject); 
+            Destroy(this.gameObject);
         }
     }
 
@@ -49,5 +49,17 @@ public class PlayerStatManager : MonoBehaviour
     public int getScore()
     {
         return score;
+    }
+
+    public void ResetPlayerStatManagerText()
+    {
+        GameSessionManager.gameSessionManagerInstance.SetBombsText("Bombs: " + getBombCount().ToString());
+        GameSessionManager.gameSessionManagerInstance.SetScoreText("Score: " + getBombCount().ToString());
+    }
+
+    public void ResetPlayerStatManagerValues()
+    {
+        bombCount = 0;
+        score = 0;
     }
 }

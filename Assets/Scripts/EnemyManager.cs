@@ -49,7 +49,7 @@ public class EnemyManager : MonoBehaviour
         else
         {
             Debug.Log("Enemy hit");
-            PlayerStatManager.playerStatManagerinstance.updateScore(enemyHitScoreValue);
+            PlayerStatManager.playerStatManagerInstance.updateScore(enemyHitScoreValue);
             PlayEnemyVFX(enemyHitVFX);
 
             //To-Do: Add SFX for enemy hit (Note-to-self: use serialized field & setup an audio manager singleton)
@@ -58,7 +58,7 @@ public class EnemyManager : MonoBehaviour
     void HandleEnemyDeath()
     {
         PlayEnemyVFX(enemyDeathVFX);
-        PlayerStatManager.playerStatManagerinstance.updateScore(enemyDeathScoreValue);
+        PlayerStatManager.playerStatManagerInstance.updateScore(enemyDeathScoreValue);
         //scoreManager.UpdateScore(enemyDeathScoreValue);
         DestroyEnemyObject();
     }

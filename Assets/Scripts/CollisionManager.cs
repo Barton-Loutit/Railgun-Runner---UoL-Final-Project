@@ -12,23 +12,10 @@ public class CollisionManager : MonoBehaviour
     //[SerializeField] float continueTimer = 2f;
     //This handles player explosion VFX
     [SerializeField] GameObject playerDeathVFX;
-    Timer countdownTimer;
-    
-    // Start is called before the first frame update
-    void Start()
-    {
-        countdownTimer = FindObjectOfType<Timer>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     void OnCollisionEnter(Collision collision)
     {
-        if(collision.gameObject.tag == "Terrain")
+        if (collision.gameObject.tag == "Terrain")
         {
             Debug.Log("Literally dead right now, no cap frfr");
             HandlePlayerDeath();
@@ -40,18 +27,19 @@ public class CollisionManager : MonoBehaviour
         DisablePlayerControls();
         PlayPlayerDeathVFX(playerDeathVFX);
         DisablePlayerMesh();
+        //Trigger an event
+        GameSessionManager.gameSessionManagerInstance.StartCountdownTimer();
+        //NTS:Probably want to disable timeline here too
+        //TempSceneManagement();
 
-
-        TempSceneManagement();
-        
     }
 
     void DisablePlayerMesh()
     {
         //GetComponent<MeshRenderer>().enabled = false;
-        
-        foreach(MeshRenderer meshRenderer in this.gameObject.GetComponentsInChildren<MeshRenderer>()) 
-        { 
+
+        foreach (MeshRenderer meshRenderer in this.gameObject.GetComponentsInChildren<MeshRenderer>())
+        {
             meshRenderer.enabled = false;
         }
     }
@@ -61,7 +49,7 @@ public class CollisionManager : MonoBehaviour
         //Since this script will live on player ship, I'm disabling the
         //Player Controller script (hence decoupling the logic here), and
         //preventing further collision processing.
-        GetComponent<PlayerController>().enabled = false;
+        GetComponent<PlayerController>().DisableHandlingControls();
         GetComponent<BoxCollider>().enabled = false;
     }
 
@@ -69,22 +57,6 @@ public class CollisionManager : MonoBehaviour
     {
         //Play the explosion vfx and remove the player's mesh (since they've exploded)
         GameObject vfx = Instantiate(vfxToPlay, transform.position, Quaternion.identity);
-        
-    }
 
-    void TempSceneManagement()
-    {
-        //Countdown responsibilities moved to GameSessionManager
-
-        GameSessionManager.gameSessionManagerInstance.StartCountdownTimer();
-        //Current implementation doesn't perform this function
-        //Keeping this code to build in functionality to reload level when a button is pressed,
-        //and to check for tokens when reloading. This should be decentralized to a scene manager.
-/*        if (countdownTimer.isTimerLapsed())
-        {
-            Invoke("ReloadLevel", 1f);
-        }*/
-        //This will reload the level for the player right now, but does not 
-        //manage the case where a player is out of tokens.
     }
 }
