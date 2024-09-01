@@ -70,6 +70,7 @@ public class GameSessionManager : MonoBehaviour
         //timer.ResetCountdownTimer();
         //timer.SetTimerCountdownState();
         //ToggleCountdownDisplayActive(false);
+
     }
 
     public void initializeNewSession()
