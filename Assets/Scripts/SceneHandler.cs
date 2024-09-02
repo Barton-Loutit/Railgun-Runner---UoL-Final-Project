@@ -39,7 +39,14 @@ public class SceneHandler : MonoBehaviour
     public void LoadLevel(int levelToLoad)
     {
         /*GameSessionManager.gameSessionManagerInstance.initializeNewRound();*/
-        SceneManager.LoadScene(levelToLoad);
+        if((levelToLoad > SceneManager.sceneCountInBuildSettings-1) || (levelToLoad == 0))
+        {
+            return;
+        } else
+        {
+            SceneManager.LoadScene(levelToLoad);
+        }
+        
     }
 
     //Scene 0 is the start menu
@@ -52,5 +59,10 @@ public class SceneHandler : MonoBehaviour
     public void RestartLevel()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    public void StartGame(int Level1SceneNumber)
+    {
+        SceneManager.LoadScene(1);
     }
 }

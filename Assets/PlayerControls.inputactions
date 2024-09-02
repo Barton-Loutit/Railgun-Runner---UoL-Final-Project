@@ -15,9 +15,18 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": "Fire",
+                    "name": "FireLeft",
                     "type": "Button",
                     "id": "34342a05-6fe4-447f-aec0-e90dde742ca3",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "FireRight",
+                    "type": "Button",
+                    "id": "d2eab983-d6c9-4903-8b81-e885747da38b",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -54,6 +63,15 @@
                     "name": "Continue",
                     "type": "Button",
                     "id": "e605054d-de36-48f2-aa58-25b5bd3ececd",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "LoadPrevLevel",
+                    "type": "Button",
+                    "id": "dbe5fd3d-ff9f-43d9-ae44-d68340fc5252",
                     "expectedControlType": "Button",
                     "processors": "",
                     "interactions": "",
@@ -178,14 +196,14 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Fire",
+                    "action": "FireLeft",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
                     "id": "53adaa59-bee8-447a-b73a-58b504ac99c0",
-                    "path": "<Keyboard>/b",
+                    "path": "<Keyboard>/x",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -223,6 +241,28 @@
                     "processors": "",
                     "groups": "",
                     "action": "Continue",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "aab76b76-e745-42db-9a9f-96c6e685abdd",
+                    "path": "<Keyboard>/p",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LoadPrevLevel",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "1bda2bec-5741-40d8-8118-4ce7584a94ef",
+                    "path": "<Keyboard>/c",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "FireRight",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

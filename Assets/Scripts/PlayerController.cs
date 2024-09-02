@@ -9,13 +9,16 @@ using UnityEngine.SceneManagement;
 public class PlayerController : MonoBehaviour
 {
     public InputActionReference movementAction;
-    public InputActionReference firingAction;
+    public InputActionReference fireLeftWeaponAction;
+    public InputActionReference fireRightWeaponAction;
     public InputActionReference bombingAction;
     public InputActionReference reloadLevel;
     public InputActionReference loadNextLevel;
+    public InputActionReference loadPrevLevel;
     public InputActionReference continueAction;
 
-    [SerializeField] GameObject[] lasers;
+    [SerializeField] GameObject leftWeapon;
+    [SerializeField] GameObject rightWeapon;
     [SerializeField] GameObject bomb;
 
     [SerializeField] float playerSpeed = 20f;
@@ -39,7 +42,8 @@ public class PlayerController : MonoBehaviour
 
     private void Start()
     {
-        SetLaserFiringState(false);
+        SetWeaponFiringState(false, leftWeapon);
+        SetWeaponFiringState(false, rightWeapon);
     }
     void Awake()
     {
@@ -52,10 +56,15 @@ public class PlayerController : MonoBehaviour
         bombingAction.action.performed += ProcessBombingInput;
         //movementAction.action.started += ProcessMovementInput;
         //firingAction.action.performed += ProcessFiringInput;
-        firingAction.action.performed += Fire;
-        firingAction.action.canceled += Fire;
+        fireLeftWeaponAction.action.performed += FireLeft;
+        fireLeftWeaponAction.action.canceled += FireLeft;
+        fireRightWeaponAction.action.performed += FireRight;
+        fireRightWeaponAction.action.canceled += FireRight;
+
         reloadLevel.action.performed += ReloadLevel;
+
         loadNextLevel.action.performed += LoadNextLevel;
+        loadPrevLevel.action.performed += LoadPrevLevel;
         continueAction.action.performed += HandleContinue;
 
         //movementAction.Enable();
@@ -70,10 +79,13 @@ public class PlayerController : MonoBehaviour
         bombingAction.action.performed -= ProcessBombingInput;
         //movementAction.action.started -= ProcessMovementInput;
         //firingAction.action.performed += ProcessFiringInput;
-        firingAction.action.performed -= Fire;
-        firingAction.action.canceled -= Fire;
+        fireLeftWeaponAction.action.performed -= FireLeft;
+        fireLeftWeaponAction.action.canceled -= FireLeft;
+        fireRightWeaponAction.action.performed -= FireRight;
+        fireRightWeaponAction.action.canceled -= FireRight;
         reloadLevel.action.performed -= ReloadLevel;
         loadNextLevel.action.performed -= LoadNextLevel;
+        loadPrevLevel.action.performed -= LoadPrevLevel;
         continueAction.action.performed -= HandleContinue;
         //movementAction.Disable();
         //firingAction.Disable();
@@ -84,7 +96,6 @@ public class PlayerController : MonoBehaviour
     {
         //Handle player input controlling position and rotation of space ship
         ProcessMovementInput();
-
         //Handle player input firing basic weapons
         //ProcessFiringInput();
         //ProcessBombingInput();
@@ -104,18 +115,13 @@ public class PlayerController : MonoBehaviour
         }*/
     }
 
-    void ProcessFiringInput(bool desiredFiringState)
-    {
-        SetLaserFiringState(desiredFiringState);
-    }
-
     void triggerPlayerBomb()
     {
         PlayerStatManager.playerStatManagerInstance.updateBombs(-1);
         bomb.SetActive(true);
     }
 
-    void SetLaserFiringState(bool laserFiringState)
+    void SetWeaponFiringState(bool weaponFiringState, GameObject weapon)
     {
         //My initial approach was to set lasers[i].enabled = laserFiringState, but
         //this resulted in an interaction where the in-flight particles were also
@@ -123,11 +129,14 @@ public class PlayerController : MonoBehaviour
         
         //Disabling the emission module disabled additional particles from firing, while
         // maintaining in-flight particles.
-        for (int i = 0; i < lasers.Length; i++)
+        ParticleSystem.EmissionModule weaponEmitter = weapon.GetComponent<ParticleSystem>().emission;
+        weaponEmitter.enabled = weaponFiringState;
+
+        /*for (int i = 0; i < lasers.Length; i++)
         {
             ParticleSystem.EmissionModule laserEmitter = lasers[i].GetComponent<ParticleSystem>().emission;
             laserEmitter.enabled = laserFiringState;
-        }
+        }*/
     }
 
     void SetBombFiringState(bool bombFiringState)
@@ -194,15 +203,33 @@ public class PlayerController : MonoBehaviour
         SceneHandler.sceneHandlerInstance.LoadLevel(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
-    private void Fire(InputAction.CallbackContext obj)
+    private void LoadPrevLevel(InputAction.CallbackContext obj)
+    {
+        SceneHandler.sceneHandlerInstance.LoadLevel(SceneManager.GetActiveScene().buildIndex - 1);
+    }
+
+
+    private void FireLeft(InputAction.CallbackContext obj)
     {
         if (obj.performed)
         {
-            ProcessFiringInput(true);
+            SetWeaponFiringState(true, leftWeapon);
         } 
         else if (obj.canceled)
         {
-            ProcessFiringInput(false);
+            SetWeaponFiringState(false, leftWeapon);
+        }
+    }
+
+    private void FireRight(InputAction.CallbackContext obj)
+    {
+        if (obj.performed)
+        {
+            SetWeaponFiringState(true, rightWeapon);
+        }
+        else if (obj.canceled)
+        {
+            SetWeaponFiringState(false, rightWeapon);
         }
     }
 
@@ -221,7 +248,7 @@ public class PlayerController : MonoBehaviour
         bombingAction.action.Disable();
         //movementAction.action.started -= ProcessMovementInput;
         //firingAction.action.performed += ProcessFiringInput;
-        firingAction.action.Disable();
+        fireLeftWeaponAction.action.Disable();
         reloadLevel.action.Disable();
         loadNextLevel.action.Disable();
     }
@@ -231,8 +258,13 @@ public class PlayerController : MonoBehaviour
         bombingAction.action.Enable();
         //movementAction.action.started -= ProcessMovementInput;
         //firingAction.action.performed += ProcessFiringInput;
-        firingAction.action.Enable();
+        fireLeftWeaponAction.action.Enable();
         reloadLevel.action.Enable();
         loadNextLevel.action.Enable();
+    }
+
+    public void OnDrawGizmos()
+    {
+        Gizmos.DrawLine(transform.position, transform.position + (40 * transform.forward));
     }
 }
