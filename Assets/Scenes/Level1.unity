@@ -1415,6 +1415,10 @@ PrefabInstance:
       propertyPath: bomb
       value: 
       objectReference: {fileID: 1847660916}
+    - target: {fileID: 6557388697373597694, guid: 1ad9eff704963994cb3cd080cd84dd8f, type: 3}
+      propertyPath: smoothSpeedDuration
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 6657490331840808377, guid: 1ad9eff704963994cb3cd080cd84dd8f, type: 3}
       propertyPath: m_Layer
       value: 6

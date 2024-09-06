@@ -516,8 +516,8 @@ MonoBehaviour:
   loadNextLevel: {fileID: 6810868466263328413, guid: a040c7eb9795a4c4ebac7be138aa63f3, type: 3}
   loadPrevLevel: {fileID: 4516215169752875121, guid: a040c7eb9795a4c4ebac7be138aa63f3, type: 3}
   continueAction: {fileID: 3885245920558006676, guid: a040c7eb9795a4c4ebac7be138aa63f3, type: 3}
-  leftWeapon: {fileID: 804837627516458589}
-  rightWeapon: {fileID: 8614191844471225061}
+  leftWeapon: {fileID: 8614191844471225061}
+  rightWeapon: {fileID: 804837627516458589}
   bomb: {fileID: 0}
   playerSpeed: 20
   minRelativeXPosition: -11
@@ -528,6 +528,7 @@ MonoBehaviour:
   positionYawScalar: 2
   inputPitchScalar: -15
   inputRollScalar: -20
+  smoothSpeedDuration: 0.5
 --- !u!54 &5800947647103601822
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1230,7 +1231,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 266569496853042889, guid: 7bee5db2aaf10e742b395d2cc031848b, type: 3}
       propertyPath: m_Name
-      value: Laser Left
+      value: Laser Right
       objectReference: {fileID: 0}
     - target: {fileID: 4485505339970209278, guid: 7bee5db2aaf10e742b395d2cc031848b, type: 3}
       propertyPath: m_LocalScale.x
@@ -1313,7 +1314,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 266569496853042889, guid: 7bee5db2aaf10e742b395d2cc031848b, type: 3}
       propertyPath: m_Name
-      value: Laser Right
+      value: Laser Left
       objectReference: {fileID: 0}
     - target: {fileID: 4485505339970209278, guid: 7bee5db2aaf10e742b395d2cc031848b, type: 3}
       propertyPath: m_LocalScale.x
