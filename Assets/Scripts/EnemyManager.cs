@@ -50,14 +50,16 @@ public class EnemyManager : MonoBehaviour
         {
             Debug.Log("Enemy hit");
             PlayerStatManager.playerStatManagerInstance.updateScore(enemyHitScoreValue);
+            AudioManager.audioManagerInstance.Play("EnemyHitSFX");
             PlayEnemyVFX(enemyHitVFX);
+            
 
-            //To-Do: Add SFX for enemy hit (Note-to-self: use serialized field & setup an audio manager singleton)
         }
     }
     void HandleEnemyDeath()
     {
         PlayEnemyVFX(enemyDeathVFX);
+        AudioManager.audioManagerInstance.Play("EnemyDeathSFX");
         PlayerStatManager.playerStatManagerInstance.updateScore(enemyDeathScoreValue);
         //scoreManager.UpdateScore(enemyDeathScoreValue);
         DestroyEnemyObject();
@@ -79,9 +81,8 @@ public class EnemyManager : MonoBehaviour
     }
 
     //Creating this method definition to play SFX in the future.
-    void PlayEnemySFX(GameObject enemySFXToPlay)
+    void PlayEnemyHitSFX()
     {
-        //GameObject vfx = Instantiate(enemyVFXToPlay, transform.position, Quaternion.identity);
-        //This will probably need to be done differently
+        AudioManager.audioManagerInstance.Play("EnemyHitSFX");
     }   
 }
