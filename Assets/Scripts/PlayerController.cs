@@ -46,9 +46,14 @@ public class PlayerController : MonoBehaviour
     float xInputValue;
     float yInputValue;
 
+    //Line Renderer component
+    [SerializeField] LineRenderer bombRay;
+
     //Guarantees that lasers are not started in a firing state
     void Start()
     {
+        bombRay.enabled = false;
+        bombRay.useWorldSpace = false;
         SetWeaponFiringState(false, leftWeapon);
         SetWeaponFiringState(false, rightWeapon);
     }
@@ -68,6 +73,7 @@ public class PlayerController : MonoBehaviour
         fireRightWeaponAction.action.performed += FireRight;
         fireRightWeaponAction.action.canceled += FireRight;
         bombingAction.action.performed += ProcessBombingInput;
+        bombingAction.action.canceled += ProcessBombingInput;
 
         reloadLevel.action.performed += ReloadLevel;
         loadNextLevel.action.performed += LoadNextLevel;
@@ -84,6 +90,7 @@ public class PlayerController : MonoBehaviour
         fireRightWeaponAction.action.performed -= FireRight;
         fireRightWeaponAction.action.canceled -= FireRight;
         bombingAction.action.performed -= ProcessBombingInput;
+        bombingAction.action.canceled -= ProcessBombingInput;
 
         reloadLevel.action.performed -= ReloadLevel;
         loadNextLevel.action.performed -= LoadNextLevel;
@@ -176,8 +183,14 @@ public class PlayerController : MonoBehaviour
 
     void ProcessBombingInput(InputAction.CallbackContext obj)
     {
-        if (PlayerStatManager.playerStatManagerInstance.getBombCount() > 0)
+        if (obj.performed)
         {
+            //Display thing
+            toggleBombRangeIndicator(true);
+        } 
+        else if(obj.canceled && PlayerStatManager.playerStatManagerInstance.getBombCount() > 0)
+        {
+            toggleBombRangeIndicator(false);   
             triggerPlayerBomb();
         }
     }
@@ -254,5 +267,10 @@ public class PlayerController : MonoBehaviour
     public void OnDrawGizmos()
     {
         Gizmos.DrawLine(transform.position, transform.position + (40 * transform.forward));
+    }
+
+    void toggleBombRangeIndicator(bool state)
+    {
+        bombRay.enabled = state;
     }
 }

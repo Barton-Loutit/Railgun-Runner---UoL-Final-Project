@@ -20,22 +20,11 @@ public class BombManager : MonoBehaviour
 
     void OnEnable()
     {
-        /*this.gameObject.transform.position = playerShip.transform.position;*/
+     
         this.gameObject.transform.rotation = playerShip.transform.rotation;
 
         this.gameObject.transform.position = playerShip.transform.position+ (transform.position.normalized + (40 * transform.forward));
-
-
-        /*shipRotation = playerShip.transform.localRotation;
-        normalizedPosition = playerShip.transform.localPosition.normalized;
-        *//*shipOffset = playerShip.transform.GetLocalPositionAndRotation();*//*
-        this.gameObject.transform.rotation = shipRotation;
-        this.gameObject.transform.position = playerShip.transform.position;
-
-        this.gameObject.transform.position += bombActivationDistance * normalizedPosition;*/
-        /*this.gameObject.transform.position = playerShip.transform.position + (bombActivationDistance * this.gameObject.transform.forward);*/
-
-        /*this.gameObject.transform.position = playerShip.transform.position + shipOffset;*/
+             
         bombParticleSystem.Play();
         Invoke("DisableSelf", psTotalLifetime);
     }
