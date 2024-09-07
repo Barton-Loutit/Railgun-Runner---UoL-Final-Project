@@ -54,8 +54,8 @@ public class PlayerController : MonoBehaviour
     {
         bombRay.enabled = false;
         bombRay.useWorldSpace = false;
-        SetWeaponFiringState(false, leftWeapon);
-        SetWeaponFiringState(false, rightWeapon);
+        SetLeftWeaponFiringState(false, leftWeapon);
+        SetRightWeaponFiringState(false, rightWeapon);
     }
     
     //Re-Enables handling controls on continue
@@ -161,11 +161,11 @@ public class PlayerController : MonoBehaviour
     {
         if (obj.performed)
         {
-            SetWeaponFiringState(true, leftWeapon);
+            SetLeftWeaponFiringState(true, leftWeapon);
         }
         else if (obj.canceled)
         {
-            SetWeaponFiringState(false, leftWeapon);
+            SetLeftWeaponFiringState(false, leftWeapon);
         }
     }
 
@@ -173,11 +173,11 @@ public class PlayerController : MonoBehaviour
     {
         if (obj.performed)
         {
-            SetWeaponFiringState(true, rightWeapon);
+            SetRightWeaponFiringState(true, rightWeapon);
         }
         else if (obj.canceled)
         {
-            SetWeaponFiringState(false, rightWeapon);
+            SetRightWeaponFiringState(false, rightWeapon);
         }
     }
 
@@ -195,7 +195,9 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    void SetWeaponFiringState(bool weaponFiringState, GameObject weapon)
+    //It was easier to set these up as two different states than it was to manage their
+    // audio collectively.
+    void SetLeftWeaponFiringState(bool weaponFiringState, GameObject weapon)
     {
         //My initial approach was to set lasers[i].enabled = laserFiringState, but
         //this resulted in an interaction where the in-flight particles were also
@@ -203,13 +205,46 @@ public class PlayerController : MonoBehaviour
 
         //Disabling the emission module disabled additional particles from firing, while
         // maintaining in-flight particles.
+        if (weaponFiringState)
+        {
+            AudioManager.audioManagerInstance.setLoopState("LeftLaserFiringSFX", true);
+            AudioManager.audioManagerInstance.Play("LeftLaserFiringSFX");
+        } else
+        {
+            //AudioManager.audioManagerInstance.Stop("LaserFiring");
+            AudioManager.audioManagerInstance.setLoopState("LeftLaserFiringSFX", false);
+        }
         ParticleSystem.EmissionModule weaponEmitter = weapon.GetComponent<ParticleSystem>().emission;
         weaponEmitter.enabled = weaponFiringState;
     }
+
+    void SetRightWeaponFiringState(bool weaponFiringState, GameObject weapon)
+    {
+        //My initial approach was to set lasers[i].enabled = laserFiringState, but
+        //this resulted in an interaction where the in-flight particles were also
+        //removed from the world when no longer firing.
+
+        //Disabling the emission module disabled additional particles from firing, while
+        // maintaining in-flight particles.
+        if (weaponFiringState)
+        {
+            AudioManager.audioManagerInstance.setLoopState("RightLaserFiringSFX", true);
+            AudioManager.audioManagerInstance.Play("RightLaserFiringSFX");
+        }
+        else
+        {
+            //AudioManager.audioManagerInstance.Stop("LaserFiring");
+            AudioManager.audioManagerInstance.setLoopState("RightLaserFiringSFX", false);
+        }
+        ParticleSystem.EmissionModule weaponEmitter = weapon.GetComponent<ParticleSystem>().emission;
+        weaponEmitter.enabled = weaponFiringState;
+    }
+
     void triggerPlayerBomb()
     {
         PlayerStatManager.playerStatManagerInstance.updateBombs(-1);
         bomb.SetActive(true);
+        AudioManager.audioManagerInstance.Play("ExplosionSFX");
     }
 
     //Enables controls that were disabled when the player died

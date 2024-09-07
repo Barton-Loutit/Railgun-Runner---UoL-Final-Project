@@ -26,9 +26,10 @@ public class CollisionManager : MonoBehaviour
     {
         DisablePlayerControls();
         PlayPlayerDeathVFX(playerDeathVFX);
+        AudioManager.audioManagerInstance.Play("PlayerDeathSFX");
         DisablePlayerMesh();
-        //Trigger an event
         GameSessionManager.gameSessionManagerInstance.StartCountdownTimer();
+        
         //NTS:Probably want to disable timeline here too
         //TempSceneManagement();
 

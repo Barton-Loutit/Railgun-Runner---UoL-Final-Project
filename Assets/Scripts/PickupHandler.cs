@@ -12,8 +12,8 @@ public class PickupHandler : MonoBehaviour
     {
         if(other.gameObject.tag == "Player")
         {
-
             PlayerStatManager.playerStatManagerInstance.updateBombs(numPickupsToAdd);
+            AudioManager.audioManagerInstance.Play("PickupCollectionSFX");
             Destroy(this.gameObject);
         }
     }
