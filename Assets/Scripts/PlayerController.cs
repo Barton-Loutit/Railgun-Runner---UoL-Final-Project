@@ -8,6 +8,7 @@ using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
+    //Actions
     public InputActionReference movementAction;
     public InputActionReference fireLeftWeaponAction;
     public InputActionReference fireRightWeaponAction;
@@ -17,10 +18,12 @@ public class PlayerController : MonoBehaviour
     public InputActionReference loadPrevLevel;
     public InputActionReference continueAction;
 
+    //Player Weapons
     [SerializeField] GameObject leftWeapon;
     [SerializeField] GameObject rightWeapon;
     [SerializeField] GameObject bomb;
 
+    //Speeds and clamping
     [SerializeField] float playerSpeed = 20f;
     [SerializeField] float minRelativeXPosition = -11f;
     [SerializeField] float maxRelativeXPosition= 11f;
@@ -35,125 +38,84 @@ public class PlayerController : MonoBehaviour
     //Scalars to be updated based on impression of input/visual responsiveness
     [SerializeField] float inputPitchScalar = -15f;
     [SerializeField] float inputRollScalar = -20f;
-    
-    //Variables used to hold user input
+
+    //Movement and movement input smoothing 
+    [SerializeField] float smoothSpeedDuration = 0.5f; 
+    private Vector2 currentMovementInput;
+    private Vector2 currentMovementVelocity;
     float xInputValue;
     float yInputValue;
 
-    private void Start()
+    //Line Renderer component
+    [SerializeField] LineRenderer bombRay;
+
+    //Guarantees that lasers are not started in a firing state
+    void Start()
     {
+        bombRay.enabled = false;
+        bombRay.useWorldSpace = false;
         SetWeaponFiringState(false, leftWeapon);
         SetWeaponFiringState(false, rightWeapon);
     }
+    
+    //Re-Enables handling controls on continue
     void Awake()
     {
         EnableHandlingControls();    
     }
 
 
+    //Enables all the event subscriptions for player inputs
     void OnEnable()
     {
-        bombingAction.action.performed += ProcessBombingInput;
-        //movementAction.action.started += ProcessMovementInput;
-        //firingAction.action.performed += ProcessFiringInput;
         fireLeftWeaponAction.action.performed += FireLeft;
         fireLeftWeaponAction.action.canceled += FireLeft;
         fireRightWeaponAction.action.performed += FireRight;
         fireRightWeaponAction.action.canceled += FireRight;
+        bombingAction.action.performed += ProcessBombingInput;
+        bombingAction.action.canceled += ProcessBombingInput;
 
         reloadLevel.action.performed += ReloadLevel;
-
         loadNextLevel.action.performed += LoadNextLevel;
         loadPrevLevel.action.performed += LoadPrevLevel;
         continueAction.action.performed += HandleContinue;
-
-        //movementAction.Enable();
-        //firingAction.Enable();
-        //bombingAction.Enable();
-
 
     }
 
     void OnDisable()
     {
-        bombingAction.action.performed -= ProcessBombingInput;
-        //movementAction.action.started -= ProcessMovementInput;
-        //firingAction.action.performed += ProcessFiringInput;
+        
         fireLeftWeaponAction.action.performed -= FireLeft;
         fireLeftWeaponAction.action.canceled -= FireLeft;
         fireRightWeaponAction.action.performed -= FireRight;
         fireRightWeaponAction.action.canceled -= FireRight;
+        bombingAction.action.performed -= ProcessBombingInput;
+        bombingAction.action.canceled -= ProcessBombingInput;
+
         reloadLevel.action.performed -= ReloadLevel;
         loadNextLevel.action.performed -= LoadNextLevel;
         loadPrevLevel.action.performed -= LoadPrevLevel;
         continueAction.action.performed -= HandleContinue;
-        //movementAction.Disable();
-        //firingAction.Disable();
-        //bombingAction.Disable();
     }
 
+    //Movement processing is the only non-event-driven input.
     void Update()
     {
-        //Handle player input controlling position and rotation of space ship
         ProcessMovementInput();
-        //Handle player input firing basic weapons
-        //ProcessFiringInput();
-        //ProcessBombingInput();
-    }
-
-    void ProcessBombingInput(InputAction.CallbackContext obj)
-    {
-        Debug.Log("Processing Bomb");
-        if(PlayerStatManager.playerStatManagerInstance.getBombCount() > 0)
-        {
-            Debug.Log("Triggering Bomb");
-            triggerPlayerBomb();
-        }
-        /*if (bombingAction.action.ReadValue<float>() == 1.0 && playerStatManager.getBombCount() > 1)
-        {
-            triggerPlayerBomb();
-        }*/
-    }
-
-    void triggerPlayerBomb()
-    {
-        PlayerStatManager.playerStatManagerInstance.updateBombs(-1);
-        bomb.SetActive(true);
-    }
-
-    void SetWeaponFiringState(bool weaponFiringState, GameObject weapon)
-    {
-        //My initial approach was to set lasers[i].enabled = laserFiringState, but
-        //this resulted in an interaction where the in-flight particles were also
-        //removed from the world when no longer firing.
-        
-        //Disabling the emission module disabled additional particles from firing, while
-        // maintaining in-flight particles.
-        ParticleSystem.EmissionModule weaponEmitter = weapon.GetComponent<ParticleSystem>().emission;
-        weaponEmitter.enabled = weaponFiringState;
-
-        /*for (int i = 0; i < lasers.Length; i++)
-        {
-            ParticleSystem.EmissionModule laserEmitter = lasers[i].GetComponent<ParticleSystem>().emission;
-            laserEmitter.enabled = laserFiringState;
-        }*/
-    }
-
-    void SetBombFiringState(bool bombFiringState)
-    {
-        //Since firingAction is set up as a value, a button press returns float of 1.0
-        if (bombingAction.action.ReadValue<float>() == 1.0 && PlayerStatManager.playerStatManagerInstance.getBombCount() > 1)
-        {
-            triggerPlayerBomb();
-            bomb.SetActive(true);
-        }
     }
 
     //Stores user input values into variables used to affect ship position and rotation
     void ProcessMovementInput()
     {
-        xInputValue = movementAction.action.ReadValue<Vector2>().x;
-        yInputValue = movementAction.action.ReadValue<Vector2>().y;
+        //Storing player input to be smoothed
+        Vector2 movementActionInput = movementAction.action.ReadValue<Vector2>();
+        
+        //Update the current movement input vector with the smoothed form of the movement input, relative to the current input.
+        //Updates velocity as part of SmoothDamp function. 
+        currentMovementInput = Vector2.SmoothDamp(currentMovementInput, movementActionInput, ref currentMovementVelocity, smoothSpeedDuration);
+        
+        xInputValue = currentMovementInput.x;
+        yInputValue = currentMovementInput.y;
 
         ProcessTranslation();
         ProcessRotation();
@@ -170,6 +132,8 @@ public class PlayerController : MonoBehaviour
         float yOffset = yInputValue * Time.deltaTime * playerSpeed;
         float rawYPos = transform.localPosition.y + yOffset;
         float clampedYPos = Mathf.Clamp(rawYPos, minRelativeYPosition, maxRelativeYPosition);
+
+        Vector3 newMovementVector = new Vector3(xOffset, yOffset, transform.localPosition.z);
 
         transform.localPosition = new Vector3(clampedXPos, clampedYPos, transform.localPosition.z);
     }
@@ -192,29 +156,13 @@ public class PlayerController : MonoBehaviour
     {
         return this.gameObject.transform.parent.position;
     }
-    private void ReloadLevel(InputAction.CallbackContext obj)
-    {
-        SceneHandler.sceneHandlerInstance.RestartLevel();
-        GameSessionManager.gameSessionManagerInstance.InitializeNewRound();
-    }
-
-    private void LoadNextLevel(InputAction.CallbackContext obj)
-    {
-        SceneHandler.sceneHandlerInstance.LoadLevel(SceneManager.GetActiveScene().buildIndex + 1);
-    }
-
-    private void LoadPrevLevel(InputAction.CallbackContext obj)
-    {
-        SceneHandler.sceneHandlerInstance.LoadLevel(SceneManager.GetActiveScene().buildIndex - 1);
-    }
-
 
     private void FireLeft(InputAction.CallbackContext obj)
     {
         if (obj.performed)
         {
             SetWeaponFiringState(true, leftWeapon);
-        } 
+        }
         else if (obj.canceled)
         {
             SetWeaponFiringState(false, leftWeapon);
@@ -233,38 +181,96 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    private void HandleContinue(InputAction.CallbackContext obj)
+    void ProcessBombingInput(InputAction.CallbackContext obj)
     {
-        if(GameSessionManager.gameSessionManagerInstance.isTimerCountingDown())
+        if (obj.performed)
         {
-            
-            SceneHandler.sceneHandlerInstance.RestartLevel();
-            GameSessionManager.gameSessionManagerInstance.InitializeNewRound();
-
+            //Display thing
+            toggleBombRangeIndicator(true);
+        } 
+        else if(obj.canceled && PlayerStatManager.playerStatManagerInstance.getBombCount() > 0)
+        {
+            toggleBombRangeIndicator(false);   
+            triggerPlayerBomb();
         }
     }
-    public void DisableHandlingControls()
+
+    void SetWeaponFiringState(bool weaponFiringState, GameObject weapon)
     {
-        bombingAction.action.Disable();
-        //movementAction.action.started -= ProcessMovementInput;
-        //firingAction.action.performed += ProcessFiringInput;
-        fireLeftWeaponAction.action.Disable();
-        reloadLevel.action.Disable();
-        loadNextLevel.action.Disable();
+        //My initial approach was to set lasers[i].enabled = laserFiringState, but
+        //this resulted in an interaction where the in-flight particles were also
+        //removed from the world when no longer firing.
+
+        //Disabling the emission module disabled additional particles from firing, while
+        // maintaining in-flight particles.
+        ParticleSystem.EmissionModule weaponEmitter = weapon.GetComponent<ParticleSystem>().emission;
+        weaponEmitter.enabled = weaponFiringState;
+    }
+    void triggerPlayerBomb()
+    {
+        PlayerStatManager.playerStatManagerInstance.updateBombs(-1);
+        bomb.SetActive(true);
     }
 
+    //Enables controls that were disabled when the player died
     public void EnableHandlingControls()
     {
         bombingAction.action.Enable();
-        //movementAction.action.started -= ProcessMovementInput;
-        //firingAction.action.performed += ProcessFiringInput;
         fireLeftWeaponAction.action.Enable();
+        fireRightWeaponAction.action.Enable();
+        
         reloadLevel.action.Enable();
+        loadPrevLevel.action.Enable();
         loadNextLevel.action.Enable();
+    }
+
+    //Disables player controls when the player dies
+    public void DisableHandlingControls()
+    {
+        bombingAction.action.Disable();
+        fireLeftWeaponAction.action.Disable();
+        fireRightWeaponAction.action.Disable();
+        
+        reloadLevel.action.Disable();
+        loadPrevLevel.action.Disable();
+        loadNextLevel.action.Disable();
+    }
+
+    //If the continue button is pressed and the player has not died, do nothing.
+    //If the player has died (i.e. isTimerCountingDown() returns true, then
+    //restart the level and initialize a new round (session maintained).
+    private void HandleContinue(InputAction.CallbackContext obj)
+    {
+        if (GameSessionManager.gameSessionManagerInstance.isTimerCountingDown())
+        {
+            SceneHandler.sceneHandlerInstance.RestartLevel();
+            GameSessionManager.gameSessionManagerInstance.InitializeNewRound();
+        }
+    }
+
+    private void ReloadLevel(InputAction.CallbackContext obj)
+    {
+        SceneHandler.sceneHandlerInstance.RestartLevel();
+        GameSessionManager.gameSessionManagerInstance.InitializeNewRound();
+    }
+
+    private void LoadNextLevel(InputAction.CallbackContext obj)
+    {
+        SceneHandler.sceneHandlerInstance.LoadLevel(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    private void LoadPrevLevel(InputAction.CallbackContext obj)
+    {
+        SceneHandler.sceneHandlerInstance.LoadLevel(SceneManager.GetActiveScene().buildIndex - 1);
     }
 
     public void OnDrawGizmos()
     {
         Gizmos.DrawLine(transform.position, transform.position + (40 * transform.forward));
+    }
+
+    void toggleBombRangeIndicator(bool state)
+    {
+        bombRay.enabled = state;
     }
 }

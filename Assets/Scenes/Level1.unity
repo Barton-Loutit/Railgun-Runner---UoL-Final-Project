@@ -1415,6 +1415,10 @@ PrefabInstance:
       propertyPath: bomb
       value: 
       objectReference: {fileID: 1847660916}
+    - target: {fileID: 6557388697373597694, guid: 1ad9eff704963994cb3cd080cd84dd8f, type: 3}
+      propertyPath: smoothSpeedDuration
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 6657490331840808377, guid: 1ad9eff704963994cb3cd080cd84dd8f, type: 3}
       propertyPath: m_Layer
       value: 6
@@ -1453,6 +1457,10 @@ PrefabInstance:
       value: Bomb
       objectReference: {fileID: 0}
     - target: {fileID: 2955527852697868151, guid: 5cc20b0ec6a18cd408f100d5e015180a, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2955527852697868151, guid: 5cc20b0ec6a18cd408f100d5e015180a, type: 3}
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
@@ -1467,6 +1475,10 @@ PrefabInstance:
     - target: {fileID: 6284091126434198053, guid: 5cc20b0ec6a18cd408f100d5e015180a, type: 3}
       propertyPath: m_ExcludeLayers.m_Bits
       value: 64
+      objectReference: {fileID: 0}
+    - target: {fileID: 7090406561383976345, guid: 5cc20b0ec6a18cd408f100d5e015180a, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8446941559933155000, guid: 5cc20b0ec6a18cd408f100d5e015180a, type: 3}
       propertyPath: m_LocalPosition.x
