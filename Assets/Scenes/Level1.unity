@@ -931,6 +931,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2708189702099500750, guid: 69296d2e07bbbb641980beb4423daaf5, type: 3}
+      propertyPath: sounds.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2708189702099500750, guid: 69296d2e07bbbb641980beb4423daaf5, type: 3}
+      propertyPath: sounds.Array.data[0].clip
+      value: 
+      objectReference: {fileID: 8300000, guid: eab94e86450161043807e262bc583454, type: 3}
+    - target: {fileID: 2708189702099500750, guid: 69296d2e07bbbb641980beb4423daaf5, type: 3}
+      propertyPath: sounds.Array.data[0].loop
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2708189702099500750, guid: 69296d2e07bbbb641980beb4423daaf5, type: 3}
+      propertyPath: sounds.Array.data[0].name
+      value: BackgroundMusic
+      objectReference: {fileID: 0}
+    - target: {fileID: 2708189702099500750, guid: 69296d2e07bbbb641980beb4423daaf5, type: 3}
+      propertyPath: sounds.Array.data[0].pitch
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2708189702099500750, guid: 69296d2e07bbbb641980beb4423daaf5, type: 3}
+      propertyPath: sounds.Array.data[0].volume
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2708189702099500750, guid: 69296d2e07bbbb641980beb4423daaf5, type: 3}
+      propertyPath: sounds.Array.data[0].playOnAwake
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
