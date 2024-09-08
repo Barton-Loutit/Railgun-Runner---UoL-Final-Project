@@ -367,6 +367,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: DestroyerWave
       objectReference: {fileID: 0}
+    - target: {fileID: 1112850259017078796, guid: 9ac0d3ab726a36b49a4987b2f4eba02d, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1628633529174111449, guid: 9ac0d3ab726a36b49a4987b2f4eba02d, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492535393255454723, guid: 9ac0d3ab726a36b49a4987b2f4eba02d, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5626755162131692605, guid: 9ac0d3ab726a36b49a4987b2f4eba02d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 191.5
@@ -406,6 +418,10 @@ PrefabInstance:
     - target: {fileID: 5626755162131692605, guid: 9ac0d3ab726a36b49a4987b2f4eba02d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7233912806306067390, guid: 9ac0d3ab726a36b49a4987b2f4eba02d, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1355,9 +1371,29 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1853592149}
     m_Modifications:
+    - target: {fileID: 142985049972602628, guid: 2246effd64f0c824390d167d9bc7033a, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2363887552241995872, guid: 2246effd64f0c824390d167d9bc7033a, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2830032857576967509, guid: 2246effd64f0c824390d167d9bc7033a, type: 3}
       propertyPath: m_Name
       value: TorpedoWave
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830032857576967509, guid: 2246effd64f0c824390d167d9bc7033a, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3690123060501699162, guid: 2246effd64f0c824390d167d9bc7033a, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431740705834867324, guid: 2246effd64f0c824390d167d9bc7033a, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5654025279878517531, guid: 2246effd64f0c824390d167d9bc7033a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1398,6 +1434,14 @@ PrefabInstance:
     - target: {fileID: 5654025279878517531, guid: 2246effd64f0c824390d167d9bc7033a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 1.291
+      objectReference: {fileID: 0}
+    - target: {fileID: 8570635293847799475, guid: 2246effd64f0c824390d167d9bc7033a, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8571645470485341984, guid: 2246effd64f0c824390d167d9bc7033a, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1729,6 +1773,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1068579244}
     m_Modifications:
+    - target: {fileID: 1080467389377347094, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1386919925019262347, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
       propertyPath: m_LocalPosition.x
       value: -25.1
@@ -1772,6 +1820,30 @@ PrefabInstance:
     - target: {fileID: 2255815485954531906, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
       propertyPath: m_Name
       value: FighterWave
+      objectReference: {fileID: 0}
+    - target: {fileID: 2255815485954531906, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3347015881495727376, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4300393509752201416, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4976618052890904562, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7532312617361442395, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8415893216374624326, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2463,7 +2535,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 355119049}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wave 5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2494,6 +2566,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 801697905}
     m_Modifications:
+    - target: {fileID: 1080467389377347094, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1386919925019262347, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
       propertyPath: m_LocalPosition.x
       value: -184.65
@@ -2537,6 +2613,30 @@ PrefabInstance:
     - target: {fileID: 2255815485954531906, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
       propertyPath: m_Name
       value: FighterWave (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2255815485954531906, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3347015881495727376, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4300393509752201416, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4976618052890904562, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7532312617361442395, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8415893216374624326, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2821,6 +2921,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 555250534}
     m_Modifications:
+    - target: {fileID: 1080467389377347094, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1386919925019262347, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
       propertyPath: m_LocalPosition.x
       value: -172.40485
@@ -2864,6 +2968,30 @@ PrefabInstance:
     - target: {fileID: 2255815485954531906, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
       propertyPath: m_Name
       value: FighterWave
+      objectReference: {fileID: 0}
+    - target: {fileID: 2255815485954531906, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3347015881495727376, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4300393509752201416, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4976618052890904562, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7532312617361442395, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8415893216374624326, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2962,9 +3090,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 953960787}
     m_Modifications:
+    - target: {fileID: 44666039630309677, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 175658894535852348, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
       propertyPath: m_Name
       value: TorpedoDestroyer
+      objectReference: {fileID: 0}
+    - target: {fileID: 175658894535852348, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 235099082826549816, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 686763211403128906, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3006,6 +3146,122 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0.238
       objectReference: {fileID: 0}
+    - target: {fileID: 693909025195303033, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 850752131739337871, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1048284950330451332, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1999984750322925952, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2195608226706776690, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2675671097505614596, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2755187477258430837, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2959740370324005395, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3070362998320625636, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3177101667652898838, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3177792126364837032, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207128802664036156, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3330425883916204836, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3992417466128707947, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4044478433586227190, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4302629933726894390, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4520568695053359422, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4860079430112222801, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5409564785207100241, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5847417577718107327, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6324244203516958185, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6329327342214866976, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7455317528766306409, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7826397707630781613, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7908041830903061662, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7937508830572464217, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8610723313895989275, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8652108831495934469, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9089603647804395870, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3020,7 +3276,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 486251919}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Enemies
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3050,7 +3306,6 @@ Transform:
   - {fileID: 1363359535}
   - {fileID: 1860414746}
   - {fileID: 801697905}
-  - {fileID: 1200066949}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &496646903
@@ -3101,9 +3356,49 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 5.675
       objectReference: {fileID: 0}
+    - target: {fileID: 8062831865172424688, guid: 64f233c22284e924ab01d226df4760f8, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8062831865172424692, guid: 64f233c22284e924ab01d226df4760f8, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8062831865172424694, guid: 64f233c22284e924ab01d226df4760f8, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8062831865172488098, guid: 64f233c22284e924ab01d226df4760f8, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8062831865172488104, guid: 64f233c22284e924ab01d226df4760f8, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8062831865172488106, guid: 64f233c22284e924ab01d226df4760f8, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8062831865172488108, guid: 64f233c22284e924ab01d226df4760f8, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8062831865172488110, guid: 64f233c22284e924ab01d226df4760f8, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8062831865172488116, guid: 64f233c22284e924ab01d226df4760f8, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8063844506106752042, guid: 64f233c22284e924ab01d226df4760f8, type: 3}
       propertyPath: m_Name
       value: BombPickup (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8063844506106752042, guid: 64f233c22284e924ab01d226df4760f8, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3277,7 +3572,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 555250534}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wave 4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3873,7 +4168,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 645652166}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wave 3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4820,7 +5115,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 801697905}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wave 10
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5594,7 +5889,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 953960787}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wave 7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5708,29 +6003,13 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bomb
       objectReference: {fileID: 0}
-    - target: {fileID: 2955527852697868151, guid: 5cc20b0ec6a18cd408f100d5e015180a, type: 3}
-      propertyPath: m_Layer
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 2955527852697868151, guid: 5cc20b0ec6a18cd408f100d5e015180a, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5287949737549552348, guid: 5cc20b0ec6a18cd408f100d5e015180a, type: 3}
-      propertyPath: m_ExcludeLayers.m_Bits
-      value: 64
-      objectReference: {fileID: 0}
-    - target: {fileID: 6284091126434198053, guid: 5cc20b0ec6a18cd408f100d5e015180a, type: 3}
-      propertyPath: m_Constraints
-      value: 14
-      objectReference: {fileID: 0}
-    - target: {fileID: 6284091126434198053, guid: 5cc20b0ec6a18cd408f100d5e015180a, type: 3}
-      propertyPath: m_ExcludeLayers.m_Bits
-      value: 64
-      objectReference: {fileID: 0}
-    - target: {fileID: 7090406561383976345, guid: 5cc20b0ec6a18cd408f100d5e015180a, type: 3}
-      propertyPath: m_Layer
-      value: 7
+    - target: {fileID: 8364393054389844058, guid: 5cc20b0ec6a18cd408f100d5e015180a, type: 3}
+      propertyPath: playerShip
+      value: 
+      objectReference: {fileID: 1343044862}
+    - target: {fileID: 8364393054389844058, guid: 5cc20b0ec6a18cd408f100d5e015180a, type: 3}
+      propertyPath: bombActivationDistance
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 8446941559933155000, guid: 5cc20b0ec6a18cd408f100d5e015180a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5775,38 +6054,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 2955527852697868151, guid: 5cc20b0ec6a18cd408f100d5e015180a, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1007075050}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5cc20b0ec6a18cd408f100d5e015180a, type: 3}
 --- !u!1 &1007075048 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2955527852697868151, guid: 5cc20b0ec6a18cd408f100d5e015180a, type: 3}
   m_PrefabInstance: {fileID: 1007075047}
   m_PrefabAsset: {fileID: 0}
---- !u!198 &1007075049 stripped
-ParticleSystem:
-  m_CorrespondingSourceObject: {fileID: 4090576639645745027, guid: 5cc20b0ec6a18cd408f100d5e015180a, type: 3}
-  m_PrefabInstance: {fileID: 1007075047}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1007075050
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1007075048}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d895a19962a9c4c4184c8a8f9d0b7e1b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bombParticleSystem: {fileID: 1007075049}
-  psTotalLifetime: 2
-  playerShip: {fileID: 1343044862}
-  bombActivationDistance: 40
-  shipRotation: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1001 &1009599047
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6256,7 +6510,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1068579244}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wave 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6973,9 +7227,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1363359535}
     m_Modifications:
+    - target: {fileID: 44666039630309677, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 175658894535852348, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
       propertyPath: m_Name
       value: TorpedoDestroyer
+      objectReference: {fileID: 0}
+    - target: {fileID: 175658894535852348, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 235099082826549816, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 686763211403128906, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7017,6 +7283,122 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -4.24
       objectReference: {fileID: 0}
+    - target: {fileID: 693909025195303033, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 850752131739337871, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1048284950330451332, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1999984750322925952, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2195608226706776690, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2675671097505614596, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2755187477258430837, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2959740370324005395, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3070362998320625636, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3177101667652898838, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3177792126364837032, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3207128802664036156, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3330425883916204836, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3992417466128707947, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4044478433586227190, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4302629933726894390, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4520568695053359422, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4860079430112222801, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5409564785207100241, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5847417577718107327, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6324244203516958185, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6329327342214866976, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7455317528766306409, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7826397707630781613, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7908041830903061662, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7937508830572464217, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8610723313895989275, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8652108831495934469, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 9089603647804395870, guid: 279a0fc2adb08ca429edc2b1bcb93b89, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7047,13 +7429,13 @@ Transform:
   m_GameObject: {fileID: 1200066948}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -213.8321, y: -102.940506, z: -149.74463}
+  m_LocalPosition: {x: 52.29039, y: 24.007896, z: 16.669495}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1023857055}
   - {fileID: 1741358529}
-  m_Father: {fileID: 486251919}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1203852569
 PrefabInstance:
@@ -7182,6 +7564,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.626
       objectReference: {fileID: 0}
+    - target: {fileID: 1581776274014260263, guid: 47fb77733c1817e448ef1b2722483567, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1716261181599188884, guid: 47fb77733c1817e448ef1b2722483567, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1717273560753841671, guid: 47fb77733c1817e448ef1b2722483567, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1718676757572793582, guid: 47fb77733c1817e448ef1b2722483567, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.6699886
@@ -7246,6 +7640,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.003
       objectReference: {fileID: 0}
+    - target: {fileID: 2351757938849534713, guid: 47fb77733c1817e448ef1b2722483567, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2353398613584105773, guid: 47fb77733c1817e448ef1b2722483567, type: 3}
       propertyPath: m_LocalPosition.x
       value: 20.6
@@ -7257,6 +7655,10 @@ PrefabInstance:
     - target: {fileID: 2353398613584105773, guid: 47fb77733c1817e448ef1b2722483567, type: 3}
       propertyPath: m_LocalPosition.z
       value: 6.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3536394452766232237, guid: 47fb77733c1817e448ef1b2722483567, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 4747263264741695246, guid: 47fb77733c1817e448ef1b2722483567, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7297,6 +7699,18 @@ PrefabInstance:
     - target: {fileID: 4747263264741695246, guid: 47fb77733c1817e448ef1b2722483567, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.843
+      objectReference: {fileID: 0}
+    - target: {fileID: 4750118259716813012, guid: 47fb77733c1817e448ef1b2722483567, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5072095192321977825, guid: 47fb77733c1817e448ef1b2722483567, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5913238443238898414, guid: 47fb77733c1817e448ef1b2722483567, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5916295839535566636, guid: 47fb77733c1817e448ef1b2722483567, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7342,6 +7756,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: FighterTorpedo
       objectReference: {fileID: 0}
+    - target: {fileID: 6067430306530703775, guid: 47fb77733c1817e448ef1b2722483567, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6527627315194576041, guid: 47fb77733c1817e448ef1b2722483567, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 6528639340301513839, guid: 47fb77733c1817e448ef1b2722483567, type: 3}
       propertyPath: m_LocalPosition.x
       value: 1.5292629
@@ -7381,6 +7803,10 @@ PrefabInstance:
     - target: {fileID: 6528639340301513839, guid: 47fb77733c1817e448ef1b2722483567, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.843
+      objectReference: {fileID: 0}
+    - target: {fileID: 6675826575725001416, guid: 47fb77733c1817e448ef1b2722483567, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 6678733063656099594, guid: 47fb77733c1817e448ef1b2722483567, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7461,6 +7887,10 @@ PrefabInstance:
     - target: {fileID: 6977309306830223466, guid: 47fb77733c1817e448ef1b2722483567, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.843
+      objectReference: {fileID: 0}
+    - target: {fileID: 6980021363097507760, guid: 47fb77733c1817e448ef1b2722483567, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7611,6 +8041,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 555250534}
     m_Modifications:
+    - target: {fileID: 1080467389377347094, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1386919925019262347, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
       propertyPath: m_LocalPosition.x
       value: -142.30649
@@ -7655,6 +8089,30 @@ PrefabInstance:
       propertyPath: m_Name
       value: FighterWave (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 2255815485954531906, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3347015881495727376, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4300393509752201416, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4976618052890904562, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7532312617361442395, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8415893216374624326, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7668,6 +8126,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1068579244}
     m_Modifications:
+    - target: {fileID: 1080467389377347094, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1386919925019262347, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 13.6
@@ -7711,6 +8173,30 @@ PrefabInstance:
     - target: {fileID: 2255815485954531906, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
       propertyPath: m_Name
       value: FighterWave (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2255815485954531906, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3347015881495727376, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4300393509752201416, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4976618052890904562, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7532312617361442395, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8415893216374624326, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8301,12 +8787,148 @@ PrefabInstance:
       value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 25498790103510657, guid: 1ad9eff704963994cb3cd080cd84dd8f, type: 3}
+      propertyPath: _result.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 25498790103510657, guid: 1ad9eff704963994cb3cd080cd84dd8f, type: 3}
+      propertyPath: _result.up.x
+      value: -0.10072026
+      objectReference: {fileID: 0}
+    - target: {fileID: 25498790103510657, guid: 1ad9eff704963994cb3cd080cd84dd8f, type: 3}
+      propertyPath: _result.up.y
+      value: 0.9916465
+      objectReference: {fileID: 0}
+    - target: {fileID: 25498790103510657, guid: 1ad9eff704963994cb3cd080cd84dd8f, type: 3}
+      propertyPath: _result.up.z
+      value: -0.080576204
+      objectReference: {fileID: 0}
+    - target: {fileID: 25498790103510657, guid: 1ad9eff704963994cb3cd080cd84dd8f, type: 3}
       propertyPath: _followDuration
       value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 25498790103510657, guid: 1ad9eff704963994cb3cd080cd84dd8f, type: 3}
+      propertyPath: _result.color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 25498790103510657, guid: 1ad9eff704963994cb3cd080cd84dd8f, type: 3}
+      propertyPath: _result.color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 25498790103510657, guid: 1ad9eff704963994cb3cd080cd84dd8f, type: 3}
+      propertyPath: _result.color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 25498790103510657, guid: 1ad9eff704963994cb3cd080cd84dd8f, type: 3}
+      propertyPath: _result.color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 25498790103510657, guid: 1ad9eff704963994cb3cd080cd84dd8f, type: 3}
+      propertyPath: _result.forward.x
+      value: -0.06846472
+      objectReference: {fileID: 0}
+    - target: {fileID: 25498790103510657, guid: 1ad9eff704963994cb3cd080cd84dd8f, type: 3}
+      propertyPath: _result.forward.y
+      value: 0.2890943
+      objectReference: {fileID: 0}
+    - target: {fileID: 25498790103510657, guid: 1ad9eff704963994cb3cd080cd84dd8f, type: 3}
+      propertyPath: _result.forward.z
+      value: 0.95484924
+      objectReference: {fileID: 0}
+    - target: {fileID: 25498790103510657, guid: 1ad9eff704963994cb3cd080cd84dd8f, type: 3}
+      propertyPath: _clipToSample.up.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 25498790103510657, guid: 1ad9eff704963994cb3cd080cd84dd8f, type: 3}
+      propertyPath: _clipToSample.up.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 25498790103510657, guid: 1ad9eff704963994cb3cd080cd84dd8f, type: 3}
+      propertyPath: _clipToSample.up.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 25498790103510657, guid: 1ad9eff704963994cb3cd080cd84dd8f, type: 3}
+      propertyPath: _result.position.x
+      value: 263.5212
+      objectReference: {fileID: 0}
+    - target: {fileID: 25498790103510657, guid: 1ad9eff704963994cb3cd080cd84dd8f, type: 3}
+      propertyPath: _result.position.y
+      value: 118.76835
+      objectReference: {fileID: 0}
+    - target: {fileID: 25498790103510657, guid: 1ad9eff704963994cb3cd080cd84dd8f, type: 3}
+      propertyPath: _result.position.z
+      value: 178.38756
+      objectReference: {fileID: 0}
+    - target: {fileID: 25498790103510657, guid: 1ad9eff704963994cb3cd080cd84dd8f, type: 3}
+      propertyPath: _finalResult.forward.x
+      value: -0.06846472
+      objectReference: {fileID: 0}
+    - target: {fileID: 25498790103510657, guid: 1ad9eff704963994cb3cd080cd84dd8f, type: 3}
+      propertyPath: _finalResult.forward.y
+      value: 0.2890943
+      objectReference: {fileID: 0}
+    - target: {fileID: 25498790103510657, guid: 1ad9eff704963994cb3cd080cd84dd8f, type: 3}
+      propertyPath: _finalResult.forward.z
+      value: 0.95484924
+      objectReference: {fileID: 0}
+    - target: {fileID: 25498790103510657, guid: 1ad9eff704963994cb3cd080cd84dd8f, type: 3}
+      propertyPath: _clipToSample.forward.x
+      value: -0.63414025
+      objectReference: {fileID: 0}
+    - target: {fileID: 25498790103510657, guid: 1ad9eff704963994cb3cd080cd84dd8f, type: 3}
+      propertyPath: _clipToSample.forward.y
+      value: 0.21182513
+      objectReference: {fileID: 0}
+    - target: {fileID: 25498790103510657, guid: 1ad9eff704963994cb3cd080cd84dd8f, type: 3}
+      propertyPath: _clipToSample.forward.z
+      value: -0.74363714
+      objectReference: {fileID: 0}
+    - target: {fileID: 25498790103510657, guid: 1ad9eff704963994cb3cd080cd84dd8f, type: 3}
+      propertyPath: _finalResult.position.y
+      value: 118.76835
+      objectReference: {fileID: 0}
+    - target: {fileID: 25498790103510657, guid: 1ad9eff704963994cb3cd080cd84dd8f, type: 3}
+      propertyPath: _finalResult.position.z
+      value: 178.38756
+      objectReference: {fileID: 0}
+    - target: {fileID: 25498790103510657, guid: 1ad9eff704963994cb3cd080cd84dd8f, type: 3}
+      propertyPath: _clipToSample.position.x
+      value: 341.59158
+      objectReference: {fileID: 0}
+    - target: {fileID: 25498790103510657, guid: 1ad9eff704963994cb3cd080cd84dd8f, type: 3}
+      propertyPath: _clipToSample.position.y
+      value: 278.1936
+      objectReference: {fileID: 0}
+    - target: {fileID: 25498790103510657, guid: 1ad9eff704963994cb3cd080cd84dd8f, type: 3}
+      propertyPath: _clipToSample.position.z
+      value: 333.93558
+      objectReference: {fileID: 0}
+    - target: {fileID: 25498790103510657, guid: 1ad9eff704963994cb3cd080cd84dd8f, type: 3}
+      propertyPath: _clipFromSample.forward.x
+      value: -0.06846472
+      objectReference: {fileID: 0}
+    - target: {fileID: 25498790103510657, guid: 1ad9eff704963994cb3cd080cd84dd8f, type: 3}
+      propertyPath: _clipFromSample.forward.y
+      value: 0.2890943
+      objectReference: {fileID: 0}
+    - target: {fileID: 25498790103510657, guid: 1ad9eff704963994cb3cd080cd84dd8f, type: 3}
+      propertyPath: _clipFromSample.forward.z
+      value: 0.95484924
+      objectReference: {fileID: 0}
+    - target: {fileID: 25498790103510657, guid: 1ad9eff704963994cb3cd080cd84dd8f, type: 3}
+      propertyPath: _clipFromSample.position.y
+      value: 118.76835
+      objectReference: {fileID: 0}
+    - target: {fileID: 25498790103510657, guid: 1ad9eff704963994cb3cd080cd84dd8f, type: 3}
+      propertyPath: _clipFromSample.position.z
+      value: 178.38756
       objectReference: {fileID: 0}
     - target: {fileID: 1933320181406879445, guid: 1ad9eff704963994cb3cd080cd84dd8f, type: 3}
       propertyPath: m_Name
       value: PlayerRig
+      objectReference: {fileID: 0}
+    - target: {fileID: 5983539780892744791, guid: 1ad9eff704963994cb3cd080cd84dd8f, type: 3}
+      propertyPath: CollisionModule.collidesWith.m_Bits
+      value: 375
       objectReference: {fileID: 0}
     - target: {fileID: 6181016201969945531, guid: 1ad9eff704963994cb3cd080cd84dd8f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8352,6 +8974,18 @@ PrefabInstance:
       propertyPath: bomb
       value: 
       objectReference: {fileID: 1007075048}
+    - target: {fileID: 6557388697373597694, guid: 1ad9eff704963994cb3cd080cd84dd8f, type: 3}
+      propertyPath: maxRelativeXPosition
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6557388697373597694, guid: 1ad9eff704963994cb3cd080cd84dd8f, type: 3}
+      propertyPath: minRelativeXPosition
+      value: -15
+      objectReference: {fileID: 0}
+    - target: {fileID: 6557388697373597694, guid: 1ad9eff704963994cb3cd080cd84dd8f, type: 3}
+      propertyPath: minRelativeYPosition
+      value: -10
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8608,7 +9242,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1363359535}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wave 8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8639,6 +9273,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1860414746}
     m_Modifications:
+    - target: {fileID: 1080467389377347094, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1386919925019262347, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 369.7289
@@ -8682,6 +9320,30 @@ PrefabInstance:
     - target: {fileID: 2255815485954531906, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
       propertyPath: m_Name
       value: FighterWave
+      objectReference: {fileID: 0}
+    - target: {fileID: 2255815485954531906, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3347015881495727376, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4300393509752201416, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4976618052890904562, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7532312617361442395, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8415893216374624326, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8780,9 +9442,29 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1853592149}
     m_Modifications:
+    - target: {fileID: 142985049972602628, guid: 2246effd64f0c824390d167d9bc7033a, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2363887552241995872, guid: 2246effd64f0c824390d167d9bc7033a, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 2830032857576967509, guid: 2246effd64f0c824390d167d9bc7033a, type: 3}
       propertyPath: m_Name
       value: TorpedoWave (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 2830032857576967509, guid: 2246effd64f0c824390d167d9bc7033a, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3690123060501699162, guid: 2246effd64f0c824390d167d9bc7033a, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4431740705834867324, guid: 2246effd64f0c824390d167d9bc7033a, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5654025279878517531, guid: 2246effd64f0c824390d167d9bc7033a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -8823,6 +9505,14 @@ PrefabInstance:
     - target: {fileID: 5654025279878517531, guid: 2246effd64f0c824390d167d9bc7033a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 1.291
+      objectReference: {fileID: 0}
+    - target: {fileID: 8570635293847799475, guid: 2246effd64f0c824390d167d9bc7033a, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8571645470485341984, guid: 2246effd64f0c824390d167d9bc7033a, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -9949,12 +10639,12 @@ MonoBehaviour:
       tangent: {x: 113.736305, y: 65.05156, z: 794.4963}
       tangent2: {x: 113.736305, y: 65.05156, z: 794.4963}
     - _type: 0
-      position: {x: 383.13388, y: 112.03923, z: 793.99396}
+      position: {x: 383.13388, y: 112.03923, z: 818.0134}
       color: {r: 1, g: 1, b: 1, a: 1}
       normal: {x: -0.16011623, y: 0.9852704, z: 0.06004358}
       size: 1
-      tangent: {x: 383.13388, y: 112.03923, z: 793.99396}
-      tangent2: {x: 383.13388, y: 112.03923, z: 793.99396}
+      tangent: {x: 383.13388, y: 112.03923, z: 818.0134}
+      tangent2: {x: 383.13388, y: 112.03923, z: 818.0134}
     - _type: 0
       position: {x: 449.96945, y: 134.26869, z: 905.9184}
       color: {r: 1, g: 1, b: 1, a: 1}
@@ -9977,19 +10667,40 @@ MonoBehaviour:
       tangent: {x: 744.9883, y: 21.115387, z: 827.5874}
       tangent2: {x: 744.9883, y: 21.115387, z: 827.5874}
     - _type: 0
-      position: {x: 773.59503, y: 157.46237, z: 523.3529}
+      position: {x: 849.58356, y: 157.4673, z: 380.70435}
       color: {r: 1, g: 1, b: 1, a: 1}
       normal: {x: -0.31555662, y: 0.8175866, z: -0.48163903}
       size: 1
-      tangent: {x: 773.59503, y: 157.46237, z: 523.3529}
-      tangent2: {x: 773.59503, y: 157.46237, z: 523.3529}
+      tangent: {x: 849.58356, y: 157.4673, z: 380.70435}
+      tangent2: {x: 849.58356, y: 157.4673, z: 380.70435}
     - _type: 0
-      position: {x: 534.2583, y: 243.99725, z: 527.39075}
+      position: {x: 943.71716, y: 186.96979, z: 746.39026}
       color: {r: 1, g: 1, b: 1, a: 1}
       normal: {x: 0.39723885, y: 0.85022515, z: -0.3454251}
       size: 1
-      tangent: {x: 534.2583, y: 243.99725, z: 527.39075}
-      tangent2: {x: 534.2583, y: 243.99725, z: 527.39075}
+      tangent: {x: 943.71716, y: 186.96979, z: 746.39026}
+      tangent2: {x: 943.71716, y: 186.96979, z: 746.39026}
+    - _type: 0
+      position: {x: 912.9624, y: 144.87292, z: 859.949}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      normal: {x: 0, y: 0.9991758, z: 0.040593997}
+      size: 1
+      tangent: {x: 912.9624, y: 144.87292, z: 859.949}
+      tangent2: {x: 912.9624, y: 144.87292, z: 859.949}
+    - _type: 0
+      position: {x: 638.4815, y: 178.99562, z: 682.15564}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      normal: {x: -0.17488517, y: 0.9565784, z: 0.23318021}
+      size: 1
+      tangent: {x: 638.4815, y: 178.99562, z: 682.15564}
+      tangent2: {x: 638.4815, y: 178.99562, z: 682.15564}
+    - _type: 0
+      position: {x: 341.59158, y: 278.1936, z: 333.93558}
+      color: {r: 1, g: 1, b: 1, a: 1}
+      normal: {x: 0, y: 1, z: 0}
+      size: 1
+      tangent: {x: 341.59158, y: 278.1936, z: 333.93558}
+      tangent2: {x: 341.59158, y: 278.1936, z: 333.93558}
     type: 1
     linearAverageDirection: 1
     customValueInterpolation:
@@ -10009,252 +10720,309 @@ MonoBehaviour:
     _knotParametrization: 0
   _originalSamplePercents:
   - 0
-  - 0.00614474829000978
-  - 0.012279078191844069
-  - 0.018389231916175714
-  - 0.024465319936310643
-  - 0.0304876729241147
-  - 0.03644642282733341
-  - 0.04231295471866029
-  - 0.04807716380729312
-  - 0.05371255915781925
-  - 0.05920287999916195
-  - 0.06454335472308384
-  - 0.06970738979656053
-  - 0.0746888802858741
-  - 0.07949201225645806
-  - 0.08413735956331388
-  - 0.08865404327448341
-  - 0.09306585574540838
-  - 0.09738913655568995
-  - 0.1016425978814253
-  - 0.10584317453303671
-  - 0.11000589459185646
-  - 0.11414453646496221
-  - 0.1182720784197473
-  - 0.1224011315669409
-  - 0.12654430071182646
-  - 0.13071453478286685
-  - 0.13492544452961983
-  - 0.1391916642852417
-  - 0.14352911457382078
-  - 0.14795524525719697
-  - 0.15248911148245484
-  - 0.15715027071703552
-  - 0.16195280457698757
-  - 0.16692979113414835
-  - 0.17208753662036275
-  - 0.17742178313950424
-  - 0.1829289921370257
-  - 0.1885810530826841
-  - 0.19431301288740924
-  - 0.2000355017170662
-  - 0.20564906168256772
-  - 0.21105901736171165
-  - 0.21618515015251538
-  - 0.22100748613214555
-  - 0.22552837165691106
-  - 0.22976133313452704
-  - 0.23373143444554487
-  - 0.2374887585566402
-  - 0.2410826129435798
-  - 0.24455118205639317
-  - 0.24792423500668037
-  - 0.2512247560096056
-  - 0.2544595599719573
-  - 0.2576438498562688
-  - 0.2607944463055968
-  - 0.2639234968304829
-  - 0.2670390065915073
-  - 0.27014888395641623
-  - 0.2732626745154879
-  - 0.2763868172659722
-  - 0.2795252665860786
-  - 0.2826884770537961
-  - 0.28588219281560234
-  - 0.28910777070296095
-  - 0.29236487683587187
-  - 0.2956519035184522
-  - 0.298971431842743
-  - 0.30231366089241607
-  - 0.3056638156644283
-  - 0.3090055406652458
-  - 0.3123255846007716
-  - 0.31561423645207803
-  - 0.31885556019728023
-  - 0.32204658794380525
-  - 0.3251892684211989
-  - 0.32828837734242905
-  - 0.33133758858044116
-  - 0.3343350047432482
-  - 0.3372892334625622
-  - 0.3402088027271946
-  - 0.34308341293712435
-  - 0.3459189066116923
-  - 0.3487244667451264
-  - 0.35149751820109704
-  - 0.3542360576187368
-  - 0.3569491593890835
-  - 0.35963562139757216
-  - 0.3622914705339093
-  - 0.36492533410918765
-  - 0.36753339050918643
-  - 0.37011300280371684
-  - 0.372673366637816
-  - 0.37520334910096864
-  - 0.3777064285124655
-  - 0.3801880148703761
-  - 0.382634174196229
-  - 0.38505699687078704
-  - 0.3874468804307354
-  - 0.3898061134738034
-  - 0.392141970883058
-  - 0.3944441123060411
-  - 0.3967299511018698
-  - 0.3989830036658306
-  - 0.40121962825395285
-  - 0.40343290535592796
-  - 0.4056295080088009
-  - 0.4078101309565749
-  - 0.40997586475980013
-  - 0.41213107252876197
-  - 0.41427461120492903
-  - 0.4164117504649979
-  - 0.41854140326653055
-  - 0.4206678981715086
-  - 0.4227918048060149
-  - 0.42491519723096455
-  - 0.42704151679414865
-  - 0.42916963556550536
-  - 0.4313066786658291
-  - 0.4334491237250205
-  - 0.435605123477206
-  - 0.43777194237139017
-  - 0.43995589356441167
-  - 0.44215812950850025
-  - 0.44437984038193584
-  - 0.44662966977218016
-  - 0.44890002540782664
-  - 0.4512107220398522
-  - 0.4535442638709536
-  - 0.4559291128784591
-  - 0.4583548741729225
-  - 0.46082568287231607
-  - 0.4633607827493725
-  - 0.4659405989329194
-  - 0.4685844976508822
-  - 0.4712911517009414
-  - 0.47404644174403526
-  - 0.47686578242559363
-  - 0.479750666667269
-  - 0.48269095698815706
-  - 0.48568361647413977
-  - 0.48874594859999254
-  - 0.49187048472489087
-  - 0.4950524068978313
-  - 0.4982883386886435
-  - 0.5015853307806207
-  - 0.5049472676982342
-  - 0.5083711116704063
-  - 0.5118553797734394
-  - 0.5153993843438692
-  - 0.5190031078645987
-  - 0.5226670906712068
-  - 0.5263923319610023
-  - 0.5301834030944049
-  - 0.534041652595892
-  - 0.5379668966738411
-  - 0.5419559554244585
-  - 0.5459954073556387
-  - 0.5500707239894292
-  - 0.55417091353123
-  - 0.5582889081145856
-  - 0.5624215821702677
-  - 0.5665695199915424
-  - 0.5707366455326659
-  - 0.5749301540899198
-  - 0.5791615226328525
-  - 0.5834448124668475
-  - 0.5877976247844721
-  - 0.5922413761640203
-  - 0.5968017035223789
-  - 0.6015085493811777
-  - 0.6063956501598233
-  - 0.61150576289461
-  - 0.6169257855474992
-  - 0.6226738438876736
-  - 0.628746885467613
-  - 0.6351047234939391
-  - 0.6417101876470004
-  - 0.6484988629882659
-  - 0.6554139886681487
-  - 0.6623912111343679
-  - 0.6693561699863536
-  - 0.6762318180763082
-  - 0.6829142920911383
-  - 0.6893218970714405
-  - 0.6953922445438803
-  - 0.7011485985250349
-  - 0.7066569317102588
-  - 0.7119893752031403
-  - 0.7171886479350341
-  - 0.7222931738398184
-  - 0.7273420708232808
-  - 0.7323679293989441
-  - 0.7374021191846079
-  - 0.7424790610348023
-  - 0.7476313000616212
-  - 0.7528904994062624
-  - 0.758320204368501
-  - 0.7639702521940388
-  - 0.7699116076356549
-  - 0.7762294479373784
-  - 0.7829383418405795
-  - 0.7900082115430753
-  - 0.7973751850058659
-  - 0.8049040019217011
-  - 0.8123890303876494
-  - 0.8196165944950404
-  - 0.8264402155533884
-  - 0.8327618895375922
-  - 0.8385939912455337
-  - 0.8439413155640113
-  - 0.8488792511286462
-  - 0.8534986020420726
-  - 0.8578831785087203
-  - 0.8620906870848788
-  - 0.8661637617443113
-  - 0.8701360331371538
-  - 0.8740353692471797
-  - 0.8778857145102202
-  - 0.88170821925836
-  - 0.8855220753814722
-  - 0.8893452284226301
-  - 0.8931948983190751
-  - 0.897088204380388
-  - 0.9010425588871487
-  - 0.905075942130813
-  - 0.9092067372786611
-  - 0.9134527368362807
-  - 0.9178291016245556
-  - 0.9223443005248047
-  - 0.9269903956635174
-  - 0.9317297995740212
-  - 0.9365007265162754
-  - 0.9412495421141543
-  - 0.9459382143037961
-  - 0.9505439832810667
-  - 0.9550561679691906
-  - 0.959472419861003
-  - 0.9637911780006339
-  - 0.9680200969060281
-  - 0.9721693678066065
-  - 0.9762497348881056
-  - 0.9802719081973259
-  - 0.9842463427295878
-  - 0.988183100238847
-  - 0.9920918540747914
-  - 0.9959818963078899
+  - 0.005261994102217211
+  - 0.010513422874040187
+  - 0.01574302047929131
+  - 0.02093727322893857
+  - 0.026084325781436723
+  - 0.031162590608291227
+  - 0.03616194474813602
+  - 0.04105275185049941
+  - 0.04582887133167778
+  - 0.050462708027956625
+  - 0.0549481040405915
+  - 0.05928416613941108
+  - 0.06344857368660863
+  - 0.0674584250725111
+  - 0.07134457140176406
+  - 0.07513260678658092
+  - 0.07884280402971071
+  - 0.08248878741492269
+  - 0.08608594998052
+  - 0.08964907528742248
+  - 0.09319151652430206
+  - 0.09672571183552586
+  - 0.10026364887307236
+  - 0.10381717021306021
+  - 0.10739829430054387
+  - 0.11101942612855462
+  - 0.1146934733254065
+  - 0.11843422994897965
+  - 0.12226789274895626
+  - 0.1262144576166442
+  - 0.13029060371405685
+  - 0.1345048921617171
+  - 0.13887942634665207
+  - 0.14342069336360247
+  - 0.1481127979516437
+  - 0.15294376935493023
+  - 0.15785074647121225
+  - 0.1627498836429255
+  - 0.1675509434495529
+  - 0.1721492254996138
+  - 0.17649506983732124
+  - 0.18057750209423934
+  - 0.18439052794141106
+  - 0.1879410763182754
+  - 0.19126946611490356
+  - 0.1944293380122015
+  - 0.19746202093541587
+  - 0.20038951456577486
+  - 0.20323343880929404
+  - 0.20601491626473353
+  - 0.20875098885145824
+  - 0.21145518546023356
+  - 0.2141379872320752
+  - 0.21680663835910544
+  - 0.21946989497477454
+  - 0.222136472068577
+  - 0.22481296420415672
+  - 0.22750429680541018
+  - 0.23021468188774344
+  - 0.23295376284387037
+  - 0.23572365558821007
+  - 0.23852434649754362
+  - 0.24135327817364138
+  - 0.24420504856310668
+  - 0.24707129246634854
+  - 0.24994054013929407
+  - 0.25279394234992164
+  - 0.25561691597364483
+  - 0.2584014629421147
+  - 0.26114414080495685
+  - 0.2638449640542673
+  - 0.26650631909540073
+  - 0.26911952127971306
+  - 0.27168730838358074
+  - 0.2742154562413258
+  - 0.2767100151988861
+  - 0.2791696029420087
+  - 0.2815922753184832
+  - 0.2839848094663787
+  - 0.2863532833076442
+  - 0.2886917510279036
+  - 0.2910026023306408
+  - 0.29329179122990817
+  - 0.29555830491028
+  - 0.2977982537959781
+  - 0.30001737867482386
+  - 0.3022159232966527
+  - 0.3043871073824709
+  - 0.3065370470972433
+  - 0.30866426459020235
+  - 0.3107616925182212
+  - 0.3128378252683449
+  - 0.3148845723764281
+  - 0.31690284571390215
+  - 0.31890198291572786
+  - 0.32086979719304026
+  - 0.3228189563216625
+  - 0.3247456796061703
+  - 0.3266519836668428
+  - 0.32854428614189174
+  - 0.3304171517282035
+  - 0.33228102129255993
+  - 0.33412912491125857
+  - 0.3359693876027159
+  - 0.3378008327587174
+  - 0.33962634958024607
+  - 0.34144786680147843
+  - 0.34326695812215285
+  - 0.34508536611817786
+  - 0.34690605385323686
+  - 0.34872855027010585
+  - 0.35055867437085736
+  - 0.35239497902314926
+  - 0.35424189414040763
+  - 0.3561015939682456
+  - 0.35797346635407984
+  - 0.3598665777115231
+  - 0.3617723719836712
+  - 0.36370918397372376
+  - 0.36566840101306336
+  - 0.36765737170020696
+  - 0.36968499025504037
+  - 0.37173899258053894
+  - 0.3738476443123707
+  - 0.37600342657985364
+  - 0.3781990483266291
+  - 0.3804578179334208
+  - 0.3827685376020801
+  - 0.3851234759261182
+  - 0.38753457048095913
+  - 0.3900029179936833
+  - 0.39252189766448514
+  - 0.39508731124083846
+  - 0.3977035246855926
+  - 0.4003750236854722
+  - 0.4030975158354193
+  - 0.4058682927858751
+  - 0.40868540475151705
+  - 0.4115475147352073
+  - 0.41445414795336255
+  - 0.41741044238359754
+  - 0.4204152450759929
+  - 0.4234681682100982
+  - 0.42656932983230217
+  - 0.42971926323104676
+  - 0.4329187948832875
+  - 0.43616892190659645
+  - 0.4394694276809184
+  - 0.4428138511596294
+  - 0.4461926833031365
+  - 0.44959853921818954
+  - 0.4530266875964477
+  - 0.4564751590520418
+  - 0.4599446922481012
+  - 0.46343853273651586
+  - 0.4669623039577468
+  - 0.4705254789031171
+  - 0.47414177047361117
+  - 0.47782653999381064
+  - 0.4815985215155814
+  - 0.4854800098478802
+  - 0.4894967159596512
+  - 0.49368761200512434
+  - 0.4981236126054266
+  - 0.5028514215074614
+  - 0.5079312613468467
+  - 0.5133451068308275
+  - 0.519091284268333
+  - 0.5251220440947922
+  - 0.5313635280445633
+  - 0.5377171285931137
+  - 0.5440609458070319
+  - 0.5502618027912107
+  - 0.55620138039504
+  - 0.5617769397224779
+  - 0.5669643326260665
+  - 0.5718540204716496
+  - 0.5765239780784861
+  - 0.5810380000317769
+  - 0.5854501444075276
+  - 0.589791898835918
+  - 0.5941005169067914
+  - 0.5984070600989804
+  - 0.6027450820685475
+  - 0.6071481037552252
+  - 0.6116457949239463
+  - 0.6162962316375058
+  - 0.6211436698029453
+  - 0.6262718297854947
+  - 0.6317189135156045
+  - 0.6374726090494596
+  - 0.6434283768116694
+  - 0.6494165710595238
+  - 0.6552418012718784
+  - 0.6607397250004333
+  - 0.6658059461995547
+  - 0.6704499738974903
+  - 0.6746965209058584
+  - 0.6785725253207459
+  - 0.682135847798972
+  - 0.6854330277495194
+  - 0.688505928194487
+  - 0.6914025044702834
+  - 0.6941723989630154
+  - 0.6968327883872252
+  - 0.6994139737569638
+  - 0.7019429476878191
+  - 0.704438610669135
+  - 0.7069115921098869
+  - 0.7093752566454021
+  - 0.7118448618882034
+  - 0.714330434601102
+  - 0.7168438587249399
+  - 0.7194105430888912
+  - 0.7220467374753466
+  - 0.7247711034732635
+  - 0.7276085117972952
+  - 0.7305965589333141
+  - 0.7337964572816534
+  - 0.7373115029678374
+  - 0.7413149553081616
+  - 0.746070879930365
+  - 0.7520718641591245
+  - 0.7587046692649857
+  - 0.7644049412005948
+  - 0.7691818022711948
+  - 0.7733631662756342
+  - 0.7771450067080984
+  - 0.780665057297894
+  - 0.7840063172279333
+  - 0.787224626718226
+  - 0.790361044315
+  - 0.7934480039501517
+  - 0.7965130913831365
+  - 0.799581671542025
+  - 0.8026795681306644
+  - 0.8058387719035097
+  - 0.8090968063396327
+  - 0.812499242799995
+  - 0.8161189921061694
+  - 0.8200135096728824
+  - 0.8242423469872515
+  - 0.8288677579594936
+  - 0.8340823973176829
+  - 0.8400668910086156
+  - 0.8470823456625193
+  - 0.8551037124380344
+  - 0.8631070679779236
+  - 0.8699921276802439
+  - 0.8757375338371312
+  - 0.8806424350968682
+  - 0.885003300287867
+  - 0.8889427027599641
+  - 0.8925766133044465
+  - 0.8959755500565437
+  - 0.8991868530405119
+  - 0.9022450896480325
+  - 0.9051772151616811
+  - 0.9080052057888577
+  - 0.9107308178082045
+  - 0.9133658279938489
+  - 0.9159261950701784
+  - 0.9184260873407107
+  - 0.9208734007133276
+  - 0.9232596286583572
+  - 0.9255984078026048
+  - 0.9279013440246968
+  - 0.9301620645689253
+  - 0.9323845032156528
+  - 0.9345800799660915
+  - 0.9367444347409236
+  - 0.9388790992450329
+  - 0.9409941789472949
+  - 0.9430817512090899
+  - 0.9451465541218523
+  - 0.9471953809186239
+  - 0.9492192234531773
+  - 0.9512272735390819
+  - 0.9532181730623176
+  - 0.955190707046111
+  - 0.9571525799041121
+  - 0.9590955050895507
+  - 0.9610273634664823
+  - 0.9629461539303849
+  - 0.9648522598092666
+  - 0.9667498293202905
+  - 0.9686343901356925
+  - 0.9705125155444737
+  - 0.9723792385493044
+  - 0.9742389668492607
+  - 0.976091001362058
+  - 0.9779356452101248
+  - 0.9797751566986361
+  - 0.9816075933253311
+  - 0.9834366461901123
+  - 0.9852594477035023
+  - 0.987079417683875
+  - 0.9888950540651907
+  - 0.9907080965518547
+  - 0.9925185794929429
+  - 0.9943270480579925
+  - 0.9961342319648159
+  - 0.9979403489702885
   - 1
   _is2D: 0
   hasSamples: 1
@@ -10270,1485 +11038,1827 @@ MonoBehaviour:
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
     percent: 0
-  - position: {x: 262.6505, y: 122.47456, z: 190.64291}
-    up: {x: -0.09080106, y: 0.98779655, z: -0.12654297}
-    forward: {x: -0.0651897, y: 0.28754187, z: 0.9555469}
+  - position: {x: 262.60516, y: 122.67389, z: 191.30495}
+    up: {x: -0.0902599, y: 0.9875261, z: -0.12901612}
+    forward: {x: -0.064829916, y: 0.28737, z: 0.95562315}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.004048582995951417
-  - position: {x: 261.8636, y: 126.14119, z: 202.91667}
-    up: {x: -0.08069705, y: 0.9817596, z: -0.1721509}
-    forward: {x: -0.055423208, y: 0.28288794, z: 0.9575503}
+    percent: 0.003289473684210526
+  - position: {x: 261.7872, y: 126.53262, z: 204.24223}
+    up: {x: -0.07959801, y: 0.9809793, z: -0.17704077}
+    forward: {x: -0.053987645, y: 0.2822014, z: 0.95783484}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.008097165991902834
-  - position: {x: 261.24307, y: 129.7273, z: 215.21982}
-    up: {x: -0.07045484, y: 0.97358114, z: -0.2171995}
-    forward: {x: -0.03933166, y: 0.27515468, z: 0.9605951}
+    percent: 0.006578947368421052
+  - position: {x: 261.16364, y: 130.29805, z: 217.21667}
+    up: {x: -0.06878557, y: 0.9720589, z: -0.22443263}
+    forward: {x: -0.036147732, y: 0.2736148, z: 0.9611598}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.012145748987854251
-  - position: {x: 260.86807, y: 133.19547, z: 227.56963}
-    up: {x: -0.060115907, y: 0.9633232, z: -0.26152304}
-    forward: {x: -0.017211843, y: 0.26438656, z: 0.96426314}
+    percent: 0.009868421052631578
+  - position: {x: 260.82675, y: 133.92372, z: 230.23793}
+    up: {x: -0.057879865, y: 0.9608484, z: -0.27096182}
+    forward: {x: -0.011695747, y: 0.26167727, z: 0.96508455}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.016194331983805668
-  - position: {x: 260.8132, y: 136.50473, z: 239.96109}
-    up: {x: -0.04973923, y: 0.95108676, z: -0.30489314}
-    forward: {x: 0.010449156, y: 0.2506979, z: 0.96800894}
+    percent: 0.013157894736842105
+  - position: {x: 260.8622, y: 137.367, z: 243.31671}
+    up: {x: -0.0469356, y: 0.9474558, z: -0.3164245}
+    forward: {x: 0.01879359, y: 0.24652067, z: 0.9689553}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.020242914979757085
-  - position: {x: 261.14584, y: 139.62251, z: 252.4059}
-    up: {x: -0.03936738, y: 0.93697774, z: -0.34716386}
-    forward: {x: 0.043026716, y: 0.23426004, z: 0.9712213}
+    percent: 0.01644736842105263
+  - position: {x: 261.34598, y: 140.58267, z: 256.4344}
+    up: {x: -0.036028653, y: 0.93204516, z: -0.3605463}
+    forward: {x: 0.05446296, y: 0.2284079, z: 0.972041}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.024291497975708502
-  - position: {x: 261.92267, y: 142.51021, z: 264.8721}
-    up: {x: -0.029075425, y: 0.92117083, z: -0.38807088}
-    forward: {x: 0.07961546, y: 0.2153871, z: 0.9732778}
+    percent: 0.019736842105263157
+  - position: {x: 262.34247, y: 143.53787, z: 269.59592}
+    up: {x: -0.025210008, y: 0.91477704, z: -0.40317193}
+    forward: {x: 0.09431227, y: 0.20768358, z: 0.9736389}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.02834008097165992
-  - position: {x: 263.19012, y: 145.14351, z: 277.36093}
-    up: {x: -0.018905394, y: 0.9038187, z: -0.42749786}
-    forward: {x: 0.11925008, y: 0.19444838, z: 0.9736371}
+    percent: 0.023026315789473683
+  - position: {x: 263.8968, y: 146.19443, z: 282.74765}
+    up: {x: -0.014571628, y: 0.8959075, z: -0.44400182}
+    forward: {x: 0.13700424, y: 0.18489946, z: 0.9731609}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.032388663967611336
-  - position: {x: 264.97815, y: 147.49586, z: 289.83203}
-    up: {x: -0.008926683, y: 0.88514245, z: -0.46523464}
-    forward: {x: 0.1607605, y: 0.17195886, z: 0.97189826}
+    percent: 0.02631578947368421
+  - position: {x: 266.04263, y: 148.53456, z: 295.88998}
+    up: {x: -0.0041524926, y: 0.8756329, z: -0.4829595}
+    forward: {x: 0.18130744, y: 0.16061024, z: 0.9702226}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.03643724696356275
-  - position: {x: 267.30322, y: 149.55171, z: 302.2597}
-    up: {x: 0.00081136497, y: 0.8653527, z: -0.50116277}
-    forward: {x: 0.20301284, y: 0.14846529, z: 0.96785533}
+    percent: 0.029605263157894735
+  - position: {x: 268.7866, y: 150.5371, z: 308.95605}
+    up: {x: 0.0059645316, y: 0.854257, z: -0.51981694}
+    forward: {x: 0.22580755, y: 0.13553247, z: 0.96469784}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.04048582995951417
-  - position: {x: 270.17343, y: 151.30518, z: 314.638}
-    up: {x: 0.010282399, y: 0.8446272, z: -0.5352563}
-    forward: {x: 0.24503154, y: 0.124480784, z: 0.9614905}
+    percent: 0.03289473684210526
+  - position: {x: 272.12646, y: 152.19876, z: 321.92914}
+    up: {x: 0.015746765, y: 0.83200485, z: -0.55454487}
+    forward: {x: 0.2694117, y: 0.11027163, z: 0.9566909}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.044534412955465584
-  - position: {x: 273.57104, y: 152.74893, z: 326.90363}
-    up: {x: 0.019424252, y: 0.8232352, z: -0.56736803}
-    forward: {x: 0.2857933, y: 0.10059919, z: 0.9529963}
+    percent: 0.03618421052631579
+  - position: {x: 276.0515, y: 153.52333, z: 334.80188}
+    up: {x: 0.025176601, y: 0.8090721, z: -0.58717}
+    forward: {x: 0.31127742, y: 0.08535135, z: 0.9464785}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.048582995951417005
-  - position: {x: 277.47464, y: 153.8883, z: 339.03378}
-    up: {x: 0.028214185, y: 0.8013725, z: -0.5974998}
-    forward: {x: 0.32460445, y: 0.07728447, z: 0.94268715}
+    percent: 0.039473684210526314
+  - position: {x: 280.5163, y: 154.51422, z: 347.4959}
+    up: {x: 0.035425004, y: 0.7955773, z: -0.60481566}
+    forward: {x: 0.3501846, y: 0.06178782, z: 0.9346406}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 1
+    percent: 0.04276315789473684
+  - position: {x: 285.47913, y: 155.20325, z: 360.02}
+    up: {x: 0.04926735, y: 0.8135724, z: -0.57937276}
+    forward: {x: 0.38461593, y: 0.041523006, z: 0.9221423}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 1
+    percent: 0.046052631578947366
+  - position: {x: 290.87946, y: 155.64528, z: 372.3828}
+    up: {x: 0.06262815, y: 0.8301099, z: -0.55407166}
+    forward: {x: 0.4147397, y: 0.025007907, z: 0.9095964}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 1
+    percent: 0.049342105263157895
+  - position: {x: 296.6689, y: 155.88599, z: 384.58844}
+    up: {x: 0.07558593, y: 0.8453575, z: -0.52882665}
+    forward: {x: 0.4416479, y: 0.011520942, z: 0.8971145}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
     percent: 0.05263157894736842
-  - position: {x: 281.86044, y: 154.73549, z: 351.02463}
-    up: {x: 0.03936074, y: 0.80078244, z: -0.5976608}
-    forward: {x: 0.3603265, y: 0.055706386, z: 0.9311614}
+  - position: {x: 302.81055, y: 155.96188, z: 396.63715}
+    up: {x: 0.08820149, y: 0.8594415, z: -0.5035683}
+    forward: {x: 0.4661729, y: 0.00049951824, z: 0.8846935}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.05668016194331984
-  - position: {x: 286.6837, y: 155.32487, z: 362.87576}
-    up: {x: 0.052377872, y: 0.8174958, z: -0.5735479}
-    forward: {x: 0.3918782, y: 0.037421357, z: 0.91925573}
+    percent: 0.05592105263157895
+  - position: {x: 309.27008, y: 155.90323, z: 408.51654}
+    up: {x: 0.10051325, y: 0.87244827, z: -0.4782585}
+    forward: {x: 0.48891655, y: -0.0084563475, z: 0.8722896}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.06072874493927125
-  - position: {x: 291.89166, y: 155.70218, z: 374.58624}
-    up: {x: 0.06498285, y: 0.83293897, z: -0.54953617}
-    forward: {x: 0.41978124, y: 0.02238141, z: 0.9073493}
+    percent: 0.05921052631578947
+  - position: {x: 316.0266, y: 155.73582, z: 420.2259}
+    up: {x: 0.11256551, y: 0.88445896, z: -0.45283702}
+    forward: {x: 0.51036817, y: -0.015643718, z: 0.85981375}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.06477732793522267
-  - position: {x: 297.44336, y: 155.90437, z: 386.15414}
-    up: {x: 0.07723414, y: 0.84724045, z: -0.525565}
-    forward: {x: 0.44493663, y: 0.009967987, z: 0.89550656}
+    percent: 0.0625
+  - position: {x: 323.0671, y: 155.48203, z: 431.7664}
+    up: {x: 0.12439992, y: 0.8955402, z: -0.42723823}
+    forward: {x: 0.5309254, y: -0.021275671, z: 0.84715146}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.06882591093117409
-  - position: {x: 303.30222, y: 155.96179, z: 397.56784}
-    up: {x: 0.08917004, y: 0.8604913, z: -0.501601}
-    forward: {x: 0.46799985, y: -0.00026769267, z: 0.88372844}
+    percent: 0.06578947368421052
+  - position: {x: 330.3829, y: 155.16168, z: 443.13635}
+    up: {x: 0.13605241, y: 0.90574205, z: -0.40139914}
+    forward: {x: 0.5509206, y: -0.025500404, z: 0.83416796}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.0728744939271255
-  - position: {x: 309.44525, y: 155.90009, z: 408.8288}
-    up: {x: 0.10083558, y: 0.87277883, z: -0.47758704}
-    forward: {x: 0.4894992, y: -0.008668231, z: 0.87196064}
+    percent: 0.06907894736842106
+  - position: {x: 337.9692, y: 154.7931, z: 454.3313}
+    up: {x: 0.14755476, y: 0.91510093, z: -0.3752572}
+    forward: {x: 0.5706423, y: -0.028409496, z: 0.8207072}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.07692307692307693
-  - position: {x: 315.8563, y: 155.74109, z: 419.93872}
-    up: {x: 0.11227064, y: 0.8841738, z: -0.45346674}
-    forward: {x: 0.50985056, y: -0.015485271, z: 0.8601236}
+    percent: 0.07236842105263158
+  - position: {x: 345.82452, y: 154.39368, z: 465.3438}
+    up: {x: 0.15893577, y: 0.9236419, z: -0.3487481}
+    forward: {x: 0.59035146, y: -0.030047797, z: 0.80658674}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.08097165991902834
-  - position: {x: 322.52353, y: 155.50383, z: 430.89728}
-    up: {x: 0.12350938, y: 0.89473134, z: -0.42918688}
-    forward: {x: 0.5293901, y: -0.020899737, z: 0.84812105}
+    percent: 0.0756578947368421
+  - position: {x: 353.95044, y: 153.9805, z: 476.16324}
+    up: {x: 0.1702221, y: 0.93137884, z: -0.32180437}
+    forward: {x: 0.6103017, y: -0.030417556, z: 0.79158485}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.08502024291497975
-  - position: {x: 329.43896, y: 155.2054, z: 441.70227}
-    up: {x: 0.13458183, y: 0.904494, z: -0.40469545}
-    forward: {x: 0.5484025, y: -0.025038067, z: 0.83583957}
+    percent: 0.07894736842105263
+  - position: {x: 362.35144, y: 153.571, z: 486.77493}
+    up: {x: 0.1814388, y: 0.93831533, z: -0.29435417}
+    forward: {x: 0.63074285, y: -0.02947622, z: 0.7754319}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.08906882591093117
-  - position: {x: 336.5978, y: 154.86153, z: 452.3497}
-    up: {x: 0.145515, y: 0.9134939, z: -0.3799401}
-    forward: {x: 0.5671365, y: -0.027984997, z: 0.82314825}
+    percent: 0.08223684210526316
+  - position: {x: 371.0345, y: 153.18353, z: 497.15912}
+    up: {x: 0.19260967, y: 0.94444454, z: -0.2663198}
+    forward: {x: 0.65193784, y: -0.027132267, z: 0.7577868}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.0931174089068826
-  - position: {x: 343.9983, y: 154.48717, z: 462.83362}
-    up: {x: 0.15633371, y: 0.92175364, z: -0.35486645}
-    forward: {x: 0.58581734, y: -0.029783309, z: 0.8098957}
+    percent: 0.08552631578947369
+  - position: {x: 380.00867, y: 152.8381, z: 507.2894}
+    up: {x: 0.20375705, y: 0.94974786, z: -0.23761785}
+    forward: {x: 0.6741614, y: -0.023240767, z: 0.7382183}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.09716599190283401
-  - position: {x: 351.64154, y: 154.0969, z: 473.14594}
-    up: {x: 0.16706152, y: 0.92928743, z: -0.3294168}
-    forward: {x: 0.6046618, y: -0.030443316, z: 0.7959003}
+    percent: 0.08881578947368421
+  - position: {x: 389.28503, y: 152.55716, z: 517.1312}
+    up: {x: 0.21490243, y: 0.9541949, z: -0.20815653}
+    forward: {x: 0.6977178, y: -0.017584063, z: 0.71615684}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.10121457489878542
-  - position: {x: 359.53143, y: 153.70543, z: 483.276}
-    up: {x: 0.17772113, y: 0.9361015, z: -0.30352837}
-    forward: {x: 0.6238875, y: -0.029937975, z: 0.7809405}
+    percent: 0.09210526315789473
+  - position: {x: 398.9048, y: 152.3661, z: 526.6669}
+    up: {x: 0.22609884, y: 0.95775044, z: -0.17774528}
+    forward: {x: 0.7230097, y: -0.009831688, z: 0.69076794}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 1
+    percent: 0.09539473684210527
+  - position: {x: 408.89206, y: 152.29637, z: 535.84045}
+    up: {x: 0.22291821, y: 0.96028256, z: -0.16782394}
+    forward: {x: 0.75063837, y: 0.00011040232, z: 0.66071326}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 1
+    percent: 0.09868421052631579
+  - position: {x: 419.27527, y: 152.37395, z: 544.5645}
+    up: {x: 0.18554002, y: 0.9605171, z: -0.20732094}
+    forward: {x: 0.78165674, y: 0.011336468, z: 0.6236057}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 1
+    percent: 0.10197368421052631
+  - position: {x: 430.08868, y: 152.60776, z: 552.7108}
+    up: {x: 0.14631952, y: 0.9577731, z: -0.24751051}
+    forward: {x: 0.81652325, y: 0.02317768, z: 0.5768471}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
     percent: 0.10526315789473684
-  - position: {x: 367.67484, y: 153.32811, z: 493.21014}
-    up: {x: 0.18833496, y: 0.9421932, z: -0.27713177}
-    forward: {x: 0.6437143, y: -0.028202984, z: 0.764746}
+  - position: {x: 441.40683, y: 153.00647, z: 560.1482}
+    up: {x: 0.105120115, y: 0.9517226, z: -0.288399}
+    forward: {x: 0.85490984, y: 0.03564788, z: 0.51755035}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.10931174089068826
-  - position: {x: 376.08148, y: 152.98134, z: 502.9306}
-    up: {x: 0.19892558, y: 0.9475516, z: -0.25014922}
-    forward: {x: 0.6643818, y: -0.025129825, z: 0.7469707}
+    percent: 0.10855263157894737
+  - position: {x: 453.26764, y: 153.57828, z: 566.6826}
+    up: {x: 0.06197357, y: 0.9420128, z: -0.32980502}
+    forward: {x: 0.89545685, y: 0.048650347, z: 0.44248185}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.11336032388663968
-  - position: {x: 384.76407, y: 152.68333, z: 512.4141}
-    up: {x: 0.20951577, y: 0.95215535, z: -0.22249353}
-    forward: {x: 0.68615, y: -0.020554721, z: 0.72716963}
+    percent: 0.1118421052631579
+  - position: {x: 465.65314, y: 154.32664, z: 572.06616}
+    up: {x: 0.01715682, y: 0.92834926, z: -0.37131312}
+    forward: {x: 0.9351587, y: 0.06182601, z: 0.3487916}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.11740890688259109
-  - position: {x: 393.73785, y: 152.45488, z: 521.63}
-    up: {x: 0.2201284, y: 0.9559717, z: -0.19406667}
-    forward: {x: 0.7093026, y: -0.014245201, z: 0.7047602}
+    percent: 0.11513157894736842
+  - position: {x: 478.55667, y: 155.25204, z: 576.04865}
+    up: {x: -0.029054709, y: 0.91048163, z: -0.41252798}
+    forward: {x: 0.9691982, y: 0.07453679, z: 0.23473181}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.1214574898785425
-  - position: {x: 403.0201, y: 152.3203, z: 530.5372}
-    up: {x: 0.23078582, y: 0.95895374, z: -0.16475981}
-    forward: {x: 0.73418003, y: -0.00591946, z: 0.6789291}
+    percent: 0.11842105263157894
+  - position: {x: 491.83414, y: 156.3396, z: 578.358}
+    up: {x: -0.0758687, y: 0.8884618, z: -0.45263624}
+    forward: {x: 0.99100333, y: 0.08571652, z: 0.102786265}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.12550607287449392
-  - position: {x: 412.6289, y: 152.307, z: 539.07837}
-    up: {x: 0.20950735, y: 0.96069485, z: -0.18213263}
-    forward: {x: 0.76149875, y: 0.004115913, z: 0.64815325}
+    percent: 0.12171052631578948
+  - position: {x: 505.27606, y: 157.56024, z: 578.8011}
+    up: {x: -0.1222837, y: 0.8626793, z: -0.4907456}
+    forward: {x: 0.99477404, y: 0.0942184, z: -0.039338574}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.12955465587044535
-  - position: {x: 422.59192, y: 152.42963, z: 547.1677}
-    up: {x: 0.17353499, y: 0.9599963, z: -0.21975645}
-    forward: {x: 0.79210067, y: 0.014956903, z: 0.6102072}
+    percent: 0.125
+  - position: {x: 518.6423, y: 158.87405, z: 577.3164}
+    up: {x: -0.16726404, y: 0.8338371, z: -0.5260594}
+    forward: {x: 0.9785963, y: 0.09931106, z: -0.18024014}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.13360323886639677
-  - position: {x: 432.99133, y: 152.69554, z: 554.7268}
-    up: {x: 0.13576096, y: 0.9565274, z: -0.25811726}
-    forward: {x: 0.8262338, y: 0.026371406, z: 0.56270975}
+    percent: 0.12828947368421054
+  - position: {x: 531.63556, y: 160.22961, z: 574.0104}
+    up: {x: -0.2097037, y: 0.8030046, z: -0.55786043}
+    forward: {x: 0.9458656, y: 0.10102859, z: -0.30843398}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.13765182186234817
-  - position: {x: 443.85666, y: 153.11218, z: 561.6055}
-    up: {x: 0.096199535, y: 0.9499952, z: -0.29707724}
-    forward: {x: 0.8633325, y: 0.038346466, z: 0.5031764}
+    percent: 0.13157894736842105
+  - position: {x: 544.0984, y: 161.58792, z: 569.1024}
+    up: {x: -0.24909084, y: 0.7710852, z: -0.5859879}
+    forward: {x: 0.90297514, y: 0.10008177, z: -0.41787496}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.1417004048582996
-  - position: {x: 455.19742, y: 153.68515, z: 567.6197}
-    up: {x: 0.054969504, y: 0.94011635, z: -0.3363922}
-    forward: {x: 0.9019113, y: 0.050741132, z: 0.42893037}
+    percent: 0.13486842105263158
+  - position: {x: 555.9765, y: 162.92358, z: 562.83844}
+    up: {x: -0.28533033, y: 0.7387372, z: -0.61061794}
+    forward: {x: 0.8560241, y: 0.0973761, z: -0.5076816}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.145748987854251
-  - position: {x: 467.0265, y: 154.4184, z: 572.56995}
-    up: {x: 0.01221132, y: 0.9266202, z: -0.37580067}
-    forward: {x: 0.93922466, y: 0.06324089, z: 0.33742788}
+    percent: 0.13815789473684212
+  - position: {x: 567.2273, y: 164.2162, z: 555.47955}
+    up: {x: -0.31841588, y: 0.70654285, z: -0.631988}
+    forward: {x: 0.80945027, y: 0.09369547, z: -0.5796649}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.14979757085020243
-  - position: {x: 479.30505, y: 155.30989, z: 576.22754}
-    up: {x: -0.03171531, y: 0.9093361, z: -0.4148519}
-    forward: {x: 0.970834, y: 0.075226784, z: 0.2276449}
+    percent: 0.14144736842105263
+  - position: {x: 577.8455, y: 165.45326, z: 547.2675}
+    up: {x: -0.34214756, y: 0.68009144, z: -0.64839095}
+    forward: {x: 0.7659463, y: 0.08962945, z: -0.63662606}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.15384615384615385
-  - position: {x: 491.912, y: 156.34634, z: 578.366}
-    up: {x: -0.07614057, y: 0.88832235, z: -0.45286432}
-    forward: {x: 0.9910817, y: 0.08577451, z: 0.1019795}
+    percent: 0.14473684210526316
+  - position: {x: 587.90375, y: 166.63493, z: 538.3679}
+    up: {x: -0.3221108, y: 0.688663, z: -0.64960605}
+    forward: {x: 0.7265958, y: 0.085577115, z: -0.6817148}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 1
+    percent: 0.14802631578947367
+  - position: {x: 597.46716, y: 167.764, z: 528.9109}
+    up: {x: -0.30294642, y: 0.69649696, z: -0.6504733}
+    forward: {x: 0.69077367, y: 0.08164488, z: -0.71844685}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 1
+    percent: 0.1513157894736842
+  - position: {x: 606.58, y: 168.84235, z: 518.9825}
+    up: {x: -0.28443092, y: 0.70373446, z: -0.65104294}
+    forward: {x: 0.6573321, y: 0.07777828, z: -0.74957657}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 1
+    percent: 0.15460526315789475
+  - position: {x: 615.2457, y: 169.8678, z: 508.67023}
+    up: {x: -0.26645088, y: 0.7104569, z: -0.65134865}
+    forward: {x: 0.62544215, y: 0.07392533, z: -0.77676064}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
     percent: 0.15789473684210525
-  - position: {x: 504.6654, y: 157.50246, z: 578.8228}
-    up: {x: -0.12019935, y: 0.8639228, z: -0.48907018}
-    forward: {x: 0.9950402, y: 0.09390271, z: -0.032821078}
+  - position: {x: 623.4769, y: 170.8398, z: 498.02493}
+    up: {x: -0.24888997, y: 0.7167367, z: -0.6514156}
+    forward: {x: 0.5944016, y: 0.070031926, z: -0.8011131}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.16194331983805668
-  - position: {x: 517.35, y: 158.74318, z: 577.5445}
-    up: {x: -0.1629711, y: 0.83675754, z: -0.5227594}
-    forward: {x: 0.9809954, y: 0.09897, z: -0.16689222}
+    percent: 0.1611842105263158
+  - position: {x: 631.29016, y: 171.75848, z: 487.06866}
+    up: {x: -0.23163088, y: 0.7226375, z: -0.651262}
+    forward: {x: 0.56359035, y: 0.06604076, z: -0.82341033}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.1659919028340081
-  - position: {x: 529.7479, y: 160.0285, z: 574.6053}
-    up: {x: -0.20362242, y: 0.80764484, z: -0.5533967}
-    forward: {x: 0.9515005, y: 0.100963704, z: -0.29060817}
+    percent: 0.16447368421052633
+  - position: {x: 638.69116, y: 172.62294, z: 475.81598}
+    up: {x: -0.21457833, y: 0.72820735, z: -0.6508995}
+    forward: {x: 0.5324802, y: 0.061897658, z: -0.8441763}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.1700404858299595
-  - position: {x: 541.6618, y: 161.31853, z: 570.196}
-    up: {x: -0.24149722, y: 0.77749527, z: -0.58067256}
-    forward: {x: 0.9120145, y: 0.10043825, z: -0.39767054}
+    percent: 0.16776315789473684
+  - position: {x: 645.67535, y: 173.43105, z: 464.2795}
+    up: {x: -0.19765657, y: 0.73348206, z: -0.6503353}
+    forward: {x: 0.5005834, y: 0.0575474, z: -0.86377335}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.17408906882591094
-  - position: {x: 553.02515, y: 162.58856, z: 564.53937}
-    up: {x: -0.27644882, y: 0.7469393, z: -0.60469675}
-    forward: {x: 0.8680246, y: 0.09818164, z: -0.4867173}
+    percent: 0.17105263157894737
+  - position: {x: 652.2276, y: 174.17949, z: 452.4735}
+    up: {x: -0.18080722, y: 0.738487, z: -0.6495735}
+    forward: {x: 0.46745133, y: 0.052936815, z: -0.8824324}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.17813765182186234
-  - position: {x: 563.82153, y: 163.8226, z: 557.8533}
-    up: {x: -0.30853128, y: 0.71643823, z: -0.62571967}
-    forward: {x: 0.82360405, y: 0.0948974, z: -0.5591698}
+    percent: 0.17434210526315788
+  - position: {x: 658.3225, y: 174.86368, z: 440.4191}
+    up: {x: -0.16399118, y: 0.74323887, z: -0.6486162}
+    forward: {x: 0.4326403, y: 0.048010565, z: -0.90028733}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.18218623481781376
-  - position: {x: 574.0614, y: 165.01091, z: 550.3348}
-    up: {x: -0.33790025, y: 0.68631846, z: -0.6440425}
-    forward: {x: 0.7812643, y: 0.09111722, z: -0.61751413}
+    percent: 0.17763157894736842
+  - position: {x: 663.9344, y: 175.47897, z: 428.12555}
+    up: {x: -0.14715908, y: 0.74775404, z: -0.6474628}
+    forward: {x: 0.39567038, y: 0.04270248, z: -0.9173993}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.1862348178137652
-  - position: {x: 583.7786, y: 166.1494, z: 542.148}
-    up: {x: -0.33033314, y: 0.6851932, z: -0.64914596}
-    forward: {x: 0.7424908, y: 0.087250866, z: -0.66414964}
+    percent: 0.18092105263157895
+  - position: {x: 669.0321, y: 176.01988, z: 415.59827}
+    up: {x: -0.13026108, y: 0.7520464, z: -0.6461101}
+    forward: {x: 0.35599524, y: 0.036940828, z: -0.9337573}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.1902834008097166
-  - position: {x: 593.02277, y: 167.23882, z: 533.4267}
-    up: {x: -0.31187686, y: 0.6928903, z: -0.65010464}
-    forward: {x: 0.70727646, y: 0.083484, z: -0.7019903}
+    percent: 0.18421052631578946
+  - position: {x: 673.574, y: 176.47957, z: 402.85022}
+    up: {x: -0.11326011, y: 0.7561235, z: -0.64455366}
+    forward: {x: 0.3130578, y: 0.030646523, z: -0.94923943}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.19433198380566802
-  - position: {x: 601.8378, y: 168.28104, z: 524.2629}
-    up: {x: -0.29410642, y: 0.6999927, z: -0.6507779}
-    forward: {x: 0.67469877, y: 0.079808846, z: -0.7337658}
+    percent: 0.1875
+  - position: {x: 677.50903, y: 176.85, z: 389.9019}
+    up: {x: -0.09612977, y: 0.75998825, z: -0.64278835}
+    forward: {x: 0.26625946, y: 0.023736542, z: -0.96360904}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.19838056680161945
-  - position: {x: 610.2578, y: 169.27768, z: 514.71295}
-    up: {x: -0.27685323, y: 0.70660406, z: -0.65120125}
-    forward: {x: 0.6438491, y: 0.07616798, z: -0.76135194}
+    percent: 0.19078947368421054
+  - position: {x: 680.7795, y: 177.12218, z: 376.77768}
+    up: {x: -0.07884788, y: 0.7636412, z: -0.6408082}
+    forward: {x: 0.21496883, y: 0.016122522, z: -0.9764878}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.20242914979757085
-  - position: {x: 618.3064, y: 170.22957, z: 504.8129}
-    up: {x: -0.25998434, y: 0.712802, z: -0.65139973}
-    forward: {x: 0.6140227, y: 0.07250898, z: -0.7859508}
+    percent: 0.19407894736842105
+  - position: {x: 683.3249, y: 177.28625, z: 363.47705}
+    up: {x: -0.0613577, y: 0.7670876, z: -0.6386014}
+    forward: {x: 0.15841244, y: 0.007697498, z: -0.98734295}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.20647773279352227
-  - position: {x: 625.99585, y: 171.1365, z: 494.58832}
-    up: {x: -0.24339682, y: 0.71864367, z: -0.6513902}
-    forward: {x: 0.5846462, y: 0.068781085, z: -0.8083675}
+    percent: 0.19736842105263158
+  - position: {x: 685.067, y: 177.33041, z: 350.0386}
+    up: {x: -0.043650746, y: 0.7703211, z: -0.6361603}
+    forward: {x: 0.095952064, y: -0.0016244545, z: -0.99538463}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 1
+    percent: 0.20065789473684212
+  - position: {x: 685.92096, y: 177.24193, z: 336.5144}
+    up: {x: -0.025732204, y: 0.7733322, z: -0.6334786}
+    forward: {x: 0.02709306, y: -0.0119043365, z: -0.999562}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 1
+    percent: 0.20394736842105263
+  - position: {x: 685.7979, y: 177.00777, z: 322.97223}
+    up: {x: -0.0076242685, y: 0.77610874, z: -0.630553}
+    forward: {x: -0.048365917, y: -0.0231563, z: -0.99856126}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 1
+    percent: 0.20723684210526316
+  - position: {x: 684.61084, y: 176.61528, z: 309.49585}
+    up: {x: 0.010632575, y: 0.77863735, z: -0.62738407}
+    forward: {x: -0.130162, y: -0.035319466, z: -0.9908635}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
     percent: 0.21052631578947367
-  - position: {x: 633.30414, y: 171.99438, z: 484.09628}
-    up: {x: -0.22706664, y: 0.7241536, z: -0.6511854}
-    forward: {x: 0.5553449, y: 0.0649533, z: -0.8290797}
+  - position: {x: 682.2805, y: 176.05322, z: 296.18414}
+    up: {x: 0.028978243, y: 0.7809045, z: -0.62397796}
+    forward: {x: -0.21734625, y: -0.048230678, z: -0.9749023}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.2145748987854251
-  - position: {x: 640.23083, y: 172.80182, z: 473.35516}
-    up: {x: -0.21092544, y: 0.7293672, z: -0.65079486}
-    forward: {x: 0.5256932, y: 0.06098003, z: -0.84848577}
+    percent: 0.2138157894736842
+  - position: {x: 678.7436, y: 175.31291, z: 283.14886}
+    up: {x: 0.047332928, y: 0.78289753, z: -0.62034744}
+    forward: {x: -0.30728596, y: -0.06144982, z: -0.94963115}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.21862348178137653
-  - position: {x: 646.77783, y: 173.55772, z: 462.36533}
-    up: {x: -0.19489527, y: 0.7343191, z: -0.65022403}
-    forward: {x: 0.49525845, y: 0.056812435, z: -0.8668861}
+    percent: 0.21710526315789475
+  - position: {x: 673.98804, y: 174.39436, z: 270.5276}
+    up: {x: 0.042047933, y: 0.7959907, z: -0.6038466}
+    forward: {x: -0.39447004, y: -0.074061796, z: -0.91591936}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.22267206477732793
-  - position: {x: 652.93445, y: 174.2595, z: 451.13367}
-    up: {x: -0.17892042, y: 0.73903227, z: -0.6494758}
-    forward: {x: 0.46363837, y: 0.052401464, z: -0.88447356}
+    percent: 0.22039473684210525
+  - position: {x: 668.104, y: 173.31467, z: 258.42114}
+    up: {x: 0.03630377, y: 0.8087994, z: -0.58696306}
+    forward: {x: -0.47435609, y: -0.085326366, z: -0.87618816}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.22672064777327935
-  - position: {x: 658.679, y: 174.90324, z: 439.67584}
-    up: {x: -0.16296522, y: 0.74352086, z: -0.64855146}
-    forward: {x: 0.43045357, y: 0.047698237, z: -0.9013515}
+    percent: 0.2236842105263158
+  - position: {x: 661.2055, y: 172.09431, z: 246.89073}
+    up: {x: 0.030620636, y: 0.82105166, z: -0.570032}
+    forward: {x: -0.5458458, y: -0.0950957, z: -0.8324718}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.23076923076923078
-  - position: {x: 663.9868, y: 175.48463, z: 428.00406}
-    up: {x: -0.14699408, y: 0.74779713, z: -0.6474505}
-    forward: {x: 0.3952947, y: 0.04264839, z: -0.9175638}
+    percent: 0.22697368421052633
+  - position: {x: 653.4004, y: 170.75227, z: 235.97208}
+    up: {x: 0.025008904, y: 0.8327433, z: -0.55309415}
+    forward: {x: -0.60931414, y: -0.1034642, z: -0.7861498}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.23481781376518218
-  - position: {x: 668.8318, y: 175.99905, z: 416.12134}
-    up: {x: -0.13096243, y: 0.751873, z: -0.6461701}
-    forward: {x: 0.35769853, y: 0.037190013, z: -0.93309623}
+    percent: 0.23026315789473684
+  - position: {x: 644.78455, y: 169.30519, z: 225.68253}
+    up: {x: 0.019471675, y: 0.84388626, z: -0.53616875}
+    forward: {x: -0.66542244, y: -0.11056332, z: -0.7382335}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.2388663967611336
-  - position: {x: 673.1776, y: 176.44058, z: 404.0408}
-    up: {x: -0.11484125, y: 0.7557545, z: -0.64470667}
-    forward: {x: 0.3171915, y: 0.031255014, z: -0.9478464}
+    percent: 0.23355263157894737
+  - position: {x: 635.4399, y: 167.76727, z: 216.028}
+    up: {x: 0.014006941, y: 0.85450196, z: -0.5192591}
+    forward: {x: -0.71494097, y: -0.11653428, z: -0.68940496}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.242914979757085
-  - position: {x: 676.98004, y: 176.80232, z: 391.7846}
-    up: {x: -0.098614246, y: 0.75944287, z: -0.64305663}
-    forward: {x: 0.27328533, y: 0.02477636, z: -0.9616139}
+    percent: 0.23684210526315788
+  - position: {x: 625.48413, y: 166.15837, z: 207.05023}
+    up: {x: 0.008635237, y: 0.8645694, z: -0.50243896}
+    forward: {x: -0.7584376, y: -0.12148713, z: -0.6403228}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.24696356275303644
-  - position: {x: 680.1968, y: 177.07727, z: 379.34988}
-    up: {x: -0.08223129, y: 0.7629454, z: -0.6412116}
-    forward: {x: 0.22535606, y: 0.0176668, z: -0.9741163}
+    percent: 0.24013157894736842
+  - position: {x: 614.9916, y: 164.49095, z: 198.74527}
+    up: {x: 0.0033533964, y: 0.87411416, z: -0.485709}
+    forward: {x: -0.7966438, y: -0.12554875, z: -0.5912666}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.25101214574898784
-  - position: {x: 682.77185, y: 177.25664, z: 366.7531}
-    up: {x: -0.065666616, y: 0.76626194, z: -0.63916403}
-    forward: {x: 0.1728053, y: 0.009843495, z: -0.9849068}
+    percent: 0.24342105263157895
+  - position: {x: 604.0146, y: 162.77399, z: 191.09967}
+    up: {x: -0.0018482246, y: 0.88317084, z: -0.4690479}
+    forward: {x: -0.8302366, y: -0.12882833, z: -0.5423194}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.2550607287449393
-  - position: {x: 684.6398, y: 177.33057, z: 354.03015}
-    up: {x: -0.048917457, y: 0.7693862, z: -0.6369081}
-    forward: {x: 0.11509837, y: 0.0012339917, z: -0.9933533}
+    percent: 0.24671052631578946
+  - position: {x: 592.5941, y: 161.0147, z: 184.1016}
+    up: {x: -0.0069800373, y: 0.8917724, z: -0.45243037}
+    forward: {x: -0.8597776, y: -0.13141686, z: -0.49346945}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.2591093117408907
-  - position: {x: 685.7301, y: 177.28857, z: 341.22595}
-    up: {x: -0.031989902, y: 0.77231044, z: -0.6344393}
-    forward: {x: 0.051797982, y: -0.008217043, z: -0.9986238}
+    percent: 0.25
+  - position: {x: 580.7983, y: 159.22449, z: 177.7607}
+    up: {x: -0.012037353, y: 0.8999247, z: -0.435879}
+    forward: {x: -0.8856478, y: -0.13337967, z: -0.4447897}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 1
+    percent: 0.2532894736842105
+  - position: {x: 568.6958, y: 157.41464, z: 172.08463}
+    up: {x: -0.017014468, y: 0.90763277, z: -0.41941997}
+    forward: {x: -0.9081634, y: -0.1347713, z: -0.396328}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 1
+    percent: 0.2565789473684211
+  - position: {x: 556.3074, y: 155.58913, z: 167.05988}
+    up: {x: -0.021923741, y: 0.9149286, z: -0.40301964}
+    forward: {x: -0.92765164, y: -0.13564236, z: -0.347942}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 1
+    percent: 0.2598684210526316
+  - position: {x: 543.6498, y: 153.75151, z: 162.67912}
+    up: {x: -0.026776172, y: 0.921839, z: -0.38664672}
+    forward: {x: -0.9443545, y: -0.13602693, z: -0.29948524}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
     percent: 0.2631578947368421
-  - position: {x: 685.97015, y: 177.11987, z: 328.39304}
-    up: {x: -0.014897123, y: 0.7750258, z: -0.6317541}
-    forward: {x: -0.017357528, y: -0.018535173, z: -0.9996775}
+  - position: {x: 530.80054, y: 151.91408, z: 158.95723}
+    up: {x: -0.031558223, y: 0.92835504, z: -0.37035254}
+    forward: {x: -0.9583767, y: -0.13595088, z: -0.25106052}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.26720647773279355
-  - position: {x: 685.28424, y: 176.81297, z: 315.57013}
-    up: {x: 0.0023693144, y: 0.77752656, z: -0.6288456}
-    forward: {x: -0.092467725, y: -0.029719602, z: -0.99527204}
+    percent: 0.26644736842105265
+  - position: {x: 517.7905, y: 150.08223, z: 155.89157}
+    up: {x: -0.03627354, y: 0.93449223, z: -0.3541303}
+    forward: {x: -0.96984977, y: -0.1354361, z: -0.20260409}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.27125506072874495
-  - position: {x: 683.5989, y: 176.35747, z: 302.84595}
-    up: {x: 0.01975301, y: 0.7797988, z: -0.6257185}
-    forward: {x: -0.17295352, y: -0.041664716, z: -0.9840483}
+    percent: 0.26973684210526316
+  - position: {x: 504.62643, y: 148.25798, z: 153.4773}
+    up: {x: -0.040933114, y: 0.9402744, z: -0.33794728}
+    forward: {x: -0.9788755, y: -0.13449812, z: -0.1539902}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.27530364372469635
-  - position: {x: 680.8546, y: 175.74535, z: 290.32718}
-    up: {x: 0.037171707, y: 0.78182817, z: -0.62238485}
-    forward: {x: -0.25743106, y: -0.054140802, z: -0.9647787}
+    percent: 0.2730263157894737
+  - position: {x: 491.35138, y: 146.44846, z: 151.71938}
+    up: {x: -0.045533743, y: 0.94570553, z: -0.32181913}
+    forward: {x: -0.985492, y: -0.13314758, z: -0.10524897}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.2793522267206478
-  - position: {x: 677.013, y: 174.97179, z: 278.12283}
-    up: {x: 0.045552075, y: 0.78796554, z: -0.6140321}
-    forward: {x: -0.3422511, y: -0.06653869, z: -0.93724954}
+    percent: 0.27631578947368424
+  - position: {x: 478.02423, y: 144.66269, z: 150.62152}
+    up: {x: -0.05006656, y: 0.9507843, z: -0.3057816}
+    forward: {x: -0.9897183, y: -0.1313992, z: -0.05649644}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.2834008097165992
-  - position: {x: 672.0945, y: 174.04175, z: 266.32037}
-    up: {x: 0.040075123, y: 0.80043817, z: -0.59807414}
-    forward: {x: -0.42277205, y: -0.07808996, z: -0.9028653}
+    percent: 0.27960526315789475
+  - position: {x: 464.64496, y: 142.90172, z: 150.18127}
+    up: {x: -0.05454226, y: 0.95553124, z: -0.2898017}
+    forward: {x: -0.9915815, y: -0.12925766, z: -0.0076577063}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.2874493927125506
-  - position: {x: 666.18384, y: 172.97096, z: 254.98285}
-    up: {x: 0.034632545, y: 0.81244564, z: -0.5820075}
-    forward: {x: -0.49615243, y: -0.08833865, z: -0.8637298}
+    percent: 0.28289473684210525
+  - position: {x: 451.24374, y: 141.17061, z: 150.40053}
+    up: {x: -0.05896042, y: 0.95995337, z: -0.27388483}
+    forward: {x: -0.9910811, y: -0.12673025, z: 0.0412024}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.291497975708502
-  - position: {x: 659.393, y: 171.77953, z: 244.18712}
-    up: {x: 0.029253656, y: 0.8239368, z: -0.5659261}
-    forward: {x: -0.5619444, y: -0.09724798, z: -0.82143855}
+    percent: 0.28618421052631576
+  - position: {x: 437.89246, y: 139.47958, z: 151.27661}
+    up: {x: -0.06330669, y: 0.96404517, z: -0.25808737}
+    forward: {x: -0.9882274, y: -0.12383603, z: 0.08984014}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.29554655870445345
-  - position: {x: 651.81573, y: 170.4837, z: 233.95914}
-    up: {x: 0.023946224, y: 0.83491206, z: -0.5498622}
-    forward: {x: -0.6205699, y: -0.10491317, z: -0.77710116}
+    percent: 0.2894736842105263
+  - position: {x: 424.58243, y: 137.8284, z: 152.80864}
+    up: {x: -0.06759266, y: 0.96782583, z: -0.24237199}
+    forward: {x: -0.9830257, y: -0.120579414, z: 0.13827886}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.29959514170040485
-  - position: {x: 643.53064, y: 169.09708, z: 224.30583}
-    up: {x: 0.018709674, y: 0.8453892, z: -0.5338231}
-    forward: {x: -0.6726648, y: -0.11145574, z: -0.73150504}
+    percent: 0.29276315789473684
+  - position: {x: 411.34976, y: 136.22252, z: 154.99341}
+    up: {x: -0.07181471, y: 0.9713003, z: -0.22675596}
+    forward: {x: -0.97549444, y: -0.11697441, z: 0.1863532}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.30364372469635625
-  - position: {x: 634.60144, y: 167.63068, z: 215.22446}
-    up: {x: 0.013538495, y: 0.8553945, z: -0.51780015}
-    forward: {x: -0.7189324, y: -0.11700063, z: -0.68516207}
+    percent: 0.29605263157894735
+  - position: {x: 398.26413, y: 134.67102, z: 157.8165}
+    up: {x: -0.07595839, y: 0.97446567, z: -0.21129782}
+    forward: {x: -0.9657158, y: -0.11306337, z: 0.23368704}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.3076923076923077
-  - position: {x: 625.119, y: 166.0999, z: 206.74274}
-    up: {x: 0.008445488, y: 0.8649185, z: -0.5018413}
-    forward: {x: -0.75988513, y: -0.12164663, z: -0.6385739}
+    percent: 0.2993421052631579
+  - position: {x: 385.29657, y: 133.17116, z: 161.28189}
+    up: {x: -0.08019213, y: 0.9767481, z: -0.19882734}
+    forward: {x: -0.95389116, y: -0.10896254, z: 0.27967647}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.3117408906882591
-  - position: {x: 615.1607, y: 164.51762, z: 198.87093}
-    up: {x: 0.0034359375, y: 0.8739677, z: -0.48597187}
-    forward: {x: -0.79607886, y: -0.12549096, z: -0.5920392}
+    percent: 0.3026315789473684
+  - position: {x: 372.51874, y: 131.73032, z: 165.35709}
+    up: {x: -0.085126944, y: 0.9758546, z: -0.20114954}
+    forward: {x: -0.94050556, y: -0.10487124, z: 0.32318932}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 1
+    percent: 0.3059210526315789
+  - position: {x: 359.94232, y: 130.34535, z: 169.9954}
+    up: {x: -0.08999055, y: 0.97494435, z: -0.20343342}
+    forward: {x: -0.9260912, y: -0.10096012, z: 0.36354125}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 1
+    percent: 0.3092105263157895
+  - position: {x: 347.52493, y: 129.00713, z: 175.17253}
+    up: {x: -0.09480543, y: 0.97401416, z: -0.2056897}
+    forward: {x: -0.910991, y: -0.09729238, z: 0.40078616}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 1
+    percent: 0.3125
+  - position: {x: 335.3568, y: 127.721085, z: 180.812}
+    up: {x: -0.09954215, y: 0.9730709, z: -0.20790477}
+    forward: {x: -0.89553344, y: -0.09389505, z: 0.43497542}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
     percent: 0.3157894736842105
-  - position: {x: 604.7629, y: 162.8902, z: 191.59065}
-    up: {x: -0.0015026592, y: 0.8825797, z: -0.47016045}
-    forward: {x: -0.8281219, y: -0.12863183, z: -0.5455895}
+  - position: {x: 323.37292, y: 126.47642, z: 186.90729}
+    up: {x: -0.1042312, y: 0.9721094, z: -0.21009305}
+    forward: {x: -0.87979764, y: -0.09074435, z: 0.46660638}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.31983805668016196
-  - position: {x: 593.9523, y: 161.22255, z: 184.88733}
-    up: {x: -0.0063827983, y: 0.8907884, z: -0.45437348}
-    forward: {x: -0.8565146, y: -0.13114704, z: -0.49918252}
+    percent: 0.3190789473684211
+  - position: {x: 311.60925, y: 125.27329, z: 193.4091}
+    up: {x: -0.10886345, y: 0.97113264, z: -0.21225044}
+    forward: {x: -0.8639443, y: -0.087840386, z: 0.49586722}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.32388663967611336
-  - position: {x: 582.821, y: 159.5296, z: 178.78877}
-    up: {x: -0.011185691, y: 0.8985745, z: -0.43867844}
-    forward: {x: -0.8815073, y: -0.13308851, z: -0.45302576}
+    percent: 0.3223684210526316
+  - position: {x: 300.06528, y: 124.10826, z: 200.28763}
+    up: {x: -0.113443695, y: 0.97014016, z: -0.21437928}
+    forward: {x: -0.8480526, y: -0.08517307, z: 0.5230223}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.32793522267206476
-  - position: {x: 571.39856, y: 157.81653, z: 173.28389}
-    up: {x: -0.015919592, y: 0.9059641, z: -0.42305523}
-    forward: {x: -0.9034529, y: -0.13451013, z: -0.40703788}
+    percent: 0.3256578947368421
+  - position: {x: 288.7136, y: 122.97547, z: 207.53375}
+    up: {x: -0.11798733, y: 0.9691296, z: -0.21648686}
+    forward: {x: -0.8321362, y: -0.0827254, z: 0.54836655}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.3319838056680162
-  - position: {x: 559.6941, y: 156.08551, z: 168.35864}
-    up: {x: -0.020598516, y: 0.9129892, z: -0.4074631}
-    forward: {x: -0.922651, y: -0.13545519, z: -0.36106375}
+    percent: 0.32894736842105265
+  - position: {x: 277.59763, y: 121.876335, z: 215.09595}
+    up: {x: -0.12248127, y: 0.9681046, z: -0.21856727}
+    forward: {x: -0.8162855, y: -0.08049592, z: 0.57201254}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.3360323886639676
-  - position: {x: 547.7604, y: 154.34526, z: 164.02177}
-    up: {x: -0.025216846, y: 0.9196511, z: -0.39192578}
-    forward: {x: -0.93926036, y: -0.1359543, z: -0.31512928}
+    percent: 0.33223684210526316
+  - position: {x: 266.66614, y: 120.80304, z: 222.98822}
+    up: {x: -0.1269505, y: 0.9670599, z: -0.22063209}
+    forward: {x: -0.8004399, y: -0.07846394, z: 0.5942553}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.340080971659919
-  - position: {x: 535.6471, y: 152.60384, z: 160.27808}
-    up: {x: -0.029770125, y: 0.92595285, z: -0.3764637}
-    forward: {x: -0.9534152, y: -0.13603145, z: -0.26924896}
+    percent: 0.3355263157894737
+  - position: {x: 255.96928, y: 119.757904, z: 231.15579}
+    up: {x: -0.13137875, y: 0.9659999, z: -0.22267398}
+    forward: {x: -0.7846699, y: -0.076629095, z: 0.6151595}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.3441295546558704
-  - position: {x: 523.3518, y: 150.86176, z: 157.11772}
-    up: {x: -0.034272302, y: 0.9319226, z: -0.3610341}
-    forward: {x: -0.9652663, y: -0.1357079, z: -0.22325855}
+    percent: 0.33881578947368424
+  - position: {x: 245.4714, y: 118.73494, z: 239.60857}
+    up: {x: -0.13578498, y: 0.9649205, z: -0.22470167}
+    forward: {x: -0.76891106, y: -0.074976474, z: 0.6349444}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.3481781376518219
-  - position: {x: 510.91452, y: 149.12569, z: 154.5459}
-    up: {x: -0.03872036, y: 0.9375637, z: -0.3456513}
-    forward: {x: -0.97487783, y: -0.13499725, z: -0.1771694}
+    percent: 0.34210526315789475
+  - position: {x: 235.18864, y: 117.73332, z: 248.31949}
+    up: {x: -0.14016677, y: 0.9638227, z: -0.22671415}
+    forward: {x: -0.75316465, y: -0.07350048, z: 0.65371305}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.3522267206477733
-  - position: {x: 498.3874, y: 147.40375, z: 152.56764}
-    up: {x: -0.043106757, y: 0.94287497, z: -0.3303459}
-    forward: {x: -0.9822893, y: -0.13391279, z: -0.13105403}
+    percent: 0.34539473684210525
+  - position: {x: 225.11536, y: 116.75016, z: 257.28064}
+    up: {x: -0.14453097, y: 0.9627047, z: -0.22871457}
+    forward: {x: -0.7373924, y: -0.072193496, z: 0.6715955}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.3562753036437247
-  - position: {x: 485.7611, y: 145.6956, z: 151.17822}
-    up: {x: -0.047444865, y: 0.94787997, z: -0.31507525}
-    forward: {x: -0.9875555, y: -0.13246173, z: -0.08478243}
+    percent: 0.34868421052631576
+  - position: {x: 215.25192, y: 115.78319, z: 266.4813}
+    up: {x: -0.14888208, y: 0.96156603, z: -0.23070508}
+    forward: {x: -0.7215562, y: -0.07105007, z: 0.6887007}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.3603238866396761
-  - position: {x: 473.08356, y: 144.00865, z: 150.38206}
-    up: {x: -0.051727507, y: 0.9525772, z: -0.29986823}
-    forward: {x: -0.99068224, y: -0.13065273, z: -0.038451716}
+    percent: 0.3519736842105263
+  - position: {x: 205.60117, y: 114.8304, z: 275.91022}
+    up: {x: -0.15322381, y: 0.96040565, z: -0.23268738}
+    forward: {x: -0.7056167, y: -0.070065595, z: 0.70512116}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.3643724696356275
-  - position: {x: 460.39606, y: 142.34927, z: 150.17932}
-    up: {x: -0.05594963, y: 0.9569685, z: -0.28474694}
-    forward: {x: -0.9916789, y: -0.12849732, z: 0.007838518}
+    percent: 0.35526315789473684
+  - position: {x: 196.16566, y: 113.88974, z: 285.55807}
+    up: {x: -0.15756024, y: 0.9592226, z: -0.23466332}
+    forward: {x: -0.689525, y: -0.069237135, z: 0.7209449}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 1
+    percent: 0.35855263157894735
+  - position: {x: 186.94273, y: 112.95861, z: 295.42307}
+    up: {x: -0.16189827, y: 0.9580148, z: -0.23663606}
+    forward: {x: -0.6732173, y: -0.06856177, z: 0.7362593}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 1
+    percent: 0.3618421052631579
+  - position: {x: 177.9479, y: 112.03618, z: 305.48547}
+    up: {x: -0.1662367, y: 0.9567827, z: -0.23860504}
+    forward: {x: -0.65665233, y: -0.06803989, z: 0.75111806}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 1
+    percent: 0.3651315789473684
+  - position: {x: 169.16676, y: 111.118454, z: 315.761}
+    up: {x: -0.17058924, y: 0.955522, z: -0.24057646}
+    forward: {x: -0.63972694, y: -0.067670874, z: 0.76561743}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
     percent: 0.3684210526315789
-  - position: {x: 447.68018, y: 140.71593, z: 150.57}
-    up: {x: -0.060125545, y: 0.9610756, z: -0.26966363}
-    forward: {x: -0.99054986, y: -0.12599444, z: 0.054188207}
+  - position: {x: 160.62177, y: 110.20515, z: 326.22504}
+    up: {x: -0.1749523, y: 0.9542337, z: -0.2425486}
+    forward: {x: -0.6223942, y: -0.0674575, z: 0.7797916}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.3724696356275304
-  - position: {x: 435.01654, y: 139.11984, z: 151.55167}
-    up: {x: -0.064236455, y: 0.96488684, z: -0.25468984}
-    forward: {x: -0.98730356, y: -0.12316398, z: 0.100311235}
+    percent: 0.3717105263157895
+  - position: {x: 152.30879, y: 109.29302, z: 336.8867}
+    up: {x: -0.17933619, y: 0.9529143, z: -0.24452613}
+    forward: {x: -0.6045455, y: -0.067403294, z: 0.7937138}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.3765182186234818
-  - position: {x: 422.41245, y: 137.56259, z: 153.12137}
-    up: {x: -0.06828748, y: 0.96841484, z: -0.23981129}
-    forward: {x: -0.98195297, y: -0.120013, z: 0.14616857}
+    percent: 0.375
+  - position: {x: 144.23642, y: 108.37997, z: 347.74225}
+    up: {x: -0.18374598, y: 0.9515617, z: -0.24651122}
+    forward: {x: -0.5860781, y: -0.0675128, z: 0.807437}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.3805668016194332
-  - position: {x: 409.86325, y: 136.0444, z: 155.28064}
-    up: {x: -0.07228687, y: 0.9716732, z: -0.2250012}
-    forward: {x: -0.97449994, y: -0.11654724, z: 0.19174604}
+    percent: 0.3782894736842105
+  - position: {x: 136.4267, y: 107.4652, z: 358.77142}
+    up: {x: -0.18817993, y: 0.95017606, z: -0.24850303}
+    forward: {x: -0.5669094, y: -0.067793794, z: 0.82098585}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.38461538461538464
-  - position: {x: 397.46127, y: 134.57706, z: 158.01155}
-    up: {x: -0.07621176, y: 0.97465134, z: -0.21034841}
-    forward: {x: -0.9650424, y: -0.11281424, z: 0.23657142}
+    percent: 0.3815789473684211
+  - position: {x: 128.86401, y: 106.5432, z: 370.01062}
+    up: {x: -0.19265926, y: 0.94875, z: -0.25051096}
+    forward: {x: -0.5468369, y: -0.06825586, z: 0.8344522}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.38866396761133604
-  - position: {x: 385.1655, y: 133.15619, z: 161.32037}
-    up: {x: -0.080242746, y: 0.97673905, z: -0.19885118}
-    forward: {x: -0.953762, y: -0.10892055, z: 0.2801326}
+    percent: 0.3848684210526316
+  - position: {x: 121.60556, y: 105.61696, z: 381.39114}
+    up: {x: -0.19716357, y: 0.9472895, z: -0.25252575}
+    forward: {x: -0.5258288, y: -0.06890761, z: 0.8477947}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.39271255060728744
-  - position: {x: 373.04266, y: 131.78871, z: 165.17725}
-    up: {x: -0.08492451, y: 0.9758918, z: -0.20105438}
-    forward: {x: -0.9410826, y: -0.10503754, z: 0.32145107}
+    percent: 0.3881578947368421
+  - position: {x: 114.60846, y: 104.676346, z: 393.00375}
+    up: {x: -0.20173582, y: 0.9457794, z: -0.25456646}
+    forward: {x: -0.5035329, y: -0.06976893, z: 0.86115444}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.3967611336032389
-  - position: {x: 361.096, y: 130.47112, z: 169.54436}
-    up: {x: -0.089543946, y: 0.9750292, z: -0.20322391}
-    forward: {x: -0.92745364, y: -0.101311006, z: 0.35995242}
+    percent: 0.39144736842105265
+  - position: {x: 107.93475, y: 103.72423, z: 404.77698}
+    up: {x: -0.20635532, y: 0.9442255, z: -0.2566237}
+    forward: {x: -0.4798674, y: -0.0708529, z: 0.87447536}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.4008097165991903
-  - position: {x: 349.30225, y: 129.19699, z: 174.39552}
-    up: {x: -0.09411525, y: 0.9741493, z: -0.20536658}
-    forward: {x: -0.9131976, y: -0.09780491, z: 0.3956064}
+    percent: 0.39473684210526316
+  - position: {x: 101.59146, y: 102.7556, z: 416.73328}
+    up: {x: -0.21103913, y: 0.94262105, z: -0.25870484}
+    forward: {x: -0.45453316, y: -0.0721818, z: 0.8878003}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.4048582995951417
-  - position: {x: 337.726, y: 127.96965, z: 179.67036}
-    up: {x: -0.09861816, y: 0.9732571, z: -0.20747302}
-    forward: {x: -0.89858776, y: -0.09454097, z: 0.42848814}
+    percent: 0.3980263157894737
+  - position: {x: 95.589264, y: 101.76454, z: 428.90247}
+    up: {x: -0.21580762, y: 0.94095737, z: -0.26081872}
+    forward: {x: -0.4271535, y: -0.073785655, z: 0.9011635}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.4089068825910931
-  - position: {x: 326.29153, y: 126.77769, z: 185.3736}
-    up: {x: -0.10308667, y: 0.9723467, z: -0.20955934}
-    forward: {x: -0.8836715, y: -0.09149353, z: 0.459079}
+    percent: 0.40131578947368424
+  - position: {x: 90.004486, y: 100.75535, z: 441.18488}
+    up: {x: -0.22063158, y: 0.93924326, z: -0.26295215}
+    forward: {x: -0.39759013, y: -0.075681366, z: 0.91443664}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.41295546558704455
-  - position: {x: 315.09213, y: 125.62772, z: 191.4307}
-    up: {x: -0.10748857, y: 0.9714254, z: -0.21161057}
-    forward: {x: -0.86867607, y: -0.08868045, z: 0.4873784}
+    percent: 0.40460526315789475
+  - position: {x: 84.80844, y: 99.71214, z: 453.7201}
+    up: {x: -0.22557683, y: 0.93745357, z: -0.26513392}
+    forward: {x: -0.36513895, y: -0.07789529, z: 0.9276885}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.41700404858299595
-  - position: {x: 304.0567, y: 124.509476, z: 197.85349}
-    up: {x: -0.11185576, y: 0.9704872, z: -0.2136417}
-    forward: {x: -0.85358226, y: -0.08607498, z: 0.513798}
+    percent: 0.40789473684210525
+  - position: {x: 80.07823, y: 98.63647, z: 466.42978}
+    up: {x: -0.23005494, y: 0.9337499, z: -0.2742006}
+    forward: {x: -0.32994813, y: -0.08029333, z: 0.9405781}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 1
+    percent: 0.41118421052631576
+  - position: {x: 75.86939, y: 97.532265, z: 479.24487}
+    up: {x: -0.23388766, y: 0.9275783, z: -0.291368}
+    forward: {x: -0.29245043, y: -0.082671866, z: 0.95270044}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 1
+    percent: 0.4144736842105263
+  - position: {x: 72.16562, y: 96.3912, z: 492.283}
+    up: {x: -0.23774578, y: 0.9208927, z: -0.30892342}
+    forward: {x: -0.25270605, y: -0.08484615, z: 0.96381575}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 1
+    percent: 0.41776315789473684
+  - position: {x: 69.016655, y: 95.22296, z: 505.45898}
+    up: {x: -0.24160212, y: 0.91370296, z: -0.326765}
+    forward: {x: -0.21106228, y: -0.08671381, z: 0.97361875}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
     percent: 0.42105263157894735
-  - position: {x: 293.2293, y: 123.42472, z: 204.59381}
-    up: {x: -0.11617473, y: 0.96953595, z: -0.21564658}
-    forward: {x: -0.8385008, y: -0.08367831, z: 0.53843695}
+  - position: {x: 66.455185, y: 94.03614, z: 518.7086}
+    up: {x: -0.24543658, y: 0.9060139, z: -0.3448186}
+    forward: {x: -0.16772619, y: -0.088216394, z: 0.9818787}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.4251012145748988
-  - position: {x: 282.58658, y: 122.36854, z: 211.64458}
-    up: {x: -0.12045847, y: 0.9685692, z: -0.21763137}
-    forward: {x: -0.8234317, y: -0.08147623, z: 0.5615353}
+    percent: 0.4243421052631579
+  - position: {x: 64.49066, y: 92.83003, z: 532.077}
+    up: {x: -0.24926084, y: 0.8977662, z: -0.36315978}
+    forward: {x: -0.12257034, y: -0.089305505, z: 0.9884336}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.4291497975708502
-  - position: {x: 272.1344, y: 121.33913, z: 218.98338}
-    up: {x: -0.12470824, y: 0.96758723, z: -0.21959668}
-    forward: {x: -0.80839914, y: -0.079460494, z: 0.5832468}
+    percent: 0.4276315789473684
+  - position: {x: 63.148323, y: 91.61016, z: 545.54486}
+    up: {x: -0.25306764, y: 0.888933, z: -0.38177878}
+    forward: {x: -0.07568728, y: -0.08992057, z: 0.9930688}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.4331983805668016
-  - position: {x: 261.8764, y: 120.334564, z: 226.5905}
-    up: {x: -0.12892617, y: 0.96659005, z: -0.22154358}
-    forward: {x: -0.79341227, y: -0.07762368, z: 0.6037148}
+    percent: 0.4309210526315789
+  - position: {x: 62.45386, y: 90.38656, z: 559.0495}
+    up: {x: -0.25683796, y: 0.8795161, z: -0.4006068}
+    forward: {x: -0.027346225, y: -0.089997776, z: 0.9955665}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.43724696356275305
-  - position: {x: 251.80092, y: 119.35152, z: 234.45966}
-    up: {x: -0.13312075, y: 0.9655762, z: -0.2234761}
-    forward: {x: -0.77844805, y: -0.075955346, z: 0.62309664}
+    percent: 0.4342105263157895
+  - position: {x: 62.424286, y: 89.16865, z: 572.54175}
+    up: {x: -0.26055706, y: 0.8695122, z: -0.4195935}
+    forward: {x: 0.022202045, y: -0.08947753, z: 0.9957414}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.44129554655870445
-  - position: {x: 241.92215, y: 118.38929, z: 242.56635}
-    up: {x: -0.13728963, y: 0.9645463, z: -0.22539318}
-    forward: {x: -0.76351273, y: -0.074450925, z: 0.64148676}
+    percent: 0.4375
+  - position: {x: 63.07348, y: 87.96247, z: 586.0159}
+    up: {x: -0.2642224, y: 0.8588854, z: -0.43875107}
+    forward: {x: 0.072851166, y: -0.08829959, z: 0.99342626}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.44534412955465585
-  - position: {x: 232.22484, y: 117.44436, z: 250.91144}
-    up: {x: -0.14144307, y: 0.9634982, z: -0.22729957}
-    forward: {x: -0.7485623, y: -0.07310159, z: 0.65902257}
+    percent: 0.4407894736842105
+  - position: {x: 64.41777, y: 86.77507, z: 599.46326}
+    up: {x: -0.26783073, y: 0.8475969, z: -0.45809007}
+    forward: {x: 0.12448169, y: -0.08639816, z: 0.98845315}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.4493927125506073
-  - position: {x: 222.72307, y: 116.51612, z: 259.47275}
-    up: {x: -0.14557883, y: 0.9624327, z: -0.22919428}
-    forward: {x: -0.73358923, y: -0.07190374, z: 0.67577857}
+    percent: 0.4440789473684211
+  - position: {x: 66.46791, y: 85.61835, z: 612.8282}
+    up: {x: -0.27136618, y: 0.8356441, z: -0.47755566}
+    forward: {x: 0.1767904, y: -0.08371323, z: 0.980682}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.4534412955465587
-  - position: {x: 213.40697, y: 115.60164, z: 268.25055}
-    up: {x: -0.14970532, y: 0.96134794, z: -0.23108125}
-    forward: {x: -0.7185457, y: -0.070851475, z: 0.69186145}
+    percent: 0.4473684210526316
+  - position: {x: 69.22969, y: 84.504135, z: 626.0625}
+    up: {x: -0.2748154, y: 0.8230212, z: -0.4971045}
+    forward: {x: 0.22950095, y: -0.080186896, z: 0.9699997}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.4574898785425101
-  - position: {x: 204.28389, y: 114.699684, z: 277.23114}
-    up: {x: -0.15382354, y: 0.9602436, z: -0.23296088}
-    forward: {x: -0.70340186, y: -0.06994184, z: 0.7073429}
+    percent: 0.4506578947368421
+  - position: {x: 72.704765, y: 83.4446, z: 639.12085}
+    up: {x: -0.2781664, y: 0.8097201, z: -0.5166981}
+    forward: {x: 0.2823513, y: -0.07576289, z: 0.9563147}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.46153846153846156
-  - position: {x: 195.35504, y: 113.80841, z: 286.40753}
-    up: {x: -0.1579374, y: 0.9591186, z: -0.234835}
-    forward: {x: -0.6881161, y: -0.06917228, z: 0.722296}
+    percent: 0.45394736842105265
+  - position: {x: 76.891335, y: 82.452415, z: 651.9599}
+    up: {x: -0.28140798, y: 0.79573226, z: -0.536302}
+    forward: {x: 0.33509767, y: -0.07038442, z: 0.9395507}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.46558704453441296
-  - position: {x: 186.6169, y: 112.92546, z: 295.7798}
-    up: {x: -0.1620535, y: 0.95797116, z: -0.23670657}
-    forward: {x: -0.6726294, y: -0.06854058, z: 0.7367984}
+    percent: 0.45723684210526316
+  - position: {x: 81.78528, y: 81.54068, z: 664.5385}
+    up: {x: -0.2845299, y: 0.7810461, z: -0.5558865}
+    forward: {x: 0.38752207, y: -0.063993536, z: 0.9196366}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.46963562753036436
-  - position: {x: 178.0853, y: 112.05039, z: 305.32837}
-    up: {x: -0.16616955, y: 0.95680195, z: -0.23857461}
-    forward: {x: -0.65691113, y: -0.06804688, z: 0.75089103}
+    percent: 0.4605263157894737
+  - position: {x: 87.39056, y: 80.72189, z: 676.8368}
+    up: {x: -0.28752738, y: 0.7656211, z: -0.5754585}
+    forward: {x: 0.43951556, y: -0.056513928, z: 0.89645535}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 1
+    percent: 0.46381578947368424
+  - position: {x: 93.69852, y: 80.01172, z: 688.80444}
+    up: {x: -0.29038846, y: 0.74944884, z: -0.59498}
+    forward: {x: 0.49086252, y: -0.047877997, z: 0.86992055}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 1
+    percent: 0.46710526315789475
+  - position: {x: 100.69816, y: 79.42656, z: 700.3924}
+    up: {x: -0.2931018, y: 0.732518, z: -0.6144175}
+    forward: {x: 0.5413701, y: -0.038010262, z: 0.83992475}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 1
+    percent: 0.47039473684210525
+  - position: {x: 108.37615, y: 78.98379, z: 711.5512}
+    up: {x: -0.29565635, y: 0.714816, z: -0.6337394}
+    forward: {x: 0.59085214, y: -0.026827205, z: 0.8063337}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
     percent: 0.47368421052631576
-  - position: {x: 169.74403, y: 111.17938, z: 315.071}
-    up: {x: -0.17029923, y: 0.9556068, z: -0.24044523}
-    forward: {x: -0.6408654, y: -0.06769069, z: 0.764663}
+  - position: {x: 116.7168, y: 78.70189, z: 722.23004}
+    up: {x: -0.29804125, y: 0.6963282, z: -0.65291536}
+    forward: {x: 0.6391243, y: -0.01423463, z: 0.76897174}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.4777327935222672
-  - position: {x: 161.61987, y: 110.313, z: 324.97778}
-    up: {x: -0.17443556, y: 0.95438755, z: -0.24231526}
-    forward: {x: -0.6244681, y: -0.06747464, z: 0.7781303}
+    percent: 0.4769736842105263
+  - position: {x: 125.701996, y: 78.60068, z: 732.37585}
+    up: {x: -0.3002455, y: 0.67703974, z: -0.6719152}
+    forward: {x: 0.6859827, y: -0.00012864414, z: 0.72761786}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.4817813765182186
-  - position: {x: 153.69598, y: 109.44707, z: 335.0725}
-    up: {x: -0.1785942, y: 0.95313936, z: -0.2441917}
-    forward: {x: -0.6075996, y: -0.067400895, z: 0.79137844}
+    percent: 0.48026315789473684
+  - position: {x: 135.3107, y: 78.70141, z: 741.9326}
+    up: {x: -0.30225775, y: 0.65693474, z: -0.6907077}
+    forward: {x: 0.73113465, y: 0.015567673, z: 0.68205553}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.48582995951417
-  - position: {x: 145.99783, y: 108.58179, z: 345.32855}
-    up: {x: -0.18276967, y: 0.95186335, z: -0.24607208}
-    forward: {x: -0.5902151, y: -0.0674741, z: 0.8044212}
+    percent: 0.48355263157894735
+  - position: {x: 145.51442, y: 79.025734, z: 750.8398}
+    up: {x: -0.30162886, y: 0.66862476, z: -0.6796771}
+    forward: {x: 0.7734377, y: 0.032306723, z: 0.6330486}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.4898785425101215
-  - position: {x: 138.51947, y: 107.71374, z: 355.7615}
-    up: {x: -0.18697399, y: 0.9505555, z: -0.24796171}
-    forward: {x: -0.57218796, y: -0.067700244, z: 0.81732345}
+    percent: 0.4868421052631579
+  - position: {x: 156.2593, y: 79.57909, z: 759.0645}
+    up: {x: -0.29875663, y: 0.7015496, z: -0.646972}
+    forward: {x: 0.81111574, y: 0.048905432, z: 0.5828374}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.4939271255060729
-  - position: {x: 131.27542, y: 106.84152, z: 366.3626}
-    up: {x: -0.19120914, y: 0.9492146, z: -0.24986139}
-    forward: {x: -0.5534192, y: -0.06808614, z: 0.8301153}
+    percent: 0.4901315789473684
+  - position: {x: 167.47371, y: 80.35151, z: 766.6098}
+    up: {x: -0.29519898, y: 0.7332726, z: -0.6125103}
+    forward: {x: 0.843397, y: 0.06464998, z: 0.5333872}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.4979757085020243
-  - position: {x: 124.28137, y: 105.9637, z: 377.12244}
-    up: {x: -0.19547723, y: 0.94783944, z: -0.25177193}
-    forward: {x: -0.53379804, y: -0.068641186, z: 0.8428215}
+    percent: 0.4934210526315789
+  - position: {x: 179.08606, y: 81.33, z: 773.49536}
+    up: {x: -0.29095364, y: 0.7636118, z: -0.57640535}
+    forward: {x: 0.8704329, y: 0.07936756, z: 0.48584706}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.5020242914979757
-  - position: {x: 117.5325, y: 105.07583, z: 388.06738}
-    up: {x: -0.19979462, y: 0.94642395, z: -0.2537006}
-    forward: {x: -0.5131276, y: -0.06937823, z: 0.8555037}
+    percent: 0.4967105263157895
+  - position: {x: 191.02869, y: 82.500046, z: 779.75433}
+    up: {x: -0.2860218, y: 0.7924204, z: -0.5387593}
+    forward: {x: 0.8926208, y: 0.09297991, z: 0.4411155}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.5060728744939271
-  - position: {x: 111.075195, y: 104.17981, z: 399.14368}
-    up: {x: -0.20414644, y: 0.9449721, z: -0.25564057}
-    forward: {x: -0.49133566, y: -0.07030714, z: 0.86812794}
+    percent: 0.5
+  - position: {x: 203.2402, y: 83.84657, z: 785.4302}
+    up: {x: -0.2804053, y: 0.81958365, z: -0.49965543}
+    forward: {x: 0.91048884, y: 0.10547864, z: 0.39985532}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.5101214574898786
-  - position: {x: 104.880646, y: 103.26664, z: 410.43036}
-    up: {x: -0.20857039, y: 0.9434703, z: -0.2576085}
-    forward: {x: -0.4680652, y: -0.071451575, z: 0.88080055}
+    percent: 0.5032894736842105
+  - position: {x: 215.66635, y: 85.35475, z: 790.57336}
+    up: {x: -0.27410403, y: 0.84501165, z: -0.45915395}
+    forward: {x: 0.9246087, y: 0.116903454, z: 0.36253598}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.5141700404858299
-  - position: {x: 99.02515, y: 102.341965, z: 421.82257}
-    up: {x: -0.21303265, y: 0.9419292, z: -0.25958917}
-    forward: {x: -0.4432942, y: -0.07282065, z: 0.89341336}
+    percent: 0.506578947368421
+  - position: {x: 228.2599, y: 87.01045, z: 795.2395}
+    up: {x: -0.26711422, y: 0.8686309, z: -0.41728944}
+    forward: {x: 0.93554175, y: 0.12732889, z: 0.32946765}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.5182186234817814
-  - position: {x: 93.47092, y: 101.3931, z: 433.43823}
-    up: {x: -0.21758725, y: 0.9403286, z: -0.26160637}
-    forward: {x: -0.4164782, y: -0.07445226, z: 0.90609205}
+    percent: 0.5098684210526315
+  - position: {x: 240.97989, y: 88.80055, z: 799.4874}
+    up: {x: -0.25942624, y: 0.89037645, z: -0.3740693}
+    forward: {x: 0.94379157, y: 0.13684714, z: 0.30088264}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.5222672064777328
-  - position: {x: 88.282684, y: 100.42261, z: 445.203}
-    up: {x: -0.22221386, y: 0.9386743, z: -0.26365077}
-    forward: {x: -0.38744217, y: -0.076364554, z: 0.9187257}
+    percent: 0.5131578947368421
+  - position: {x: 253.79608, y: 90.71387, z: 803.3802}
+    up: {x: -0.2510193, y: 0.91019213, z: -0.32945347}
+    forward: {x: 0.9497859, y: 0.14555837, z: 0.2769827}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 1
+    percent: 0.5164473684210527
+  - position: {x: 266.68835, y: 92.741455, z: 806.9848}
+    up: {x: -0.24185729, y: 0.9280193, z: -0.2833464}
+    forward: {x: 0.9538618, y: 0.15356535, z: 0.25800276}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 1
+    percent: 0.5197368421052632
+  - position: {x: 279.63452, y: 94.87489, z: 810.3703}
+    up: {x: -0.23189318, y: 0.9437711, z: -0.23563048}
+    forward: {x: 0.9562454, y: 0.16095825, z: 0.24430948}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 1
+    percent: 0.5230263157894737
+  - position: {x: 292.6125, y: 97.10652, z: 813.6115}
+    up: {x: -0.22106312, y: 0.9573301, z: -0.18614566}
+    forward: {x: 0.95703584, y: 0.16781293, z: 0.23647676}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
     percent: 0.5263157894736842
-  - position: {x: 83.49249, y: 99.42709, z: 457.11108}
-    up: {x: -0.22691993, y: 0.9369617, z: -0.26572555}
-    forward: {x: -0.35596934, y: -0.07852788, z: 0.93119234}
+  - position: {x: 305.59515, y: 99.428665, z: 816.7921}
+    up: {x: -0.20928434, y: 0.9685341, z: -0.13469127}
+    forward: {x: 0.9561608, y: 0.17418054, z: 0.23540968}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.5303643724696356
-  - position: {x: 79.11165, y: 98.397095, z: 469.22647}
-    up: {x: -0.23089482, y: 0.932436, z: -0.27794015}
-    forward: {x: -0.3219342, y: -0.08082651, z: 0.94330555}
+    percent: 0.5296052631578947
+  - position: {x: 318.54272, y: 101.832054, z: 820.0086}
+    up: {x: -0.19645408, y: 0.9771588, z: -0.08103329}
+    forward: {x: 0.9532903, y: 0.18007128, z: 0.24251181}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.5344129554655871
-  - position: {x: 75.20631, y: 97.34172, z: 481.43475}
-    up: {x: -0.23453882, y: 0.9264841, z: -0.29431108}
-    forward: {x: -0.28591162, y: -0.083068505, z: 0.95464873}
+    percent: 0.5328947368421053
+  - position: {x: 331.42218, y: 104.3096, z: 823.38495}
+    up: {x: -0.182415, y: 0.9829093, z: -0.024781555}
+    forward: {x: 0.94763345, y: 0.1854329, z: 0.26001036}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.5384615384615384
-  - position: {x: 71.76889, y: 96.25613, z: 493.81143}
-    up: {x: -0.23819621, y: 0.92007977, z: -0.31099188}
-    forward: {x: -0.24801344, y: -0.085105725, z: 0.96501106}
+    percent: 0.5361842105263158
+  - position: {x: 344.23663, y: 106.86316, z: 827.09955}
+    up: {x: -0.16688137, y: 0.9853609, z: 0.034847647}
+    forward: {x: 0.9374549, y: 0.19006868, z: 0.29163712}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.5425101214574899
-  - position: {x: 68.82753, y: 95.14441, z: 506.3315}
-    up: {x: -0.24185835, y: 0.91320646, z: -0.3279614}
-    forward: {x: -0.20834097, y: -0.08687329, z: 0.9741905}
+    percent: 0.5394736842105263
+  - position: {x: 356.83856, y: 109.465515, z: 831.35095}
+    up: {x: -0.15287851, y: 0.9865808, z: 0.057329435}
+    forward: {x: 0.92126846, y: 0.1931667, z: 0.33756647}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.5465587044534413
-  - position: {x: 66.41792, y: 94.01642, z: 518.9107}
-    up: {x: -0.24549969, y: 0.90588266, z: -0.34511837}
-    forward: {x: -0.1671488, y: -0.08831793, z: 0.98196805}
+    percent: 0.5427631578947368
+  - position: {x: 369.20364, y: 112.09413, z: 836.2809}
+    up: {x: -0.13996144, y: 0.98876506, z: 0.052485537}
+    forward: {x: 0.90142804, y: 0.19309488, z: 0.3874813}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.5506072874493927
-  - position: {x: 64.54614, y: 92.870415, z: 531.5989}
-    up: {x: -0.24913384, y: 0.8980498, z: -0.36254513}
-    forward: {x: -0.12427332, y: -0.08940046, z: 0.98821235}
+    percent: 0.5460526315789473
+  - position: {x: 381.25793, y: 114.684746, z: 841.8602}
+    up: {x: -0.12616506, y: 0.9908805, z: 0.047311895}
+    forward: {x: 0.8806916, y: 0.1883233, z: 0.43464535}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.5546558704453441
-  - position: {x: 63.234776, y: 91.71101, z: 544.37915}
-    up: {x: -0.25275496, y: 0.8896834, z: -0.38023496}
-    forward: {x: -0.07977051, y: -0.090068795, z: 0.99273574}
+    percent: 0.5493421052631579
+  - position: {x: 393.0489, y: 117.17297, z: 848.0407}
+    up: {x: -0.11149126, y: 0.9928856, z: 0.04180922}
+    forward: {x: 0.8620614, y: 0.17749628, z: 0.47470537}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.5587044534412956
-  - position: {x: 62.507786, y: 90.54807, z: 557.182}
-    up: {x: -0.2563426, y: 0.8807937, z: -0.39810956}
-    forward: {x: -0.03389949, y: -0.0902676, z: 0.99534047}
+    percent: 0.5526315789473685
+  - position: {x: 404.62363, y: 119.46747, z: 854.68646}
+    up: {x: -0.09606089, y: 0.9947235, z: 0.036022827}
+    forward: {x: 0.849753, y: 0.1596357, z: 0.50243026}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.562753036437247
-  - position: {x: 62.37967, y: 89.38907, z: 569.96967}
-    up: {x: -0.25988576, y: 0.8713735, z: -0.41613427}
-    forward: {x: 0.013169654, y: -0.08994532, z: 0.9958596}
+    percent: 0.555921052631579
+  - position: {x: 416.09146, y: 121.46929, z: 861.5923}
+    up: {x: -0.08006357, y: 0.99633753, z: 0.030023837}
+    forward: {x: 0.8478819, y: 0.13449897, z: 0.5128414}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.5668016194331984
-  - position: {x: 62.86611, y: 88.23438, z: 582.7879}
-    up: {x: -0.26339683, y: 0.86134964, z: -0.43439502}
-    forward: {x: 0.06157322, y: -0.08904378, z: 0.9941226}
+    percent: 0.5592105263157895
+  - position: {x: 427.61072, y: 123.08403, z: 868.4957}
+    up: {x: -0.06375471, y: 0.9976793, z: 0.023908019}
+    forward: {x: 0.8585602, y: 0.102862015, z: 0.5022885}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.5708502024291497
-  - position: {x: 63.98347, y: 87.0948, z: 595.5741}
-    up: {x: -0.266858, y: 0.85072607, z: -0.45282674}
-    forward: {x: 0.11104298, y: -0.087504044, z: 0.98995584}
+    percent: 0.5625
+  - position: {x: 439.34525, y: 124.236176, z: 875.1024}
+    up: {x: -0.04745156, y: 0.9987151, z: 0.017794333}
+    forward: {x: 0.8802666, y: 0.06670549, z: 0.4697671}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.5748987854251012
-  - position: {x: 65.7419, y: 85.980606, z: 608.2769}
-    up: {x: -0.27025536, y: 0.8395012, z: -0.47138077}
-    forward: {x: 0.16134112, y: -0.08527066, z: 0.983208}
+    percent: 0.5657894736842105
+  - position: {x: 451.41483, y: 124.884995, z: 881.1305}
+    up: {x: -0.031501792, y: 0.99943393, z: 0.011813171}
+    forward: {x: 0.9079476, y: 0.029077511, z: 0.4180738}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 1
+    percent: 0.569078947368421
+  - position: {x: 463.8711, y: 125.03399, z: 886.36743}
+    up: {x: -0.016215477, y: 0.9998501, z: 0.0060808025}
+    forward: {x: 0.9353537, y: -0.0066976254, z: 0.35365045}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 1
+    percent: 0.5723684210526315
+  - position: {x: 476.65082, y: 124.727615, z: 890.6864}
+    up: {x: -0.0018619401, y: 0.9999981, z: 0.0006982349}
+    forward: {x: 0.95779455, y: -0.037964676, z: 0.28493556}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 1
+    percent: 0.5756578947368421
+  - position: {x: 489.6795, y: 124.03651, z: 894.09845}
+    up: {x: 0.011040561, y: 0.99963045, z: -0.02484126}
+    forward: {x: 0.97268164, y: -0.063664, z: 0.22324243}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
     percent: 0.5789473684210527
-  - position: {x: 68.14699, y: 84.90203, z: 620.85046}
-    up: {x: -0.27357683, y: 0.8276711, z: -0.4900168}
-    forward: {x: 0.21224444, y: -0.08228784, z: 0.9737459}
+  - position: {x: 502.88184, y: 123.02806, z: 896.7624}
+    up: {x: 0.023123391, y: 0.9983779, z: -0.052027624}
+    forward: {x: 0.9811838, y: -0.085160024, z: 0.17328072}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.582995951417004
-  - position: {x: 71.21033, y: 83.86666, z: 633.2872}
-    up: {x: -0.27682075, y: 0.81519353, z: -0.5087533}
-    forward: {x: 0.26368883, y: -0.078489415, z: 0.9614092}
+    percent: 0.5822368421052632
+  - position: {x: 516.16833, y: 121.748405, z: 898.8111}
+    up: {x: 0.034644257, y: 0.9963552, z: -0.07794957}
+    forward: {x: 0.9858303, y: -0.104110144, z: 0.13152827}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.5870445344129555
-  - position: {x: 74.942566, y: 82.88435, z: 645.5626}
-    up: {x: -0.27998114, y: 0.80203605, z: -0.5275878}
-    forward: {x: 0.31555632, y: -0.07380422, z: 0.94603235}
+    percent: 0.5855263157894737
+  - position: {x: 529.5007, y: 120.22371, z: 900.3356}
+    up: {x: 0.045753893, y: 0.99363405, z: -0.10294625}
+    forward: {x: 0.988004, y: -0.12160719, z: 0.09518276}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.5910931174089069
-  - position: {x: 79.34506, y: 81.96801, z: 657.62427}
-    up: {x: -0.28304493, y: 0.78819305, z: -0.5464774}
-    forward: {x: 0.36761785, y: -0.068167426, z: 0.9274752}
+    percent: 0.5888157894736842
+  - position: {x: 542.869, y: 118.46567, z: 901.39655}
+    up: {x: 0.05657945, y: 0.99024874, z: -0.12730375}
+    forward: {x: 0.9884088, y: -0.13841885, z: 0.06235642}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.5951417004048583
-  - position: {x: 84.41671, y: 81.13083, z: 669.42365}
-    up: {x: -0.28600067, y: 0.77365434, z: -0.5653873}
-    forward: {x: 0.4196683, y: -0.06150822, z: 0.90559113}
+    percent: 0.5921052631578947
+  - position: {x: 556.2287, y: 116.482605, z: 902.0303}
+    up: {x: 0.06719245, y: 0.9862194, z: -0.151183}
+    forward: {x: 0.98738915, y: -0.1550879, z: 0.031786975}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.5991902834008097
-  - position: {x: 90.15399, y: 80.386635, z: 680.9132}
-    up: {x: -0.28883758, y: 0.75840783, z: -0.58428633}
-    forward: {x: 0.4715145, y: -0.0537528, z: 0.88021857}
+    percent: 0.5953947368421053
+  - position: {x: 569.57056, y: 114.27164, z: 902.2603}
+    up: {x: 0.07767803, y: 0.98153937, z: -0.17477556}
+    forward: {x: 0.98507315, y: -0.17211923, z: 0.002433271}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.6032388663967612
-  - position: {x: 96.551216, y: 79.75006, z: 692.0454}
-    up: {x: -0.29154527, y: 0.74243975, z: -0.60314566}
-    forward: {x: 0.52296865, y: -0.044819344, z: 0.85117275}
+    percent: 0.5986842105263158
+  - position: {x: 582.87476, y: 111.82485, z: 902.0968}
+    up: {x: 0.08810514, y: 0.9761863, z: -0.19823654}
+    forward: {x: 0.9814247, y: -0.1899967, z: -0.026587589}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.6072874493927125
-  - position: {x: 103.600784, y: 79.23667, z: 702.7716}
-    up: {x: -0.29411352, y: 0.72573435, z: -0.6219381}
-    forward: {x: 0.5738362, y: -0.034618694, z: 0.8182381}
+    percent: 0.6019736842105263
+  - position: {x: 596.1284, y: 109.125885, z: 901.53796}
+    up: {x: 0.098547176, y: 0.97011524, z: -0.22173114}
+    forward: {x: 0.9762468, y: -0.2092622, z: -0.056138813}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.611336032388664
-  - position: {x: 111.29315, y: 78.863144, z: 713.04126}
-    up: {x: -0.29653206, y: 0.7082743, z: -0.6406374}
-    forward: {x: 0.6239058, y: -0.023052739, z: 0.78115946}
+    percent: 0.6052631578947368
+  - position: {x: 609.3089, y: 106.1513, z: 900.57}
+    up: {x: 0.10907531, y: 0.963261, z: -0.24541943}
+    forward: {x: 0.969147, y: -0.23056345, z: -0.087146625}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.6153846153846154
-  - position: {x: 119.62398, y: 78.647316, z: 722.8091}
-    up: {x: -0.29879227, y: 0.69002575, z: -0.65923274}
-    forward: {x: 0.67298037, y: -0.010002911, z: 0.7395927}
+    percent: 0.6085526315789473
+  - position: {x: 622.36334, y: 102.87372, z: 899.16833}
+    up: {x: 0.11974878, y: 0.95554435, z: -0.26943472}
+    forward: {x: 0.9594645, y: -0.25469768, z: -0.12065207}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.6194331983805668
-  - position: {x: 128.57983, y: 78.609055, z: 732.01624}
-    up: {x: -0.30088276, y: 0.6709693, z: -0.67769456}
-    forward: {x: 0.7207512, y: 0.0046460517, z: 0.69317824}
+    percent: 0.6118421052631579
+  - position: {x: 635.2881, y: 99.23689, z: 897.2845}
+    up: {x: 0.13069017, y: 0.946812, z: -0.29405287}
+    forward: {x: 0.94600916, y: -0.28290346, z: -0.15821567}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.6234817813765182
-  - position: {x: 138.14008, y: 78.7697, z: 740.59564}
-    up: {x: -0.30279082, y: 0.6510943, z: -0.6959843}
-    forward: {x: 0.76661104, y: 0.020876827, z: 0.64177233}
+    percent: 0.6151315789473685
+  - position: {x: 647.9861, y: 95.18445, z: 894.8552}
+    up: {x: 0.14198336, y: 0.93690145, z: -0.31946254}
+    forward: {x: 0.9267706, y: -0.31680462, z: -0.20181914}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.6275303643724697
-  - position: {x: 148.27176, y: 79.148506, z: 748.4819}
-    up: {x: -0.30094442, y: 0.67732954, z: -0.6713101}
-    forward: {x: 0.8087803, y: 0.037875626, z: 0.58689}
+    percent: 0.618421052631579
+  - position: {x: 660.381, y: 90.61494, z: 891.77325}
+    up: {x: 0.14840373, y: 0.93149555, z: -0.33210304}
+    forward: {x: 0.8983655, y: -0.35740617, z: -0.25534335}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 1
+    percent: 0.6217105263157895
+  - position: {x: 672.2818, y: 85.50143, z: 887.8681}
+    up: {x: 0.13768424, y: 0.9438696, z: -0.30025503}
+    forward: {x: 0.8588388, y: -0.3944395, z: -0.32682317}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 1
+    percent: 0.625
+  - position: {x: 683.57336, y: 79.98232, z: 882.84143}
+    up: {x: 0.12616996, y: 0.9556256, z: -0.2661971}
+    forward: {x: 0.80687314, y: -0.41497472, z: -0.42041856}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 1
+    percent: 0.6282894736842105
+  - position: {x: 694.0626, y: 74.351295, z: 876.4244}
+    up: {x: 0.11406131, y: 0.966354, z: -0.23054242}
+    forward: {x: 0.7414495, y: -0.41009623, z: -0.5311061}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
     percent: 0.631578947368421
-  - position: {x: 158.90842, y: 79.7448, z: 755.652}
-    up: {x: -0.29796615, y: 0.7092737, z: -0.638864}
-    forward: {x: 0.8453174, y: 0.054439813, z: 0.53148353}
+  - position: {x: 703.5754, y: 68.99509, z: 868.47565}
+    up: {x: 0.10171051, y: 0.9756474, z: -0.19433747}
+    forward: {x: 0.6653716, y: -0.37532824, z: -0.6452979}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.6356275303643725
-  - position: {x: 169.97168, y: 80.54758, z: 762.11694}
-    up: {x: -0.2943328, y: 0.7400047, z: -0.60478204}
-    forward: {x: 0.875758, y: 0.07002916, z: 0.47764406}
+    percent: 0.6348684210526315
+  - position: {x: 712.0242, y: 64.29251, z: 859.0598}
+    up: {x: 0.08954441, y: 0.9832371, z: -0.15882832}
+    forward: {x: 0.5863036, y: -0.3154661, z: -0.74614286}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.6396761133603239
-  - position: {x: 181.38573, y: 81.543106, z: 767.90656}
-    up: {x: -0.29004785, y: 0.7693406, z: -0.56919885}
-    forward: {x: 0.90044683, y: 0.08448039, z: 0.4266831}
+    percent: 0.6381578947368421
+  - position: {x: 719.4367, y: 60.502167, z: 848.4357}
+    up: {x: 0.077941135, y: 0.98907804, z: -0.12509981}
+    forward: {x: 0.5133719, y: -0.24274057, z: -0.8231198}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.6437246963562753
-  - position: {x: 193.08102, y: 82.716255, z: 773.06506}
-    up: {x: -0.285118, y: 0.7971427, z: -0.5322323}
-    forward: {x: 0.91998124, y: 0.0977304, z: 0.37958306}
+    percent: 0.6414473684210527
+  - position: {x: 725.9203, y: 57.72001, z: 836.9777}
+    up: {x: 0.06715844, y: 0.99331635, z: -0.09387395}
+    forward: {x: 0.4524359, y: -0.16941239, z: -0.87555766}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.6477732793522267
-  - position: {x: 204.9965, y: 84.05166, z: 777.64703}
-    up: {x: -0.27955043, y: 0.82330984, z: -0.4939763}
-    forward: {x: 0.9350781, y: 0.1097944, z: 0.33700767}
+    percent: 0.6447368421052632
+  - position: {x: 731.6775, y: 55.888412, z: 824.9326}
+    up: {x: 0.05720861, y: 0.9962338, z: -0.06515798}
+    forward: {x: 0.40426433, y: -0.10215346, z: -0.9089197}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.6518218623481782
-  - position: {x: 217.0802, y: 85.53449, z: 781.7137}
-    up: {x: -0.27334973, y: 0.8477693, z: -0.45449662}
-    forward: {x: 0.9464663, y: 0.120740555, z: 0.29937127}
+    percent: 0.6480263157894737
+  - position: {x: 736.8677, y: 54.907475, z: 812.5226}
+    up: {x: 0.048063457, y: 0.9980887, z: -0.038845956}
+    forward: {x: 0.36734623, y: -0.043443996, z: -0.9290691}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.6558704453441295
-  - position: {x: 229.28882, y: 87.151, z: 785.33}
-    up: {x: -0.26651603, y: 0.8704678, z: -0.41382974}
-    forward: {x: 0.95482165, y: 0.13066867, z: 0.26691076}
+    percent: 0.6513157894736842
+  - position: {x: 741.60535, y: 54.66111, z: 799.95154}
+    up: {x: 0.039683416, y: 0.9991028, z: -0.014802963}
+    forward: {x: 0.3394784, y: 0.0065570655, z: -0.94059104}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.659919028340081
-  - position: {x: 241.58734, y: 88.888824, z: 788.5636}
-    up: {x: -0.259043, y: 0.8913628, z: -0.3719799}
-    forward: {x: 0.9607243, y: 0.1396924, z: 0.23978065}
+    percent: 0.6546052631578947
+  - position: {x: 746.009, y: 55.035248, z: 787.2855}
+    up: {x: 0.031956546, y: 0.99946254, z: 0.007309377}
+    forward: {x: 0.31839064, y: 0.04904727, z: -0.94668984}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.6639676113360324
-  - position: {x: 253.95111, y: 90.737656, z: 791.4845}
-    up: {x: -0.25091338, y: 0.91041917, z: -0.32890663}
-    forward: {x: 0.96464616, y: 0.1479284, z: 0.21811694}
+    percent: 0.6578947368421053
+  - position: {x: 750.16254, y: 55.936466, z: 774.5709}
+    up: {x: 0.024791054, y: 0.99930704, z: 0.027766824}
+    forward: {x: 0.30235347, y: 0.0852751, z: -0.9493738}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.6680161943319838
-  - position: {x: 266.3593, y: 92.688484, z: 794.1645}
-    up: {x: -0.2421003, y: 0.9275907, z: -0.2845399}
-    forward: {x: 0.9669375, y: 0.15548544, z: 0.20212913}
+    percent: 0.6611842105263158
+  - position: {x: 754.1316, y: 57.290283, z: 761.8227}
+    up: {x: 0.014548256, y: 0.9993921, z: 0.031685427}
+    forward: {x: 0.29035008, y: 0.11574423, z: -0.9498948}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.6720647773279352
-  - position: {x: 278.7952, y: 94.73372, z: 796.6787}
-    up: {x: -0.23256369, y: 0.9428163, z: -0.23877114}
-    forward: {x: 0.96782154, y: 0.16245745, z: 0.1921696}
+    percent: 0.6644736842105263
+  - position: {x: 757.9734, y: 59.02614, z: 749.0374}
+    up: {x: -0.0020001172, y: 0.9999798, z: 0.0060408115}
+    forward: {x: 0.28176814, y: 0.14078304, z: -0.94909793}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.6761133603238867
-  - position: {x: 291.24353, y: 96.866844, z: 799.10846}
-    up: {x: -0.22224799, y: 0.95600843, z: -0.19145158}
-    forward: {x: 0.9673721, y: 0.16892034, z: 0.18883109}
+    percent: 0.6677631578947368
+  - position: {x: 761.73444, y: 61.076294, z: 736.2166}
+    up: {x: -0.017823214, y: 0.99967027, z: -0.018487815}
+    forward: {x: 0.27591738, y: 0.16150787, z: -0.94751513}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.680161943319838
-  - position: {x: 303.687, y: 99.08183, z: 801.5442}
-    up: {x: -0.21107975, y: 0.9670421, z: -0.14239025}
-    forward: {x: 0.96547157, y: 0.17491671, z: 0.19305147}
+    percent: 0.6710526315789473
+  - position: {x: 765.4224, y: 63.378212, z: 723.45233}
+    up: {x: -0.033006627, y: 0.99857104, z: -0.042032152}
+    forward: {x: 0.27216327, y: 0.1791501, z: -0.9454271}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 1
+    percent: 0.6743421052631579
+  - position: {x: 769.06714, y: 65.89954, z: 710.7338}
+    up: {x: -0.047713324, y: 0.9967541, z: -0.064844154}
+    forward: {x: 0.2700532, y: 0.19468087, z: -0.9429585}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 1
+    percent: 0.6776315789473685
+  - position: {x: 772.6978, y: 68.62291, z: 698.03424}
+    up: {x: -0.062088367, y: 0.9942587, z: -0.087148294}
+    forward: {x: 0.26931503, y: 0.20876586, z: -0.94015217}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 1
+    percent: 0.680921052631579
+  - position: {x: 776.3348, y: 71.53505, z: 685.3476}
+    up: {x: -0.07623087, y: 0.9911037, z: -0.10909799}
+    forward: {x: 0.26980585, y: 0.22186355, z: -0.9370066}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
     percent: 0.6842105263157895
-  - position: {x: 316.10016, y: 101.371994, z: 804.09094}
-    up: {x: -0.19896567, y: 0.9757389, z: -0.09135789}
-    forward: {x: 0.9617107, y: 0.1804402, z: 0.20628594}
+  - position: {x: 779.98816, y: 74.62066, z: 672.6994}
+    up: {x: -0.09019285, y: 0.9873012, z: -0.13077384}
+    forward: {x: 0.27145314, y: 0.23429741, z: -0.93349767}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.6882591093117408
-  - position: {x: 328.4398, y: 103.72811, z: 806.87494}
-    up: {x: -0.18579295, y: 0.98184997, z: -0.038099825}
-    forward: {x: 0.95518595, y: 0.18539183, z: 0.23075907}
+    percent: 0.6875
+  - position: {x: 783.6731, y: 77.872734, z: 660.09564}
+    up: {x: -0.10404133, y: 0.9828461, z: -0.15227969}
+    forward: {x: 0.27424368, y: 0.2463532, z: -0.92957}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.6923076923076923
-  - position: {x: 340.64636, y: 106.138535, z: 810.0563}
-    up: {x: -0.17141435, y: 0.9850399, z: 0.01771015}
-    forward: {x: 0.9440858, y: 0.18950006, z: 0.2697995}
+    percent: 0.6907894736842105
+  - position: {x: 787.4089, y: 81.29129, z: 647.531}
+    up: {x: -0.11785279, y: 0.9777153, z: -0.1737344}
+    forward: {x: 0.27823278, y: 0.2582977, z: -0.92513186}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.6963562753036437
-  - position: {x: 352.70163, y: 108.60124, z: 813.8702}
-    up: {x: -0.15693897, y: 0.9858533, z: 0.05885211}
-    forward: {x: 0.925652, y: 0.1920821, z: 0.32599494}
+    percent: 0.694078947368421
+  - position: {x: 791.2076, y: 84.8723, z: 635.02924}
+    up: {x: -0.13167293, y: 0.9718826, z: -0.19520892}
+    forward: {x: 0.28352252, y: 0.27036256, z: -0.92006475}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.7004048582995951
-  - position: {x: 364.44772, y: 111.076546, z: 818.4838}
-    up: {x: -0.14507274, y: 0.9879244, z: 0.05440228}
-    forward: {x: 0.90070486, y: 0.19176413, z: 0.3898171}
+    percent: 0.6973684210526315
+  - position: {x: 795.0848, y: 88.61606, z: 622.61}
+    up: {x: -0.14555605, y: 0.9653066, z: -0.21678784}
+    forward: {x: 0.2902878, y: 0.28280193, z: -0.91419697}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.7044534412955465
-  - position: {x: 375.8468, y: 113.5224, z: 823.9092}
-    up: {x: -0.13250968, y: 0.9899354, z: 0.049691126}
-    forward: {x: 0.87251365, y: 0.1873931, z: 0.4512247}
+    percent: 0.7006578947368421
+  - position: {x: 799.0775, y: 92.54479, z: 610.23816}
+    up: {x: -0.15962784, y: 0.95789206, z: -0.23866689}
+    forward: {x: 0.29883894, y: 0.29596704, z: -0.9072479}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.708502024291498
-  - position: {x: 386.86365, y: 115.87914, z: 830.07715}
-    up: {x: -0.11933137, y: 0.9918456, z: 0.044749264}
-    forward: {x: 0.84412986, y: 0.17827705, z: 0.50563043}
+    percent: 0.7039473684210527
+  - position: {x: 803.20935, y: 96.66786, z: 597.9434}
+    up: {x: -0.17395905, y: 0.9495473, z: -0.2609566}
+    forward: {x: 0.30959904, y: 0.3102327, z: -0.8988348}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.7125506072874493
-  - position: {x: 397.53894, y: 118.08721, z: 836.8802}
-    up: {x: -0.10561433, y: 0.9936182, z: 0.03960537}
-    forward: {x: 0.8195913, y: 0.16411306, z: 0.54894173}
+    percent: 0.7072368421052632
+  - position: {x: 807.50775, y: 100.997116, z: 585.7696}
+    up: {x: -0.18862844, y: 0.94015336, z: -0.28377995}
+    forward: {x: 0.32319516, y: 0.32608914, z: -0.8883754}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.7165991902834008
-  - position: {x: 407.9374, y: 120.07951, z: 844.1434}
-    up: {x: -0.091492884, y: 0.9952146, z: 0.034309834}
-    forward: {x: 0.8032787, y: 0.14504288, z: 0.57767284}
+    percent: 0.7105263157894737
+  - position: {x: 812.0102, y: 105.55144, z: 573.77}
+    up: {x: -0.20374094, y: 0.92954594, z: -0.3073013}
+    forward: {x: 0.34059003, y: 0.34424427, z: -0.8749254}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.7206477732793523
-  - position: {x: 418.19547, y: 121.79704, z: 851.66626}
-    up: {x: -0.077086814, y: 0.9966053, z: 0.028907552}
-    forward: {x: 0.79868805, y: 0.121503375, z: 0.5893508}
+    percent: 0.7138157894736842
+  - position: {x: 816.7741, y: 110.36505, z: 562.0028}
+    up: {x: -0.2194586, y: 0.917477, z: -0.33177403}
+    forward: {x: 0.36335573, y: 0.36579362, z: -0.85683584}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.7246963562753036
-  - position: {x: 428.47778, y: 123.186806, z: 859.2191}
-    up: {x: -0.06253274, y: 0.99776745, z: 0.023449771}
-    forward: {x: 0.80747026, y: 0.09417719, z: 0.58234227}
+    percent: 0.7171052631578947
+  - position: {x: 821.89435, y: 115.50073, z: 550.5345}
+    up: {x: -0.23604895, y: 0.90354383, z: -0.35761642}
+    forward: {x: 0.39425617, y: 0.39258906, z: -0.83092475}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.728744939271255
-  - position: {x: 438.95074, y: 124.205894, z: 866.5542}
-    up: {x: -0.047989063, y: 0.9986858, z: 0.017995898}
-    forward: {x: 0.8287493, y: 0.06403408, z: 0.5559444}
+    percent: 0.7203947368421053
+  - position: {x: 827.5319, y: 121.06912, z: 539.47217}
+    up: {x: -0.25396308, y: 0.88705486, z: -0.38553408}
+    forward: {x: 0.43859583, y: 0.42801338, z: -0.79021406}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.7327935222672065
-  - position: {x: 449.76468, y: 124.82717, z: 873.4319}
-    up: {x: -0.0336205, y: 0.99935526, z: 0.0126076825}
-    forward: {x: 0.8590362, y: 0.03241342, z: 0.5108877}
+    percent: 0.7236842105263158
+  - position: {x: 833.9569, y: 127.24733, z: 529.0911}
+    up: {x: -0.2739405, y: 0.8667935, z: -0.4166843}
+    forward: {x: 0.5074247, y: 0.4785263, z: -0.71661204}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 1
+    percent: 0.7269736842105263
+  - position: {x: 841.575, y: 134.24792, z: 520.2416}
+    up: {x: -0.2970363, y: 0.8407219, z: -0.45272106}
+    forward: {x: 0.6223398, y: 0.55367595, z: -0.55329573}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 1
+    percent: 0.7302631578947368
+  - position: {x: 851.1274, y: 142.3496, z: 515.2267}
+    up: {x: -0.29254013, y: 0.82638067, z: -0.48116016}
+    forward: {x: 0.7745405, y: 0.62194145, z: -0.11522067}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 1
+    percent: 0.7335526315789473
+  - position: {x: 861.5259, y: 150.18831, z: 517.87964}
+    up: {x: -0.2177307, y: 0.8511344, z: -0.47766468}
+    forward: {x: 0.7240711, y: 0.5119595, z: 0.4621888}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
     percent: 0.7368421052631579
-  - position: {x: 460.98132, y: 125.042274, z: 879.6174}
-    up: {x: -0.019647973, y: 0.99977994, z: 0.007367991}
-    forward: {x: 0.89290935, y: 0.0011405703, z: 0.45023504}
+  - position: {x: 870.23, y: 156.00603, z: 526.18494}
+    up: {x: -0.15233906, y: 0.8681818, z: -0.4722849}
+    forward: {x: 0.5796125, y: 0.36590105, z: 0.72812486}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.7408906882591093
-  - position: {x: 472.61948, y: 124.86848, z: 884.9486}
-    up: {x: -0.0062460294, y: 0.9999779, z: 0.0023422576}
-    forward: {x: 0.9248868, y: -0.027960485, z: 0.3792132}
+    percent: 0.7401315789473685
+  - position: {x: 877.2917, y: 160.24777, z: 536.81177}
+    up: {x: -0.0969887, y: 0.8793978, z: -0.4661038}
+    forward: {x: 0.4785932, y: 0.2733516, z: 0.83440244}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.7449392712550608
-  - position: {x: 484.6329, y: 124.34366, z: 889.3409}
-    up: {x: 0.006198502, y: 0.99988353, z: -0.013946628}
-    forward: {x: 0.95007795, y: -0.053371426, z: 0.30741414}
+    percent: 0.743421052631579
+  - position: {x: 883.2563, y: 163.49976, z: 548.45935}
+    up: {x: -0.048275422, y: 0.88688684, z: -0.45945764}
+    forward: {x: 0.41134298, y: 0.21396144, z: 0.8860121}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.7489878542510121
-  - position: {x: 496.92142, y: 123.518036, z: 892.87}
-    up: {x: 0.017761094, y: 0.9990433, z: -0.03996246}
-    forward: {x: 0.9663601, y: -0.07497777, z: 0.24602163}
+    percent: 0.7467105263157895
+  - position: {x: 888.4467, y: 166.07964, z: 560.6008}
+    up: {x: -0.004110463, y: 0.89177155, z: -0.45246732}
+    forward: {x: 0.36362466, y: 0.17260414, z: 0.9154151}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.7530364372469636
-  - position: {x: 509.3657, y: 122.43475, z: 895.6788}
-    up: {x: 0.028812133, y: 0.99748045, z: -0.06482729}
-    forward: {x: 0.97636676, y: -0.09394024, z: 0.19463582}
+    percent: 0.75
+  - position: {x: 893.08044, y: 168.17961, z: 573.05865}
+    up: {x: 0.037006542, y: 0.89469695, z: -0.44513795}
+    forward: {x: 0.3273976, y: 0.14154232, z: 0.9342251}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.757085020242915
-  - position: {x: 521.92786, y: 121.11831, z: 897.88074}
-    up: {x: 0.03948999, y: 0.99526167, z: -0.088852465}
-    forward: {x: 0.9823626, y: -0.11127494, z: 0.15027156}
+    percent: 0.7532894736842105
+  - position: {x: 897.2837, y: 169.91002, z: 585.7383}
+    up: {x: 0.075976305, y: 0.8960231, z: -0.4374588}
+    forward: {x: 0.2983934, y: 0.11683491, z: 0.947265}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.7611336032388664
-  - position: {x: 534.5517, y: 119.58608, z: 899.5491}
-    up: {x: 0.049874768, y: 0.99243116, z: -0.112218216}
-    forward: {x: 0.98559225, y: -0.12765405, z: 0.11096108}
+    percent: 0.756578947368421
+  - position: {x: 901.136, y: 171.3398, z: 598.5836}
+    up: {x: 0.113399364, y: 0.89596236, z: -0.42940885}
+    forward: {x: 0.27416, y: 0.096264385, z: 0.9568539}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.7651821862348178
-  - position: {x: 547.20056, y: 117.84757, z: 900.7378}
-    up: {x: 0.060038228, y: 0.9890132, z: -0.135086}
-    forward: {x: 0.98677176, y: -0.14360073, z: 0.07523536}
+    percent: 0.7598684210526315
+  - position: {x: 904.68976, y: 172.51413, z: 611.5584}
+    up: {x: 0.14971061, y: 0.89464, z: -0.42095828}
+    forward: {x: 0.2531662, y: 0.07846964, z: 0.9642351}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.7692307692307693
-  - position: {x: 559.8592, y: 115.90418, z: 901.48566}
-    up: {x: 0.07005328, y: 0.9850119, z: -0.15761986}
-    forward: {x: 0.9862959, y: -0.15956718, z: 0.041937683}
+    percent: 0.7631578947368421
+  - position: {x: 907.98016, y: 173.46315, z: 624.6368}
+    up: {x: 0.18524617, y: 0.89212286, z: -0.41206878}
+    forward: {x: 0.23438153, y: 0.06254483, z: 0.9701306}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.7732793522267206
-  - position: {x: 572.5072, y: 113.75294, z: 901.8173}
-    up: {x: 0.07997922, y: 0.9804183, z: -0.17995323}
-    forward: {x: 0.9843446, y: -0.17596266, z: 0.010137502}
+    percent: 0.7664473684210527
+  - position: {x: 911.0301, y: 174.20668, z: 637.79755}
+    up: {x: 0.22028299, y: 0.88843346, z: -0.40269265}
+    forward: {x: 0.2170536, y: 0.04783224, z: 0.9749871}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.7773279352226721
-  - position: {x: 585.12524, y: 111.38568, z: 901.74646}
-    up: {x: 0.08987203, y: 0.9752093, z: -0.20221205}
-    forward: {x: 0.98093474, y: -0.1932028, z: -0.02096808}
+    percent: 0.7697368421052632
+  - position: {x: 913.8531, y: 174.75684, z: 651.022}
+    up: {x: 0.2550664, y: 0.8835571, z: -0.39276966}
+    forward: {x: 0.20058033, y: 0.033807296, z: 0.9790938}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.7813765182186235
-  - position: {x: 597.6991, y: 108.78737, z: 901.2763}
-    up: {x: 0.09979237, y: 0.96934325, z: -0.22453281}
-    forward: {x: 0.9759267, y: -0.21176295, z: -0.052187532}
+    percent: 0.7730263157894737
+  - position: {x: 916.45544, y: 175.11938, z: 664.29395}
+    up: {x: 0.2898373, y: 0.8774402, z: -0.38222125}
+    forward: {x: 0.184418, y: 0.019994812, z: 0.9826445}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.7854251012145749
-  - position: {x: 610.2008, y: 105.93849, z: 900.40015}
-    up: {x: 0.109795414, y: 0.9627649, z: -0.24703966}
-    forward: {x: 0.96900463, y: -0.232205, z: -0.084326185}
+    percent: 0.7763157894736842
+  - position: {x: 918.83875, y: 175.29396, z: 677.61304}
+    up: {x: 0.3248908, y: 0.86997545, z: -0.3709297}
+    forward: {x: 0.16798027, y: 0.0058789905, z: 0.98577285}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 1
+    percent: 0.7796052631578947
+  - position: {x: 920.9948, y: 175.27237, z: 690.9762}
+    up: {x: 0.3605597, y: 0.8609906, z: -0.35873646}
+    forward: {x: 0.15054682, y: -0.009166664, z: 0.98856044}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 1
+    percent: 0.7828947368421053
+  - position: {x: 922.90204, y: 175.03665, z: 704.36615}
+    up: {x: 0.39723086, y: 0.85022765, z: -0.3454281}
+    forward: {x: 0.13098337, y: -0.025893833, z: 0.9910463}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 1
+    percent: 0.7861842105263158
+  - position: {x: 924.5241, y: 174.55669, z: 717.8202}
+    up: {x: 0.37667102, y: 0.86744463, z: -0.32505193}
+    forward: {x: 0.106877655, y: -0.044717558, z: 0.99326605}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
     percent: 0.7894736842105263
-  - position: {x: 622.5846, y: 102.81499, z: 899.10205}
-    up: {x: 0.119932495, y: 0.9554047, z: -0.26984808}
-    forward: {x: 0.95961475, y: -0.25523126, z: -0.118307374}
+  - position: {x: 925.77515, y: 173.80496, z: 731.34235}
+    up: {x: 0.35406053, y: 0.88487506, z: -0.30271637}
+    forward: {x: 0.07503804, y: -0.06554511, z: 0.99502414}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.7935222672064778
-  - position: {x: 634.85175, y: 99.367, z: 897.3456}
-    up: {x: 0.13031292, y: 0.9471271, z: -0.29320404}
-    forward: {x: 0.946756, y: -0.28192362, z: -0.15547408}
+    percent: 0.7927631578947368
+  - position: {x: 926.5206, y: 172.75319, z: 744.89557}
+    up: {x: 0.32898328, y: 0.9024844, z: -0.27801394}
+    forward: {x: 0.031568713, y: -0.08873219, z: 0.99555516}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.7975708502024291
-  - position: {x: 646.92664, y: 95.5441, z: 895.0819}
-    up: {x: 0.14101465, y: 0.93778795, z: -0.31728292}
-    forward: {x: 0.928764, y: -0.31369627, z: -0.19746429}
+    percent: 0.7960526315789473
+  - position: {x: 926.563, y: 171.37466, z: 758.3591}
+    up: {x: 0.30097207, y: 0.9201434, z: -0.2505032}
+    forward: {x: -0.02967123, y: -0.11478965, z: 0.99294657}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.8016194331983806
-  - position: {x: 658.7148, y: 91.27224, z: 892.23694}
-    up: {x: 0.14980407, y: 0.9297734, z: -0.33627388}
-    forward: {x: 0.9029347, y: -0.35178864, z: -0.24688798}
+    percent: 0.7993421052631579
+  - position: {x: 925.5836, y: 169.60757, z: 771.8135}
+    up: {x: 0.2687264, y: 0.9380054, z: -0.21893384}
+    forward: {x: -0.1214509, y: -0.14474845, z: 0.9819865}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.805668016194332
-  - position: {x: 670.1117, y: 86.48443, z: 888.68384}
-    up: {x: 0.13973013, y: 0.94161665, z: -0.3063226}
-    forward: {x: 0.86761624, y: -0.38984752, z: -0.30864382}
+    percent: 0.8026315789473685
+  - position: {x: 923.03204, y: 167.40846, z: 784.97363}
+    up: {x: 0.23094478, y: 0.95577925, z: -0.1820728}
+    forward: {x: -0.26620513, y: -0.17816341, z: 0.9473081}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.8097165991902834
-  - position: {x: 680.98944, y: 81.26368, z: 884.2366}
-    up: {x: 0.12885866, y: 0.9530187, z: -0.2741363}
-    forward: {x: 0.8223093, y: -0.4177898, z: -0.38634053}
+    percent: 0.805921052631579
+  - position: {x: 917.9635, y: 164.76529, z: 797.2532}
+    up: {x: 0.18575096, y: 0.97283655, z: -0.13815093}
+    forward: {x: -0.4980249, y: -0.207746, z: 0.84191024}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.8137651821862348
-  - position: {x: 691.1955, y: 75.79351, z: 878.6919}
-    up: {x: 0.117223464, y: 0.96370965, z: -0.23983806}
-    forward: {x: 0.76528555, y: -0.42851233, z: -0.48032817}
+    percent: 0.8092105263157895
+  - position: {x: 909.2151, y: 161.91272, z: 807.06256}
+    up: {x: 0.13311829, y: 0.98725486, z: -0.08722086}
+    forward: {x: -0.7936565, y: -0.20248514, z: 0.5736802}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.8178137651821862
-  - position: {x: 700.58234, y: 70.3389, z: 871.8547}
-    up: {x: 0.10492174, y: 0.9733876, z: -0.20373535}
-    forward: {x: 0.695464, y: -0.4144814, z: -0.586971}
+    percent: 0.8125
+  - position: {x: 897.10645, y: 159.54504, z: 812.2721}
+    up: {x: 0.07986434, y: 0.99615836, z: -0.03592056}
+    forward: {x: -0.96923405, y: -0.14073016, z: 0.20194146}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.8218623481781376
-  - position: {x: 708.99524, y: 65.254425, z: 863.6159}
-    up: {x: 0.09218202, y: 0.9817206, z: -0.166514}
-    forward: {x: 0.6143541, y: -0.3704886, z: -0.6966401}
+    percent: 0.8157894736842105
+  - position: {x: 883.7978, y: 158.12766, z: 813.03186}
+    up: {x: 0.03368587, y: 0.99939734, z: 0.008381724}
+    forward: {x: -0.9952458, y: -0.07119395, z: -0.06646151}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.8259109311740891
-  - position: {x: 716.3157, y: 60.92655, z: 854.03394}
-    up: {x: 0.079368606, y: 0.98843163, z: -0.12924205}
-    forward: {x: 0.527726, y: -0.2983825, z: -0.7952818}
+    percent: 0.819078947368421
+  - position: {x: 870.5235, y: 157.53444, z: 810.9911}
+    up: {x: -0.002087974, y: 0.9990768, z: 0.042909946}
+    forward: {x: -0.9746965, y: -0.01929454, z: -0.2226977}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.8299595141700404
-  - position: {x: 722.5274, y: 57.657436, z: 843.3365}
-    up: {x: 0.06687531, y: 0.9934125, z: -0.09305552}
-    forward: {x: 0.44419876, y: -0.20833148, z: -0.8713699}
+    percent: 0.8223684210526315
+  - position: {x: 857.5971, y: 157.52548, z: 807.31836}
+    up: {x: -0.015972363, y: 0.99817145, z: 0.058300264}
+    forward: {x: -0.9485701, y: 0.015534943, z: -0.3161858}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.8340080971659919
-  - position: {x: 727.7334, y: 55.585224, z: 831.82135}
-    up: {x: 0.054988448, y: 0.9967563, z: -0.058763117}
-    forward: {x: 0.37098196, y: -0.11349702, z: -0.92167825}
+    percent: 0.8256578947368421
+  - position: {x: 844.944, y: 157.90668, z: 802.6007}
+    up: {x: -0.028311154, y: 0.9970055, z: 0.07196266}
+    forward: {x: -0.924904, y: 0.039528284, z: -0.37814024}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.8380566801619433
-  - position: {x: 732.0791, y: 54.703346, z: 819.83417}
-    up: {x: 0.043910492, y: 0.9986727, z: -0.026922703}
-    forward: {x: 0.31155658, y: -0.024297606, z: -0.9499169}
+    percent: 0.8289473684210527
+  - position: {x: 832.6398, y: 158.5627, z: 797.1995}
+    up: {x: -0.03944927, y: 0.9956607, z: 0.08428371}
+    forward: {x: -0.9045769, y: 0.05719859, z: -0.4224559}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 1
+    percent: 0.8322368421052632
+  - position: {x: 820.6038, y: 159.42763, z: 791.28516}
+    up: {x: -0.049714018, y: 0.9941749, z: 0.09562862}
+    forward: {x: -0.8869914, y: 0.07103218, z: -0.45629007}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 1
+    percent: 0.8355263157894737
+  - position: {x: 808.79, y: 160.46031, z: 784.96533}
+    up: {x: -0.059304446, y: 0.99257267, z: 0.106219545}
+    forward: {x: -0.8715515, y: 0.08234314, z: -0.48334005}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 1
+    percent: 0.8388157894736842
+  - position: {x: 797.1673, y: 161.63293, z: 778.31274}
+    up: {x: -0.06835421, y: 0.99087036, z: 0.11620569}
+    forward: {x: -0.85778546, y: 0.09189972, z: -0.5057258}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
     percent: 0.8421052631578947
-  - position: {x: 735.7554, y: 54.9013, z: 807.5768}
-    up: {x: 0.03364571, y: 0.9994307, z: 0.00248003}
-    forward: {x: 0.26532328, y: 0.05472513, z: -0.9626052}
+  - position: {x: 785.7102, y: 162.92618, z: 771.3768}
+    up: {x: -0.076960914, y: 0.98907924, z: 0.12569591}
+    forward: {x: -0.8453327, y: 0.10018354, z: -0.5247627}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.8461538461538461
-  - position: {x: 738.90314, y: 56.03409, z: 795.27057}
-    up: {x: 0.024205253, y: 0.99927354, z: 0.029437214}
-    forward: {x: 0.23033454, y: 0.122214995, z: -0.9654064}
+    percent: 0.8453947368421053
+  - position: {x: 774.39417, y: 164.32654, z: 764.1901}
+    up: {x: -0.085200645, y: 0.98720646, z: 0.13477509}
+    forward: {x: -0.83392245, y: 0.10751816, z: -0.54130685}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.8502024291497976
-  - position: {x: 741.6628, y: 57.96129, z: 782.9597}
-    up: {x: 0.00764497, y: 0.9997505, z: 0.020988604}
-    forward: {x: 0.20286097, y: 0.17765208, z: -0.9629575}
+    percent: 0.8486842105263158
+  - position: {x: 763.1944, y: 165.82489, z: 756.7728}
+    up: {x: -0.093135335, y: 0.9852564, z: 0.14351217}
+    forward: {x: -0.8233375, y: 0.11412668, z: -0.555959}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.854251012145749
-  - position: {x: 744.10443, y: 60.527233, z: 770.6694}
-    up: {x: -0.013798018, y: 0.9998298, z: -0.012247305}
-    forward: {x: 0.17867568, y: 0.22113025, z: -0.9587369}
+    percent: 0.8519736842105263
+  - position: {x: 752.15405, y: 167.40529, z: 749.1831}
+    up: {x: -0.100770175, y: 0.98324347, z: 0.15191355}
+    forward: {x: -0.813471, y: 0.120137244, z: -0.5690624}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.8582995951417004
-  - position: {x: 746.24994, y: 63.593666, z: 758.4171}
-    up: {x: -0.03413174, y: 0.99845815, z: -0.043777104}
-    forward: {x: 0.1558553, y: 0.2558931, z: -0.9540586}
+    percent: 0.8552631578947368
+  - position: {x: 741.2686, y: 169.05945, z: 741.44385}
+    up: {x: -0.10813852, y: 0.9811733, z: 0.16001649}
+    forward: {x: -0.80419755, y: 0.1256665, z: -0.58092535}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.8623481781376519
-  - position: {x: 748.1095, y: 67.06784, z: 746.21606}
-    up: {x: -0.053599447, y: 0.9958187, z: -0.073976174}
-    forward: {x: 0.13366847, y: 0.28481394, z: -0.94921744}
+    percent: 0.8585526315789473
+  - position: {x: 730.5077, y: 170.78488, z: 733.554}
+    up: {x: -0.115285255, y: 0.9790449, z: 0.16787083}
+    forward: {x: -0.79539645, y: 0.13081695, z: -0.5918036}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.8663967611336032
-  - position: {x: 749.68634, y: 70.88569, z: 734.07465}
-    up: {x: -0.072379105, y: 0.9920321, z: -0.10311926}
-    forward: {x: 0.1115764, y: 0.3096612, z: -0.9442778}
+    percent: 0.8618421052631579
+  - position: {x: 719.8409, y: 172.58116, z: 725.50696}
+    up: {x: -0.122250155, y: 0.9768559, z: 0.17552069}
+    forward: {x: -0.78696704, y: 0.13566655, z: -0.6018949}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.8704453441295547
-  - position: {x: 750.9783, y: 75.00203, z: 721.99744}
-    up: {x: -0.090609394, y: 0.98717713, z: -0.13142058}
-    forward: {x: 0.08913652, y: 0.3315897, z: -0.9392034}
+    percent: 0.8651315789473685
+  - position: {x: 709.2589, y: 174.44579, z: 717.30774}
+    up: {x: -0.12905532, y: 0.9746072, z: 0.18299063}
+    forward: {x: -0.7788453, y: 0.14026897, z: -0.6113303}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.8744939271255061
-  - position: {x: 751.9782, y: 79.38481, z: 709.9868}
-    up: {x: -0.10840312, y: 0.9813004, z: -0.15905456}
-    forward: {x: 0.065948665, y: 0.35138723, z: -0.9339046}
+    percent: 0.868421052631579
+  - position: {x: 698.8209, y: 176.36433, z: 709.0141}
+    up: {x: -0.1356773, y: 0.9723141, z: 0.19025521}
+    forward: {x: -0.77101904, y: 0.14464022, z: -0.6201684}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.8785425101214575
-  - position: {x: 752.67426, y: 84.01123, z: 698.04474}
-    up: {x: -0.12585476, y: 0.9744241, z: -0.18616751}
-    forward: {x: 0.041619375, y: 0.3696186, z: -0.928251}
+    percent: 0.8717105263157895
+  - position: {x: 688.4874, y: 178.34038, z: 700.6052}
+    up: {x: -0.14215423, y: 0.9699704, z: 0.1973566}
+    forward: {x: -0.7634173, y: 0.1488309, z: -0.6285247}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.8825910931174089
-  - position: {x: 753.0492, y: 88.86499, z: 686.1745}
-    up: {x: -0.14304495, y: 0.9665498, z: -0.21288429}
-    forward: {x: 0.015741305, y: 0.38669783, z: -0.9220721}
+    percent: 0.875
+  - position: {x: 678.2239, y: 180.37808, z: 692.0605}
+    up: {x: -0.1485183, y: 0.96756995, z: 0.20433024}
+    forward: {x: -0.7559786, y: 0.15288138, z: -0.63649327}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.8866396761133604
-  - position: {x: 753.0802, y: 93.93443, z: 674.38214}
-    up: {x: -0.16004357, y: 0.95766133, z: -0.2393134}
-    forward: {x: -0.012137766, y: 0.40293297, z: -0.91514903}
+    percent: 0.8782894736842105
+  - position: {x: 668.074, y: 182.46663, z: 683.4228}
+    up: {x: -0.15475199, y: 0.96512413, z: 0.21115719}
+    forward: {x: -0.7487003, y: 0.1567975, z: -0.6440982}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.8906882591093117
-  - position: {x: 752.7379, y: 99.211136, z: 662.6778}
-    up: {x: -0.1769123, y: 0.94772625, z: -0.2655507}
-    forward: {x: -0.042528223, y: 0.41855818, z: -0.90719366}
+    percent: 0.881578947368421
+  - position: {x: 658.0341, y: 184.60448, z: 674.69586}
+    up: {x: -0.16086634, y: 0.9626337, z: 0.21784976}
+    forward: {x: -0.741554, y: 0.16059977, z: -0.65138733}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 1
+    percent: 0.8848684210526315
+  - position: {x: 648.0653, y: 186.79843, z: 665.85046}
+    up: {x: -0.16689284, y: 0.96008986, z: 0.2244425}
+    forward: {x: -0.73448426, y: 0.16431984, z: -0.65843135}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 1
+    percent: 0.8881578947368421
+  - position: {x: 638.1986, y: 189.0404, z: 656.9182}
+    up: {x: -0.17281951, y: 0.9575011, z: 0.23092252}
+    forward: {x: -0.7275266, y: 0.16794078, z: -0.6652074}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 1
+    percent: 0.8914473684210527
+  - position: {x: 628.43744, y: 191.32812, z: 647.90656}
+    up: {x: -0.17113571, y: 0.9584603, z: 0.22818094}
+    forward: {x: -0.7207734, y: 0.17141286, z: -0.6716423}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
     percent: 0.8947368421052632
-  - position: {x: 751.98596, y: 104.68883, z: 651.0767}
-    up: {x: -0.1937064, y: 0.936696, z: -0.29168245}
-    forward: {x: -0.076041706, y: 0.4337413, z: -0.897823}
+  - position: {x: 618.7405, y: 193.66808, z: 638.7859}
+    up: {x: -0.16537118, y: 0.9612671, z: 0.22049491}
+    forward: {x: -0.7142962, y: 0.17469893, z: -0.6776881}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.8987854251012146
-  - position: {x: 750.77936, y: 110.362686, z: 639.6007}
-    up: {x: -0.21047673, y: 0.9245056, z: -0.31778786}
-    forward: {x: -0.11339489, y: 0.44858655, z: -0.88651663}
+    percent: 0.8980263157894737
+  - position: {x: 609.14594, y: 196.0466, z: 629.60315}
+    up: {x: -0.15966539, y: 0.96394295, z: 0.21288717}
+    forward: {x: -0.7081936, y: 0.17775197, z: -0.68327594}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.902834008097166
-  - position: {x: 749.0627, y: 116.22847, z: 628.27985}
-    up: {x: -0.22727048, y: 0.9110724, z: -0.34394097}
-    forward: {x: -0.15547322, y: 0.46311602, z: -0.87255466}
+    percent: 0.9013157894736842
+  - position: {x: 599.6336, y: 198.46423, z: 620.35016}
+    up: {x: -0.1540065, y: 0.9664971, z: 0.20534198}
+    forward: {x: -0.7024473, y: 0.18058918, z: -0.6884442}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.9068825910931174
-  - position: {x: 746.7684, y: 122.28142, z: 617.1555}
-    up: {x: -0.24413131, y: 0.8962947, z: -0.37021038}
-    forward: {x: -0.20332868, y: 0.47724393, z: -0.8549243}
+    percent: 0.9046052631578947
+  - position: {x: 590.1737, y: 200.92477, z: 611.0074}
+    up: {x: -0.14837685, y: 0.9689403, z: 0.19783577}
+    forward: {x: -0.6970223, y: 0.18323568, z: -0.69324213}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.9109311740890689
-  - position: {x: 743.81415, y: 128.51422, z: 606.2853}
-    up: {x: -0.26109737, y: 0.8800524, z: -0.39665624}
-    forward: {x: -0.25821033, y: 0.49070066, z: -0.8321901}
+    percent: 0.9078947368421053
+  - position: {x: 580.80914, y: 203.41331, z: 601.62665}
+    up: {x: -0.14280215, y: 0.9712643, z: 0.19040287}
+    forward: {x: -0.69192845, y: 0.18569213, z: -0.69767725}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.9149797570850202
-  - position: {x: 740.1013, y: 134.91374, z: 595.7494}
-    up: {x: -0.278196, y: 0.8622097, z: -0.4233222}
-    forward: {x: -0.32148045, y: 0.50292253, z: -0.8023212}
+    percent: 0.9111842105263158
+  - position: {x: 571.4988, y: 205.93726, z: 592.17554}
+    up: {x: -0.13725801, y: 0.9734821, z: 0.18301067}
+    forward: {x: -0.6871269, y: 0.18798357, z: -0.7017968}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.9190283400809717
-  - position: {x: 735.5151, y: 141.4557, z: 585.66064}
-    up: {x: -0.29543447, y: 0.8426267, z: -0.45022088}
-    forward: {x: -0.39442816, y: 0.51287127, z: -0.762489}
+    percent: 0.9144736842105263
+  - position: {x: 562.2501, y: 208.49138, z: 582.6697}
+    up: {x: -0.13174897, y: 0.97559416, z: 0.17566532}
+    forward: {x: -0.6826083, y: 0.19011945, z: -0.70562065}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.9230769230769231
-  - position: {x: 729.9292, y: 148.09676, z: 576.17505}
-    up: {x: -0.31278482, y: 0.8211828, z: -0.47730988}
-    forward: {x: -0.4772766, y: 0.5188066, z: -0.70925796}
+    percent: 0.9177631578947368
+  - position: {x: 553.07, y: 211.0707, z: 573.1238}
+    up: {x: -0.12627925, y: 0.9776013, z: 0.1683723}
+    forward: {x: -0.6783624, y: 0.19210733, z: -0.70916796}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.9271255060728745
-  - position: {x: 723.23645, y: 154.76656, z: 567.48755}
-    up: {x: -0.28015932, y: 0.8308774, z: -0.48078424}
-    forward: {x: -0.56414646, y: 0.5187777, z: -0.6423461}
+    percent: 0.9210526315789473
+  - position: {x: 543.92365, y: 213.68217, z: 563.5088}
+    up: {x: -0.120828144, y: 0.9795131, z: 0.16110417}
+    forward: {x: -0.67436355, y: 0.19396436, z: -0.7124687}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.9311740890688259
-  - position: {x: 715.4539, y: 161.39273, z: 559.7247}
-    up: {x: -0.2367599, y: 0.8453803, z: -0.47882855}
-    forward: {x: -0.64503103, y: 0.51229346, z: -0.5670012}
+    percent: 0.9243421052631579
+  - position: {x: 534.85065, y: 216.31177, z: 553.8731}
+    up: {x: -0.11541943, y: 0.98132336, z: 0.15389258}
+    forward: {x: -0.6706148, y: 0.19568978, z: -0.7155287}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.9352226720647774
-  - position: {x: 706.708, y: 167.8935, z: 552.959}
-    up: {x: -0.19257037, y: 0.8581887, z: -0.47584543}
-    forward: {x: -0.71476805, y: 0.500268, z: -0.48871118}
+    percent: 0.9276315789473685
+  - position: {x: 525.8153, y: 218.9672, z: 544.1855}
+    up: {x: -0.11003185, y: 0.9830409, z: 0.14670914}
+    forward: {x: -0.66709507, y: 0.19729911, z: -0.7183713}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.9392712550607287
-  - position: {x: 697.15765, y: 174.20703, z: 547.1969}
-    up: {x: -0.14817896, y: 0.8691261, z: -0.4718716}
-    forward: {x: -0.7717233, y: 0.48434368, z: -0.4121338}
+    percent: 0.930921052631579
+  - position: {x: 516.8279, y: 221.64302, z: 534.4629}
+    up: {x: -0.104671605, y: 0.9846656, z: 0.13956213}
+    forward: {x: -0.6637961, y: 0.19879684, z: -0.7210093}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.9433198380566802
-  - position: {x: 686.96277, y: 180.29832, z: 542.3884}
-    up: {x: -0.10404326, y: 0.8781293, z: -0.46697313}
-    forward: {x: -0.81631494, y: 0.4663686, z: -0.34077883}
+    percent: 0.9342105263157895
+  - position: {x: 507.88748, y: 224.33719, z: 524.7102}
+    up: {x: -0.09933826, y: 0.986199, z: 0.132451}
+    forward: {x: -0.6607112, y: 0.20018859, z: -0.7234537}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 1
+    percent: 0.9375
+  - position: {x: 498.97546, y: 227.05309, z: 514.91266}
+    up: {x: -0.09402077, y: 0.98764604, z: 0.125361}
+    forward: {x: -0.65782386, y: 0.20148288, z: -0.725722}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 1
+    percent: 0.9407894736842105
+  - position: {x: 490.11365, y: 229.78195, z: 505.0996}
+    up: {x: -0.08873223, y: 0.9890043, z: 0.118309624}
+    forward: {x: -0.6551361, y: 0.20268112, z: -0.72781664}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 1
+    percent: 0.944078947368421
+  - position: {x: 481.2719, y: 232.53107, z: 495.2426}
+    up: {x: -0.0834547, y: 0.99027956, z: 0.11127294}
+    forward: {x: -0.65263116, y: 0.20379186, z: -0.7297543}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
     percent: 0.9473684210526315
-  - position: {x: 676.2666, y: 186.15521, z: 538.44904}
-    up: {x: -0.06047943, y: 0.88521814, z: -0.46122777}
-    forward: {x: -0.85019636, y: 0.4479233, z: -0.27664205}
+  - position: {x: 472.47443, y: 235.29095, z: 485.3736}
+    up: {x: -0.07820271, y: 0.9914696, z: 0.104270265}
+    forward: {x: -0.6503116, y: 0.2048159, z: -0.73153627}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.951417004048583
-  - position: {x: 665.18854, y: 191.78168, z: 535.2792}
-    up: {x: -0.017684035, y: 0.89046246, z: -0.454713}
-    forward: {x: -0.8754407, y: 0.43012112, z: -0.2204527}
+    percent: 0.9506578947368421
+  - position: {x: 463.70108, y: 238.06601, z: 475.47467}
+    up: {x: -0.07296434, y: 0.99257827, z: 0.09728578}
+    forward: {x: -0.64816445, y: 0.2057596, z: -0.7331752}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.9554655870445344
-  - position: {x: 653.824, y: 197.19148, z: 532.7773}
-    up: {x: 0.024234623, y: 0.8939558, z: -0.4474994}
-    forward: {x: -0.8940262, y: 0.41364035, z: -0.17210093}
+    percent: 0.9539473684210527
+  - position: {x: 454.95593, y: 240.85318, z: 465.5549}
+    up: {x: -0.06774199, y: 0.99360603, z: 0.09032263}
+    forward: {x: -0.64618576, y: 0.20662512, z: -0.73467684}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.9595141700404858
-  - position: {x: 642.26, y: 202.39813, z: 530.84875}
-    up: {x: 0.06518578, y: 0.8957973, z: -0.4396567}
-    forward: {x: -0.9076054, y: 0.39884305, z: -0.13105977}
+    percent: 0.9572368421052632
+  - position: {x: 446.23816, y: 243.65097, z: 455.6178}
+    up: {x: -0.06253532, y: 0.99455374, z: 0.083380416}
+    forward: {x: -0.6443715, y: 0.20741646, z: -0.736046}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.9635627530364372
-  - position: {x: 630.551, y: 207.4248, z: 529.40393}
-    up: {x: 0.10517543, y: 0.8960885, z: -0.43123496}
-    forward: {x: -0.9174917, y: 0.38584906, z: -0.09658999}
+    percent: 0.9605263157894737
+  - position: {x: 437.53784, y: 246.4609, z: 445.6562}
+    up: {x: -0.057338398, y: 0.9954233, z: 0.07645115}
+    forward: {x: -0.64271593, y: 0.20813559, z: -0.7372895}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.9676113360323887
-  - position: {x: 618.735, y: 212.29591, z: 528.3631}
-    up: {x: 0.14424166, y: 0.8949195, z: -0.42227167}
-    forward: {x: -0.92467326, y: 0.3746564, z: -0.06791079}
+    percent: 0.9638157894736842
+  - position: {x: 428.8647, y: 249.27818, z: 435.68536}
+    up: {x: -0.052157134, y: 0.9962145, z: 0.069542825}
+    forward: {x: -0.64121664, y: 0.20878485, z: -0.7384105}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.97165991902834
-  - position: {x: 606.83997, y: 217.03496, z: 527.6563}
-    up: {x: 0.18243323, y: 0.8923667, z: -0.41279504}
-    forward: {x: -0.92987376, y: 0.3651966, z: -0.044342518}
+    percent: 0.9671052631578947
+  - position: {x: 420.2019, y: 252.10666, z: 425.68994}
+    up: {x: -0.046981517, y: 0.9969296, z: 0.06264201}
+    forward: {x: -0.63986856, y: 0.20936781, z: -0.7394142}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.9757085020242915
-  - position: {x: 594.88654, y: 221.66403, z: 527.22186}
-    up: {x: 0.21980287, y: 0.8884923, z: -0.40282533}
-    forward: {x: -0.9336153, y: 0.35738295, z: -0.02529546}
+    percent: 0.9703947368421053
+  - position: {x: 411.5637, y: 254.94017, z: 415.6902}
+    up: {x: -0.041820098, y: 0.99756795, z: 0.055760115}
+    forward: {x: -0.63866955, y: 0.20988452, z: -0.7403038}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.979757085020243
-  - position: {x: 582.8903, y: 226.20381, z: 527.0051}
-    up: {x: 0.25640285, y: 0.8833452, z: -0.39237595}
-    forward: {x: -0.9362734, y: 0.35112113, z: -0.010297837}
+    percent: 0.9736842105263158
+  - position: {x: 402.9344, y: 257.7823, z: 405.67188}
+    up: {x: -0.036663588, y: 0.9981313, z: 0.04888478}
+    forward: {x: -0.6376143, y: 0.2103378, z: -0.74108434}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.9838056680161943
-  - position: {x: 570.8633, y: 230.6737, z: 526.9567}
-    up: {x: 0.2922832, y: 0.8769622, z: -0.38145503}
-    forward: {x: -0.9381109, y: 0.3463334, z: 0.0010254442}
+    percent: 0.9769736842105263
+  - position: {x: 394.32172, y: 260.62903, z: 395.64764}
+    up: {x: -0.031516653, y: 0.9986195, z: 0.042022213}
+    forward: {x: -0.6367031, y: 0.21072881, z: -0.7417564}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.9878542510121457
-  - position: {x: 558.81506, y: 235.09193, z: 527.0315}
-    up: {x: 0.3274899, y: 0.86936873, z: -0.37006545}
-    forward: {x: -0.9393117, y: 0.3429481, z: 0.00895309}
+    percent: 0.9802631578947368
+  - position: {x: 385.71802, y: 263.48145, z: 385.6122}
+    up: {x: -0.026374735, y: 0.9990334, z: 0.035166323}
+    forward: {x: -0.6359325, y: 0.21105887, z: -0.7423234}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.9919028340080972
-  - position: {x: 546.7538, y: 239.47589, z: 527.18713}
-    up: {x: 0.36206418, y: 0.86057997, z: -0.35820612}
-    forward: {x: -0.9397573, y: 0.34163105, z: 0.012023211}
+    percent: 0.9835526315789473
+  - position: {x: 377.1237, y: 266.33795, z: 375.5697}
+    up: {x: -0.021238184, y: 0.9993734, z: 0.02831757}
+    forward: {x: -0.6353012, y: 0.21132943, z: -0.7427868}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
-    percent: 0.9959514170040485
-  - position: {x: 534.2583, y: 243.99725, z: 527.3908}
-    up: {x: 0.39723885, y: 0.85022515, z: -0.3454251}
-    forward: {x: -0.9402236, y: 0.34021333, z: 0.015315018}
+    percent: 0.9868421052631579
+  - position: {x: 368.53662, y: 269.1978, z: 365.52127}
+    up: {x: -0.016105762, y: 0.99963975, z: 0.021474317}
+    forward: {x: -0.634808, y: 0.21153963, z: -0.7431485}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 1
+    percent: 0.9901315789473685
+  - position: {x: 359.95398, y: 272.06055, z: 355.467}
+    up: {x: -0.010975783, y: 0.99983275, z: 0.014634401}
+    forward: {x: -0.6344505, y: 0.21169212, z: -0.74341035}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 1
+    percent: 0.993421052631579
+  - position: {x: 351.37524, y: 274.925, z: 345.4099}
+    up: {x: -0.0058480757, y: 0.99995255, z: 0.007797405}
+    forward: {x: -0.6343693, y: 0.2117274, z: -0.7434696}
+    color: {r: 1, g: 1, b: 1, a: 1}
+    size: 1
+    percent: 0.9967105263157895
+  - position: {x: 341.59158, y: 278.1936, z: 333.93558}
+    up: {x: 0, y: 1, z: 0}
+    forward: {x: -0.63414025, y: 0.21182513, z: -0.74363714}
     color: {r: 1, g: 1, b: 1, a: 1}
     size: 1
     percent: 1
@@ -13495,7 +14605,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1647118663}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wave 6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15013,7 +16123,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1853592149}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wave 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15046,7 +16156,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1860414746}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Wave 9
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15077,6 +16187,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 801697905}
     m_Modifications:
+    - target: {fileID: 1080467389377347094, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1386919925019262347, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
       propertyPath: m_LocalPosition.x
       value: -221.10013
@@ -15120,6 +16234,30 @@ PrefabInstance:
     - target: {fileID: 2255815485954531906, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
       propertyPath: m_Name
       value: FighterWave
+      objectReference: {fileID: 0}
+    - target: {fileID: 2255815485954531906, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3347015881495727376, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4300393509752201416, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4976618052890904562, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7532312617361442395, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 8415893216374624326, guid: f084d2c0d4ebd984983d4791fe6926d2, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15174,9 +16312,49 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 61.922
       objectReference: {fileID: 0}
+    - target: {fileID: 8062831865172424688, guid: 64f233c22284e924ab01d226df4760f8, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8062831865172424692, guid: 64f233c22284e924ab01d226df4760f8, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8062831865172424694, guid: 64f233c22284e924ab01d226df4760f8, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8062831865172488098, guid: 64f233c22284e924ab01d226df4760f8, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8062831865172488104, guid: 64f233c22284e924ab01d226df4760f8, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8062831865172488106, guid: 64f233c22284e924ab01d226df4760f8, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8062831865172488108, guid: 64f233c22284e924ab01d226df4760f8, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8062831865172488110, guid: 64f233c22284e924ab01d226df4760f8, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8062831865172488116, guid: 64f233c22284e924ab01d226df4760f8, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8063844506106752042, guid: 64f233c22284e924ab01d226df4760f8, type: 3}
       propertyPath: m_Name
       value: BombPickup
+      objectReference: {fileID: 0}
+    - target: {fileID: 8063844506106752042, guid: 64f233c22284e924ab01d226df4760f8, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -15899,6 +17077,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: DestroyerWave
       objectReference: {fileID: 0}
+    - target: {fileID: 1112850259017078796, guid: 9ac0d3ab726a36b49a4987b2f4eba02d, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 1628633529174111449, guid: 9ac0d3ab726a36b49a4987b2f4eba02d, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2492535393255454723, guid: 9ac0d3ab726a36b49a4987b2f4eba02d, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 5626755162131692605, guid: 9ac0d3ab726a36b49a4987b2f4eba02d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 205.91873
@@ -15938,6 +17128,10 @@ PrefabInstance:
     - target: {fileID: 5626755162131692605, guid: 9ac0d3ab726a36b49a4987b2f4eba02d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: -0.005
+      objectReference: {fileID: 0}
+    - target: {fileID: 7233912806306067390, guid: 9ac0d3ab726a36b49a4987b2f4eba02d, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -16748,4 +17942,5 @@ SceneRoots:
   - {fileID: 1310920582}
   - {fileID: 1828101315}
   - {fileID: 380912244}
+  - {fileID: 1200066949}
   - {fileID: 486251919}
