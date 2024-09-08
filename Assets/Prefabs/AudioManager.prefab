@@ -44,3 +44,60 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 941815f8d136f124b9fc12eb27223dcf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sounds:
+  - audioName: BackgroundMusic
+    clip: {fileID: 8300000, guid: 1d716eda640d34649b3d6f622aa73eb2, type: 3}
+    volume: 0.15
+    pitch: 1
+    loop: 1
+    playOnAwake: 1
+    source: {fileID: 0}
+  - audioName: LeftLaserFiringSFX
+    clip: {fileID: 8300000, guid: 5cd705b8562d6c4408aafcbb7abfe56c, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 1
+    playOnAwake: 1
+    source: {fileID: 0}
+  - audioName: RightLaserFiringSFX
+    clip: {fileID: 8300000, guid: 5cd705b8562d6c4408aafcbb7abfe56c, type: 3}
+    volume: 0.3
+    pitch: 1
+    loop: 1
+    playOnAwake: 1
+    source: {fileID: 0}
+  - audioName: PickupCollectionSFX
+    clip: {fileID: 8300000, guid: 820347d532dda8a44979542673049477, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - audioName: ExplosionSFX
+    clip: {fileID: 8300000, guid: 346ee1acb1e01a542bcc12b2cf7dac87, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - audioName: EnemyHitSFX
+    clip: {fileID: 8300000, guid: ef2b9cbb9968d0f40b87a2ab41736ff2, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - audioName: EnemyDeathSFX
+    clip: {fileID: 8300000, guid: 41c9836cd67208d4a93f3df511e169b2, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
+  - audioName: PlayerDeathSFX
+    clip: {fileID: 8300000, guid: 0e1cf8a709348084da27e9bfa55b660b, type: 3}
+    volume: 0.5
+    pitch: 1
+    loop: 0
+    playOnAwake: 0
+    source: {fileID: 0}
