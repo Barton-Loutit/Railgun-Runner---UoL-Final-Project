@@ -1,0 +1,252 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1193186524426510467
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5136727456424910184}
+  - component: {fileID: 5544739119801097212}
+  m_Layer: 0
+  m_Name: Mushroom Cluster
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5136727456424910184
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1193186524426510467}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 389814408012786345}
+  - {fileID: 7409582017902980059}
+  - {fileID: 4518453773408636667}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &5544739119801097212
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1193186524426510467}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 44.639442, y: 39.500317, z: 45.56126}
+  m_Center: {x: -22.885883, y: 19.250158, z: -8.633062}
+--- !u!1001 &2067915977935888397
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5136727456424910184}
+    m_Modifications:
+    - target: {fileID: 2451773921695018742, guid: 1c90c56c457588e4b9ff0750b87625f7, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 2451773921695018742, guid: 1c90c56c457588e4b9ff0750b87625f7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -18.300003
+      objectReference: {fileID: 0}
+    - target: {fileID: 2451773921695018742, guid: 1c90c56c457588e4b9ff0750b87625f7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -23.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2451773921695018742, guid: 1c90c56c457588e4b9ff0750b87625f7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -6.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 2451773921695018742, guid: 1c90c56c457588e4b9ff0750b87625f7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2451773921695018742, guid: 1c90c56c457588e4b9ff0750b87625f7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2451773921695018742, guid: 1c90c56c457588e4b9ff0750b87625f7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2451773921695018742, guid: 1c90c56c457588e4b9ff0750b87625f7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2451773921695018742, guid: 1c90c56c457588e4b9ff0750b87625f7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2451773921695018742, guid: 1c90c56c457588e4b9ff0750b87625f7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2451773921695018742, guid: 1c90c56c457588e4b9ff0750b87625f7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871663930073956741, guid: 1c90c56c457588e4b9ff0750b87625f7, type: 3}
+      propertyPath: m_Name
+      value: TallMushroom (2)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1c90c56c457588e4b9ff0750b87625f7, type: 3}
+--- !u!4 &4518453773408636667 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2451773921695018742, guid: 1c90c56c457588e4b9ff0750b87625f7, type: 3}
+  m_PrefabInstance: {fileID: 2067915977935888397}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2841372550546375775
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5136727456424910184}
+    m_Modifications:
+    - target: {fileID: 2451773921695018742, guid: 1c90c56c457588e4b9ff0750b87625f7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -36.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2451773921695018742, guid: 1c90c56c457588e4b9ff0750b87625f7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2451773921695018742, guid: 1c90c56c457588e4b9ff0750b87625f7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -22.499989
+      objectReference: {fileID: 0}
+    - target: {fileID: 2451773921695018742, guid: 1c90c56c457588e4b9ff0750b87625f7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2451773921695018742, guid: 1c90c56c457588e4b9ff0750b87625f7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2451773921695018742, guid: 1c90c56c457588e4b9ff0750b87625f7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2451773921695018742, guid: 1c90c56c457588e4b9ff0750b87625f7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2451773921695018742, guid: 1c90c56c457588e4b9ff0750b87625f7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2451773921695018742, guid: 1c90c56c457588e4b9ff0750b87625f7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2451773921695018742, guid: 1c90c56c457588e4b9ff0750b87625f7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871663930073956741, guid: 1c90c56c457588e4b9ff0750b87625f7, type: 3}
+      propertyPath: m_Name
+      value: TallMushroom
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1c90c56c457588e4b9ff0750b87625f7, type: 3}
+--- !u!4 &389814408012786345 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2451773921695018742, guid: 1c90c56c457588e4b9ff0750b87625f7, type: 3}
+  m_PrefabInstance: {fileID: 2841372550546375775}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4959145926981059885
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5136727456424910184}
+    m_Modifications:
+    - target: {fileID: 2451773921695018742, guid: 1c90c56c457588e4b9ff0750b87625f7, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 2451773921695018742, guid: 1c90c56c457588e4b9ff0750b87625f7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -36.800003
+      objectReference: {fileID: 0}
+    - target: {fileID: 2451773921695018742, guid: 1c90c56c457588e4b9ff0750b87625f7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2451773921695018742, guid: 1c90c56c457588e4b9ff0750b87625f7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7.8000107
+      objectReference: {fileID: 0}
+    - target: {fileID: 2451773921695018742, guid: 1c90c56c457588e4b9ff0750b87625f7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2451773921695018742, guid: 1c90c56c457588e4b9ff0750b87625f7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2451773921695018742, guid: 1c90c56c457588e4b9ff0750b87625f7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2451773921695018742, guid: 1c90c56c457588e4b9ff0750b87625f7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2451773921695018742, guid: 1c90c56c457588e4b9ff0750b87625f7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2451773921695018742, guid: 1c90c56c457588e4b9ff0750b87625f7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2451773921695018742, guid: 1c90c56c457588e4b9ff0750b87625f7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871663930073956741, guid: 1c90c56c457588e4b9ff0750b87625f7, type: 3}
+      propertyPath: m_Name
+      value: TallMushroom (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 1c90c56c457588e4b9ff0750b87625f7, type: 3}
+--- !u!4 &7409582017902980059 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2451773921695018742, guid: 1c90c56c457588e4b9ff0750b87625f7, type: 3}
+  m_PrefabInstance: {fileID: 4959145926981059885}
+  m_PrefabAsset: {fileID: 0}
