@@ -315,4 +315,14 @@ public class PlayerController : MonoBehaviour
     {
         bombRay.enabled = state;
     }
+
+    public void LevelComplete()
+    {
+        SceneHandler.sceneHandlerInstance.LoadLevel(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+
+    public void SessionComplete()
+    {
+        GameSessionManager.gameSessionManagerInstance.initializeNewSession();
+    }
 }

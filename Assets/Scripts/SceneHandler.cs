@@ -86,4 +86,11 @@ public class SceneHandler : MonoBehaviour
     {
         SceneManager.LoadScene(1);
     }
+
+    public void LoadNextLevel()
+    {
+        int currentBuildIndex = SceneManager.GetActiveScene().buildIndex;
+        LoadLevel(currentBuildIndex + 1);
+        
+    }
 }
