@@ -12,6 +12,9 @@ using UnityEngine.Audio;
 // by Brackeys that uses this class container methodology, I feel it's
 // a better and easier implementation.
 
+//Note that this implementation of the Sound class was inspired by
+//a tutorial from Brackeys here: https://www.youtube.com/watch?v=6OT43pvUyfY&t
+
 
 [System.Serializable]
 public class Sound

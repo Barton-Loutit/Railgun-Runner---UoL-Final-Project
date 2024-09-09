@@ -1,27 +1,35 @@
+/*
+ * In hindsight this should be called PlayerCollisionManager.
+ * This handles the player's collision and any associated functoinality when
+ * the player collides into a cliffside, for example.
+ * 
+ * Disables the players controls, unrenders the player mesh, plays their vfx.
+ */
+
 using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-//Adding Scene Management here to enable scene reload functionality
-//this should be refactored in a future release.
-using UnityEngine.SceneManagement;
 
 public class CollisionManager : MonoBehaviour
 {
-    //This will be the duration of the continue/insert token timer
-    //[SerializeField] float continueTimer = 2f;
     //This handles player explosion VFX
     [SerializeField] GameObject playerDeathVFX;
 
+    //if the player collides with an object including the tag "terrain"
+    //then they blow up and we handle their death.
     void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "Terrain")
         {
-            Debug.Log("Literally dead right now, no cap frfr");
             HandlePlayerDeath();
         }
     }
 
+    //When the player dies, disable their controls (weapon, movement, scene
+    //management controls), play a VFX and SFX indicating their death,
+    //disable their mesh, and initiate the countdown timer so the player 
+    //can press "space" to restart.
     void HandlePlayerDeath()
     {
         DisablePlayerControls();
@@ -29,34 +37,31 @@ public class CollisionManager : MonoBehaviour
         AudioManager.audioManagerInstance.Play("PlayerDeathSFX");
         DisablePlayerMesh();
         GameSessionManager.gameSessionManagerInstance.StartCountdownTimer();
-        
-        //NTS:Probably want to disable timeline here too
-        //TempSceneManagement();
-
     }
 
+    //Collect all mesh renders in the gameObject's children (since each part
+    //of this gameObject has a mesh renderer component), and disable them.
     void DisablePlayerMesh()
     {
-        //GetComponent<MeshRenderer>().enabled = false;
-
         foreach (MeshRenderer meshRenderer in this.gameObject.GetComponentsInChildren<MeshRenderer>())
         {
             meshRenderer.enabled = false;
         }
     }
 
+    //Accesses a method in the playercontroller script, since this script isn't
+    //responsible for the player inputs, and disables the events for those controls.
+    
+    //Also stops further collision from the player's (now invisible) ship.
     void DisablePlayerControls()
     {
-        //Since this script will live on player ship, I'm disabling the
-        //Player Controller script (hence decoupling the logic here), and
-        //preventing further collision processing.
         GetComponent<PlayerController>().DisableHandlingControls();
         GetComponent<BoxCollider>().enabled = false;
     }
 
+    //Play the explosion vfx and remove the player's mesh (since they've exploded)
     void PlayPlayerDeathVFX(GameObject vfxToPlay)
     {
-        //Play the explosion vfx and remove the player's mesh (since they've exploded)
         GameObject vfx = Instantiate(vfxToPlay, transform.position, Quaternion.identity);
 
     }

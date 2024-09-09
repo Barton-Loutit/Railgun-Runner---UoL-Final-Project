@@ -157,6 +157,8 @@ public class PlayerController : MonoBehaviour
         return this.gameObject.transform.parent.position;
     }
 
+    //On press, start firing
+    //On release, stop firing.
     private void FireLeft(InputAction.CallbackContext obj)
     {
         if (obj.performed)
@@ -169,6 +171,8 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    //On press, start firing
+    //On release, stop firing.
     private void FireRight(InputAction.CallbackContext obj)
     {
         if (obj.performed)
@@ -181,11 +185,14 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    //On press (and while held), start up a line renderer which will show
+    //the player where the bomb will go off.
+    //Then on release, blow up the bomb.
+    //Both only if the player has bombs.
     void ProcessBombingInput(InputAction.CallbackContext obj)
     {
-        if (obj.performed)
+        if (obj.performed && PlayerStatManager.playerStatManagerInstance.getBombCount() > 0)
         {
-            //Display thing
             toggleBombRangeIndicator(true);
         } 
         else if(obj.canceled && PlayerStatManager.playerStatManagerInstance.getBombCount() > 0)
@@ -211,7 +218,6 @@ public class PlayerController : MonoBehaviour
             AudioManager.audioManagerInstance.Play("LeftLaserFiringSFX");
         } else
         {
-            //AudioManager.audioManagerInstance.Stop("LaserFiring");
             AudioManager.audioManagerInstance.setLoopState("LeftLaserFiringSFX", false);
         }
         ParticleSystem.EmissionModule weaponEmitter = weapon.GetComponent<ParticleSystem>().emission;
@@ -233,13 +239,14 @@ public class PlayerController : MonoBehaviour
         }
         else
         {
-            //AudioManager.audioManagerInstance.Stop("LaserFiring");
             AudioManager.audioManagerInstance.setLoopState("RightLaserFiringSFX", false);
         }
         ParticleSystem.EmissionModule weaponEmitter = weapon.GetComponent<ParticleSystem>().emission;
         weaponEmitter.enabled = weaponFiringState;
     }
 
+    //When the bomb is triggered, decrement the number of bombs, set it active, and
+    //play the sfx.
     void triggerPlayerBomb()
     {
         PlayerStatManager.playerStatManagerInstance.updateBombs(-1);
@@ -283,25 +290,25 @@ public class PlayerController : MonoBehaviour
         }
     }
 
+    //If the player presses "R", reload the level.
     private void ReloadLevel(InputAction.CallbackContext obj)
     {
         SceneHandler.sceneHandlerInstance.RestartLevel();
         GameSessionManager.gameSessionManagerInstance.InitializeNewRound();
     }
-
+    
+    //If the player presses "K", load the next level (if there is a next level).
+    //Logic is handled in the Load Level method.
     private void LoadNextLevel(InputAction.CallbackContext obj)
     {
         SceneHandler.sceneHandlerInstance.LoadLevel(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
+    //If the player presses "P", load the previous level. Does not go back to menu.
+    //Logic is handled in the Load Level method.
     private void LoadPrevLevel(InputAction.CallbackContext obj)
     {
         SceneHandler.sceneHandlerInstance.LoadLevel(SceneManager.GetActiveScene().buildIndex - 1);
-    }
-
-    public void OnDrawGizmos()
-    {
-        Gizmos.DrawLine(transform.position, transform.position + (40 * transform.forward));
     }
 
     void toggleBombRangeIndicator(bool state)
