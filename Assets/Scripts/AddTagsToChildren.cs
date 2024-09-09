@@ -1,3 +1,14 @@
+/*
+ * This script is an editor extension which adds a context item for game objects 
+ * to cppy the tag of a parent gameObject to all children of the parent.
+ * 
+ * This script offers no functionality to the game, and was copied from a Unity
+ * discussion form by user "Johannski":
+ * https://discussions.unity.com/t/is-there-an-easy-way-to-apply-the-same-tag-to-all-children-of-an-object/28582
+ * 
+ * 
+ */
+
 using UnityEngine;
 using UnityEditor;
 using System.Collections;
