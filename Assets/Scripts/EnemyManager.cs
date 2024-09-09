@@ -20,7 +20,7 @@ public class EnemyManager : MonoBehaviour
     {
         if(other.tag == "PlayerWeapon")
         {
-            HandleEnemyHit();
+            HandleEnemyHit(1);
         }
         
     }
@@ -30,17 +30,17 @@ public class EnemyManager : MonoBehaviour
         Debug.Log("Collided with" + collision.gameObject.name);
         if (collision.gameObject.tag == "PlayerWeapon")
         {
-            HandleEnemyHit();
+            HandleEnemyHit(50);
         }
         if(collision.collider.gameObject.tag == "PlayerWeapon")
         {
-            HandleEnemyHit();
+            HandleEnemyHit(50);
         }
     }
 
-    void HandleEnemyHit()
+    void HandleEnemyHit(int damage)
     {
-        enemyHitPoints--;
+        enemyHitPoints -= damage;
         if(enemyHitPoints <= 0)
         {
             HandleEnemyDeath();

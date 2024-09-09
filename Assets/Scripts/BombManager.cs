@@ -10,6 +10,7 @@ public class BombManager : MonoBehaviour
     [SerializeField] GameObject playerShip;
     /*[SerializeField] Vector3 shipOffset;*/
     [SerializeField] float bombActivationDistance = 40f;
+    [SerializeField] int damage = 50;
     [SerializeField] Quaternion shipRotation;
     Vector3 normalizedPosition;
     // Start is called before the first frame update

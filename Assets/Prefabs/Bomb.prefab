@@ -13,13 +13,14 @@ GameObject:
   - component: {fileID: 1903238378505844155}
   - component: {fileID: 5287949737549552348}
   - component: {fileID: 6284091126434198053}
-  m_Layer: 0
+  - component: {fileID: 8364393054389844058}
+  m_Layer: 7
   m_Name: Bomb
   m_TagString: PlayerWeapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &8446941559933155000
 Transform:
   m_ObjectHideFlags: 0
@@ -99,7 +100,7 @@ SphereCollider:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
@@ -126,7 +127,7 @@ Rigidbody:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 64
   m_ImplicitCom: 1
   m_ImplicitTensor: 1
   m_UseGravity: 0
@@ -134,6 +135,23 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 14
   m_CollisionDetection: 0
+--- !u!114 &8364393054389844058
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2955527852697868151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d895a19962a9c4c4184c8a8f9d0b7e1b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bombParticleSystem: {fileID: 4090576639645745027}
+  psTotalLifetime: 2
+  playerShip: {fileID: 0}
+  bombActivationDistance: 40
+  shipRotation: {x: 0, y: 0, z: 0, w: 0}
 --- !u!1 &7090406561383976345
 GameObject:
   m_ObjectHideFlags: 0
@@ -145,7 +163,7 @@ GameObject:
   - component: {fileID: 1132252592626733106}
   - component: {fileID: 4090576639645745027}
   - component: {fileID: 6275784647829525427}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
